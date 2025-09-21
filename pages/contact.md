@@ -38,8 +38,8 @@ San Diego, CA 92121
     <a href="https://www.researchgate.net/">ResearchGate</a>
   </div>
   <div style="text-align: center;">
-    <img src="/assets/image/qr_scholar.png" alt="Google Scholar QR" style="width: 160px; height: 160px; object-fit: contain; background: #fff; padding: 8px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.07);" />
+    <img src="{{ site.baseurl }}/assets/image/qr_scholar.png" alt="Google Scholar QR" style="width: 160px; height: 160px; object-fit: contain; background: #fff; padding: 8px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.07);" />
     <br/>
-    <a href="https://scholar.google.com/">Google Scholar</a>
+    <a href="{{ site.baseurl }}https://scholar.google.com/">Google Scholar</a>
   </div>
 </div>
