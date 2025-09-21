@@ -8,7 +8,7 @@ body {
 
 /* Header and Navigation */
 body > header {
-  background-color: #d5834c !important;
+  background-color: #7598de !important;
   padding: 1.5rem 0;
   width: 100%;
   position: fixed;
@@ -74,7 +74,7 @@ main {
 
 /* Footer styling */
 footer {
-  background-color: #d5834c !important;
+  background-color: #7598de !important;
   color: var(--footer-text);
   padding: 3rem 0;
   width: 100%;
