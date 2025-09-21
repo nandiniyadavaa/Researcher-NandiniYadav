@@ -1,8 +1,8 @@
 title: "Dr. NANDINI YADAV"
 email: "nandini7754@gmail.com"
 description: "Plasma physicist"
-baseurl: ""
-url: "https://researcher.github.io"
+baseurl: "/Researcher-NandiniYadav"
+url: "https://srv22.github.io"
 #url: "http://localhost:4000"
 theme: minima
 plugins:
