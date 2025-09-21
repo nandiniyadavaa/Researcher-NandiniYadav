@@ -5,10 +5,10 @@
   --link-color: #0066cc;
   --link-hover-color: #004c99;
   --background-color: #fff;
-  --header-bg: #D35400 !important;
-  --header-text: #ffffff !important;
-  --footer-bg: #D35400 !important;
-  --footer-text: #ffffff !important;
+  --header-bg: #f5f5f5 !important;
+  --header-text: #333333 !important;
+  --footer-bg: #f5f5f5 !important;
+  --footer-text: #333333 !important;
   --border-color: #eaeaea;
   --content-max-width: 1000px;
 }
