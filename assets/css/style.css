@@ -1,17 +1,19 @@
-/* Reset and base styles */
+/* CSS Variables */
 :root {
   --primary-color: #1a1a1a;
   --text-color: #333;
   --link-color: #0066cc;
   --link-hover-color: #004c99;
   --background-color: #fff;
-  --header-bg: #1a1a1a;
-  --header-text: #ffffff;
-  --footer-bg: #1a1a1a;
-  --footer-text: #ffffff;
+  --header-bg: #D35400 !important;
+  --header-text: #ffffff !important;
+  --footer-bg: #D35400 !important;
+  --footer-text: #ffffff !important;
   --border-color: #eaeaea;
   --content-max-width: 1000px;
 }
+
+/* Reset and base styles */
 
 * {
   margin: 0;

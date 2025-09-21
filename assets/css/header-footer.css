@@ -7,14 +7,18 @@ body {
 }
 
 /* Header and Navigation */
-header {
-  background-color: var(--header-bg);
+body > header {
+  background-color: #D35400 !important;
   padding: 1.5rem 0;
   width: 100%;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 1000;
+}
+
+body > header nav a {
+  color: #ffffff !important;
 }
 
 .content-container {
@@ -70,7 +74,7 @@ main {
 
 /* Footer styling */
 footer {
-  background-color: var(--footer-bg);
+  background-color: #D35400 !important;
   color: var(--footer-text);
   padding: 3rem 0;
   width: 100%;
