@@ -7,5 +7,17 @@ url: "https://srv22.github.io"
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
 include:
   - pages
+
+# Set the default layout for all pages
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+  - scope:
+      path: "pages/about.md"
+    values:
+      permalink: /

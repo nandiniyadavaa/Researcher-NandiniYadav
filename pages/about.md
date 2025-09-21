@@ -1,20 +1,23 @@
 ---
 title: About
 layout: default
-permalink: /about
+permalink: /
+redirect_from:
+  - /about
 ---
 
-# About Me
+# Dr. Nandini Yadav
 
-I am a Plasma physicist with expertise in spectroscopic plasma diagnostics, impurity/neutral transport modeling, and atomic–molecular processes. Experienced in translating complex plasma behavior into validated models, experimental prototypes, and system-level solutions. Skilled in cross-disciplinary collaboration, bridging plasma physics and advanced instrumentation.
+<div class="profile-section">
+  <img src="{{ site.baseurl }}/assets/image/profile.jpg" alt="Dr. Nandini Yadav" class="profile-image">
+  <div class="profile-content">
+    <p>I am a Plasma physicist with expertise in spectroscopic plasma diagnostics, impurity/neutral transport modeling, and atomic–molecular processes. Experienced in translating complex plasma behavior into validated models, experimental prototypes, and system-level solutions.</p>
+    
+    <p>My work focuses on experimental plasma physics and advanced diagnostics. I specialize in developing and implementing cutting-edge techniques for plasma analysis and characterization.</p>
 
-My work focuses on <a href="{{ site.baseurl }}/research">research</a> in plasma diagnostics and modeling. 
+    <p>You can learn more about my <a href="{{ site.baseurl }}/research">research projects</a> and view my recent <a href="{{ site.baseurl }}/publications">publications</a>. For collaboration opportunities, please <a href="{{ site.baseurl }}/contact">contact me</a>.</p>
 
-See my <a href="{{ site.baseurl }}/publications">publications</a> for recent work. 
-
-<a href="{{ site.baseurl }}/contact">Contact me</a> for collaboration opportunities. 
-
-<a href="{{ site.baseurl }}/assets/Nandini_CV_NY_2025ASML.docx" target="_blank">View my CV</a>. 
-
-![Profile Photo]({{ site.baseurl }}/assets/image/profile.jpg)
+    <p>Download my <a href="{{ site.baseurl }}/assets/Nandini_CV_NY_2025ASML.docx" target="_blank">CV</a> to learn more about my career and achievements.</p>
+  </div>
+</div>
 
