@@ -1,11 +1,65 @@
-- authors: "N. Yadava, F. Scotti, M. Groth, A. W. Leonard, A.G. McLean, N. Osborne, X. Pope,  G. Ronchi, D. Thomas, K. Verhaegh and R. Wilcox"
+- authors: "Nandini Yadava, Sachin S. Chouhan, Amulya Sanyasi, Uttam Sharma, Jayashree Sharma, Malay B. Chowdhuri, Joydeep Ghosh, Ankur Pandya"
   year: 2022
   title: "Vibrational Temperature Estimation of Nitrogen Molecules in Radio-Frequency (RF) Produced Plasma"
-  journal: "Plasma and Fusion Research"
-  link: "https://www.jstage.jst.go.jp/article/pfr/17/0/17_2401095/_article"
+  journal: "Plasma and Fusion Research 17: 2401095"
+  link: "https://www.jspf.or.jp/PFR/PDF2022/pfr2022_17-2401095.pdf" # PFR full text
 
-- authors: "Researcher Name, B. Doe"
+- authors: "Nandini Yadava, Malay Bikas Chowdhuri, Joydeep Ghosh, Ranjana Manchanda, Tanmay Macwan, Nilam Ramaiya, Ankur Pandya, Sripathi Punchithaya K., Ismayil, Kumarpalsinh A. Jadeja, Umesh C. Nagora, Surya K. Pathak, Minsha Shah, Pramila Gautam, Rohit Kumar, Suman Aich, Kaushal M. Patel, Rakesh L. Tanna"
+  year: 2021
+  title: "Investigation of Recycling and Impurities Influxes in ADITYA-U Tokamak Plasmas"
+  journal: "Plasma and Fusion Research 16: 2402055"
+  link: "https://www.jspf.or.jp/PFR/PDF2021/pfr2021_16-2402055.pdf" # PFR full text
+
+- authors: "Nandini Yadava, Joydeep Ghosh, Malay Bikas Chowdhuri, Ranjana Manchanda, Sripathi K. Punchithaya, Ritu Dey, Kumarpalsinh A. Jadeja, Rakesh L. Tanna, Deepti Tripathi, Aditya-U Team"
+  year: 2019
+  title: "Spatial Profile of Neutral Temperature Measurement in Aditya-U Tokamak Plasmas"
+  journal: "Atoms 7(3): 87"
+  link: "https://www.mdpi.com/2218-2004/7/3/87"
+
+- authors: "Nandini Yadava, Joydeep Ghosh, Malay B. Chowdhuri, Ranjana Manchanda, Sripathi K. Punchithaya, Ritu Dey, Harshita Raj, Subroto Banerjee, Rakesh L. Tanna, Kumarpalsinh A. Jadeja, Kaushal Patel, Rohit Kumar, Deepti Tripathi"
+  year: 2019
+  title: "Observation of Poloidal Asymmetry in Measured Neutral Temperatures in the Aditya-U Tokamak Plasma"
+  journal: "Nuclear Fusion 59(10): 106003"
+  link: "https://doi.org/10.1088/1741-4326/ab2d57"
+
+- authors: "Gaurav Shukla, Malay B. Chowdhuri, Kajal Shah, Nandini Yadava, Ranjana Manchanda, Kumarpalsinh A. Jadeja, Rakesh L. Tanna, Balamurali Krishna Mayya K., Joydeep Ghosh, Aditya-U Team"
+  year: 2019
+  title: "Poloidal Rotation and Edge Ion Temperature Measurements Using Spectroscopy Diagnostic on Aditya-U Tokamak"
+  journal: "Atoms 7(3): 93"
+  link: "https://www.mdpi.com/2218-2004/7/3/93"
+
+- authors: "Ritu Dey, Malay B. Chowdhuri, Joydeep Ghosh, Ranjana Manchanda, Nandini Yadava, Umeshkumar C. Nagora, Parveen K. Atrey, Jayesh V. Raval, Y. Shankara Joisa, Rakesh L. Tanna, ADITYA Team"
+  year: 2019
+  title: "Modeling of the Hα Emission from ADITYA Tokamak Plasmas"
+  journal: "Atoms 7(4): 95"
+  link: "https://www.mdpi.com/2218-2004/7/4/95"
+
+- authors: "Malay Bikas Chowdhuri, Joydeep Ghosh, Ritu Dey, Sharvil Patel, Nandini Yadava, Ranjana Manchanda, Amrita Bhattacharya, Izumi Murakami, Aditya Team"
+  year: 2019
+  title: "Evaluation of an Oxygen Transport Coefficient in the Aditya Tokamak Using the Radial Profile of O⁴⁺ Emissivity and the Importance of Atomic Data Used Therein"
+  journal: "Atoms 7(3): 90"
+  link: "https://www.mdpi.com/2218-2004/7/3/90"
+
+- authors: "Kajal Shah, Joydeep Ghosh, Gaurav Shukla, Malay B. Chowdhuri, Ranjana Manchanda, Nandini Yadava, Nilam Ramaiya, Kumarpalsinh A. Jadeja, Kaushal M. Patel, Rakesh L. Tanna, K. B. K. Mayya"
+  year: 2021
+  title: "Observations of Visible Argon Line Emissions and Its Spatial Profile from Aditya-U Tokamak Plasma"
+  journal: "Review of Scientific Instruments 92(5): 053548"
+  link: "https://pubs.aip.org/aip/rsi/article/92/5/053548/1021350"
+
+- authors: "Suman Aich, Sharvil Patel, Laxmikanta Pradhan, Ashok K. Kumawat, Bharat Hegde, Kalpesh Galodiya, Rakesh L. Tanna, Kumarpalsinh A. Jadeja, Malay B. Chowdhuri, Nandini Yadava, Kaushal M. Patel, Harshita Raj, A. B. Patel, Rohit Kumar, Kaushlendra Singh, Suman Dolui, Ankit Kumar, Joydeep Ghosh, Kishan Yadav, Imranul Haque, Soumyajit Banerjee, Nilam Ramaiya"
+  year: 2025
+  title: "Real-time Vertical Position Estimation of the Plasma Column Using Fast Imaging in the Aditya-U Tokamak"
+  journal: "Nuclear Fusion 65(8): 086030"
+  link: "https://ui.adsabs.harvard.edu/abs/2025NucFu..65h6030A/abstract"
+
+- authors: "Suman Dolui, Kaushlendra Singh, Bharat Hegde, Tanmay Macwan, S. K. I. Hoque, Umesh Nagora, S. Purohit, A. N. Adhiya, K. A. Jadeja, Harshita Raj, Ankit Kumar, Ashok K. Kumawat, Suman Aich, Rohit Kumar, K. M. Patel, P. Gautam, Sharvil Patel, Nandini Yadava, Nilam Ramaiya, M. K. Gupta, S. K. Pathak, Malay B. Chowdhuri, S. Sharma, Anant Kuley, R. L. Tanna, P. K. Chattopadhyay, Abhijit Sen, Y. C. Saxena, R. Pal, Joydeep Ghosh"
+  year: 2025
+  title: "Stabilization of Sawteeth Instability by Short Gas Pulse Injection in ADITYA-U Tokamak"
+  journal: "arXiv:2501.01871"
+  link: "https://arxiv.org/abs/2501.01871"
+
+- authors: "Dipexa Modi, M. B. Chowdhuri, N. Yadava, Ankit Kumar, N. Ramaiya, A. Gauttam, U. Rajvanshi, Manish Rathor, S. Patel, K. B. K. Mayya, S. K. Pathak, J. Ghosh"
   year: 2024
-  title: "Another Paper"
-  journal: "Conference Proceedings"
-  link: "https://arxiv.org/xxxx"
+  title: "Upgraded Space and Time Resolved Visible Spectroscopic Diagnostic on ADITYA-U Tokamak"
+  journal: "Review of Scientific Instruments 95(12): 123513"
+  link: "https://pubmed.ncbi.nlm.nih.gov/39670807/"
