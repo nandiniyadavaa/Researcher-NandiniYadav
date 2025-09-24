@@ -5,6 +5,30 @@ permalink: /contact/
 ---
 
 <style>
+  /* make the section escape the narrow page box */
+.fullbleed{
+  width:100vw;                 /* full screen width */
+  position:relative;
+  left:50%; right:50%;
+  margin-left:-50vw; margin-right:-50vw; /* trick to escape the box */
+  padding-left:24px;           /* nice side padding */
+  padding-right:24px;
+}
+
+/* center the card and choose how wide it can get */
+.contact-hero{
+  max-width:1200px;            /* make this bigger or smaller (e.g., 1100–1280) */
+  margin:0 auto 28px;          /* centers it */
+}
+
+/* give the left column a bit more space for the photo */
+.contact-grid{
+  grid-template-columns: 380px 1fr;   /* was 320px */
+}
+@media (max-width:980px){
+  .contact-grid{ grid-template-columns:1fr; } /* phone view stacks nicely */
+}
+
 /* ====== "Extraordinary" contact page (self-contained) ====== */
 :root{
   --bg: #0b0d14;
@@ -112,6 +136,7 @@ body .page-content{ background:
   .chip, .badge{ box-shadow:none; }
 }
 </style>
+<section class="fullbleed">
 
 <div class="contact-hero">
   <div class="contact-grid">
@@ -184,6 +209,7 @@ body .page-content{ background:
     </div>
   </div>
 </div>
+</section>
 
 ## Quick Links (QR)
 <div class="qrgrid">
