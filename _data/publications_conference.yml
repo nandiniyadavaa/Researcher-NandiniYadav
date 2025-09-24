@@ -1,51 +1,308 @@
-- title: Core Impurity Spectroscopy in a Complex Mixed-Species Environment
-  authors: Dinh Truong, …. Nandini Yadava et al.
-  event: 66th APS Division of Plasma Physics Meeting
+talks_yaml = """\
+- authors: "Dinh Truong; Brian S. Victor; Adam G. McLean; Steven L. Allen; Igor Bykov; Austin Keller; KyuBeen Kwon; Benjamin Penaflor; Filippo Scotti; Shengyu Shi; Peter J. Traverso; Dan M. Thomas; Nandini Yadava"
   year: 2024
-- title: Investigation of high-n Balmer lines and D2-Fulcher band during high-recycling and detached divertor DIII-D plasma
-  authors: Nandini Yadava et al.
-  event: 66th APS Division of Plasma Physics Meeting
+  title: "Core Impurity Spectroscopy in a Complex Mixed-Species Environment"
+  venue: "66th Annual Meeting of the APS Division of Plasma Physics (APS-DPP)"
+  location: "Atlanta, Georgia, USA"
+  type: "Poster"
+  session: "PP12.00091"
+  link: "https://meetings.aps.org/Meeting/DPP24/Session/PP12.91"
+  status: "verified"
+
+- authors: "Nandini Yadava; Dan M. Thomas; Anthony W. Leonard; Filippo Scotti; Adam G. McLean; Mathias Groth; Claudio Marini; Igor Bykov; Gilson Ronchi; Robert S. Wilcox; Eric M. Hollmann; Kevin Verhaegh; Nick Osborne"
   year: 2024
-- title: Quantitative Study Of Influx, Recycling And Particle Balance With Different Wall Conditioning In ADITYA-U Tokamak (2259)
-  authors: Nandini Yadava
-  event: 29th IAEA Fusion Energy Conference
+  title: "Investigation of high-n Balmer lines and D₂-Fulcher band during high-recycling and detached divertor DIII-D plasma"
+  venue: "66th Annual Meeting of the APS Division of Plasma Physics (APS-DPP)"
+  location: "Atlanta, Georgia, USA"
+  type: "Poster"
+  session: "PP12.00081"
+  link: "https://meetings.aps.org/Meeting/DPP24/Session/PP12.81"
+  status: "verified"
+
+- authors: "Nandini Yadava"
   year: 2023
-  location: London, UK
-- title: Investigation of Charge Dependency in impurity transport in Aditya-U tokamak
-  authors: Nandini Yadava et al.
-  event: 63rd APS Division of Plasma Physics Meeting
+  title: "Quantitative Study of Influx, Recycling and Particle Balance with Different Wall Conditioning in ADITYA-U Tokamak"
+  venue: "29th IAEA Fusion Energy Conference (FEC 2023)"
+  location: "London, UK"
+  type: "Poster"
+  session: "ID 2259"
+  link: ""
+  status: "awaiting_official_link_and_full_authors"
+
+- authors: "Nandini Yadava; Joydeep Ghosh; Malay B. Chowdhuri; Ashoke De; Amrita Bhattacharya; Ranjana Manchanda; Nilam Ramaiya; Kajal Shah; Sharvil Patel; Shishir Purohit; Manoj Gupta; Umesh Nagora; Surya K. Pathak; Tanmay Macwan; Kumarpalsinh A. Jadeja; Kaushal M. Patel; Ankur Pandya; Rohit Kumar; Suman Aich; Kaushlendra Singh; Suman Dolui"
   year: 2021
-  note: virtual
-- title: Investigation of Self-Absorbed Lithium Spectral Line Emissions during Li2TiO3 Injection in ADITYA-U tokamak
-  authors: Nandini Yadava et al.
-  event: 28th Fusion Energy Conference
+  title: "Investigation of Charge Dependency in impurity transport in Aditya-U tokamak"
+  venue: "63rd Annual Meeting of the APS Division of Plasma Physics (APS-DPP)"
+  location: "Pittsburgh, PA, USA (virtual)"
+  type: "Oral"
+  session: "CO07.00004"
+  link: "https://meetings.aps.org/Meeting/DPP21/Session/CO07"
+  status: "verified"
+
+- authors: "Nandini Yadava; Joydeep Ghosh; Malay B. Chowdhuri; Ranjana Manchanda; S. Pahari; Bharatkumar Doshi; Paritosh Chaudhuri; Kumarpalsinh A. Jadeja; Rakesh L. Tanna; Ritu Dey; Sharvil Patel; Nilam Ramaiya; Kajal Shah; Gaurav Shukla; Tanmay Macwan; Suman Aich; Rohit Kumar; Kaushal Patel; Suman Dolui; Kaushlendra Singh; Devilal Kumawat; C. N. Gupta; Ankur Pandya; Sripathi K. Punchithaya; Ismayil; ADITYA-U Team"
   year: 2021
-  note: virtual
-- title: A Diagnostic for Measurement of Radial Profile of Visible Bremsstrahlung for determining Z eff in ADITYA-U Tokamak Plasmas
-  authors: M. B. Chowdhuri, …, N. Yadava, et al.
-  event: High Temperature Plasma Diagnostic Conference
+  title: "Investigation of Self-Absorbed Lithium Spectral Line Emissions during Li₂TiO₃ Injection in ADITYA-U tokamak"
+  venue: "28th IAEA Fusion Energy Conference (FEC 2020 → held 2021)"
+  location: "Virtual (IAEA)"
+  type: "Poster"
+  session: "EX/P4-13"
+  link: "https://nucleus.iaea.org/sites/fusionportal/Shared%20Documents/FEC%202020/fec2020-material/poster1291.pdf"
+  status: "verified"
+
+- authors: "Malay Bikas Chowdhuri; [add full coauthors]; Nandini Yadava"
   year: 2020
-  location: LANL, New Mexico, US
-  note: virtual
-- title: Observation of spatially resolved Argon line emissions in ADITYA-U tokamak using high resolution spectroscopic diagnostic
-  authors: K. Shah, …, N. Yadava, et al.
-  event: High Temperature Plasma Diagnostic Conference
+  title: "A Diagnostic for Measurement of Radial Profile of Visible Bremsstrahlung for determining Z_eff in ADITYA-U Tokamak Plasmas"
+  venue: "High Temperature Plasma Diagnostics (HTPD 2020)"
+  location: "Los Alamos, New Mexico, USA (virtual)"
+  type: "Conference contribution"
+  link: ""
+  status: "unverified"
+
+- authors: "Kajal Shah; [add full coauthors]; Nandini Yadava"
   year: 2020
-  location: LANL, New Mexico, US
-  note: virtual
-- title: Investigation of Recycling and Impurities Influxes in ADITYA-U Tokamak Plasmas
-  authors: Nandini Yadava, et al.
-  event: 29th International Toki Conference
+  title: "Observation of spatially resolved Argon line emissions in ADITYA-U tokamak using high-resolution spectroscopic diagnostic"
+  venue: "High Temperature Plasma Diagnostics (HTPD 2020)"
+  location: "Los Alamos, New Mexico, USA (virtual)"
+  type: "Conference contribution"
+  link: ""
+  status: "partially_verified"
+
+- authors: "Nandini Yadava; [add full coauthors]"
   year: 2020
-  location: Toki, Japan
-  note: virtual
-- title: Effect of multiple periodic gas puff on neutral temperature in Aditya – U tokamak
-  authors: Nandini Yadava, et al.
-  event: 27th IAEA Fusion Energy Conference
+  title: "Investigation of Recycling and Impurities Influxes in ADITYA-U Tokamak Plasmas"
+  venue: "29th International Toki Conference (ITC-29)"
+  location: "Toki, Japan (virtual)"
+  type: "Poster"
+  session: "Poster-2-F2-11"
+  link: "https://www.nifs.ac.jp/itc/itc29/program.pdf"
+  status: "verified"
+
+- authors: "Nandini Yadava; Deepti Tripathi; Joydeep Ghosh; Malay B. Chowdhuri; Ranjana Manchanda; Ritu Dey; Harshita Raj; Subroto Banerjee; Rakesh L. Tanna; Kumarpalsinh A. Jadeja; Kaushal Patel"
   year: 2018
-  location: Institute for Plasma Research, Gandhinagar, India
-- title: Neon Gas Seeded Radiative Improved Mode in Aditya-U Tokamak
-  authors: M. B. Chowdhuri…, N. Yadava, et al.
-  event: 27th IAEA Fusion Energy Conference
+  title: "Effect of multiple periodic gas puff on neutral temperature in Aditya–U tokamak"
+  venue: "27th IAEA Fusion Energy Conference (FEC 2018)"
+  location: "Gandhinagar, India"
+  type: "Poster"
+  link: "https://nucleus.iaea.org/sites/fusionportal/Shared%20Documents/FEC%202018/fec2018-preprints/preprint0629.pdf"
+  status: "verified"
+
+- authors: "Malay Bikas Chowdhuri; [add full coauthors]; Nandini Yadava"
   year: 2018
-  location: Institute for Plasma Research, Gandhinagar, India
+  title: "Neon Gas Seeded Radiative Improved Mode in Aditya-U Tokamak"
+  venue: "27th IAEA Fusion Energy Conference (FEC 2018)"
+  location: "Gandhinagar, India"
+  type: "Poster"
+  link: "https://nucleus.iaea.org/sites/fusionportal/Shared%20Documents/FEC%202018/fec2018-preprints/preprint0578.pdf"
+  status: "verified_link_needs_full_authors"
+
+- authors: "Ranjana Manchanda; [add full coauthors]; Nandini Yadava"
+  year: 2018
+  title: "Impurity Screening in High Density Aditya Tokamak Plasmas"
+  venue: "27th IAEA Fusion Energy Conference (FEC 2018)"
+  location: "Gandhinagar, India"
+  type: "Poster"
+  link: "https://nucleus.iaea.org/sites/fusionportal/Shared%20Documents/FEC%202018/fec2018-preprints/preprint0640.pdf"
+  status: "verified_link_needs_full_authors"
+
+- authors: "Sachin S. Chauhan; [add full coauthors]; Nandini Yadava"
+  year: 2018
+  title: "Development of RF-based capacitively coupled plasma system for deposition of tungsten nano-layers on graphite"
+  venue: "27th IAEA Fusion Energy Conference (FEC 2018)"
+  location: "Gandhinagar, India"
+  type: "Oral"
+  link: "https://conferences.iaea.org/event/151/contributions/speakers"
+  status: "partially_verified"
+
+- authors: "Nandini Yadava; Joydeep Ghosh; Malay B. Chowdhuri; Ashoke De; Amrita Bhattacharya; Ranjana Manchanda; Nilam Ramaiya; Kajal Shah; Sharvil Patel; Shishir Purohit; Manoj Gupta; Umesh Nagora; Surya K. Pathak; Tanmay Macwan; Kumarpalsinh A. Jadeja; Kaushal M. Patel; Ankur Pandya; Rohit Kumar; Suman Aich; Kaushlendra Singh; Suman Dolui"
+  year: 2021
+  title: "Investigation of Charge Dependency in impurity transport in Aditya-U tokamak"
+  venue: "63rd Annual Meeting of the APS Division of Plasma Physics (APS-DPP)"
+  location: "Pittsburgh, PA, USA (virtual)"
+  type: "Oral"
+  session: "CO07.00004"
+  link: "https://meetings.aps.org/Meeting/DPP21/Session/CO07"
+  status: "verified"
+
+- authors: "Nandini Yadava; [add full coauthors]"
+  year: 2021
+  title: "Vibrational temperature estimation of nitrogen molecules in RF produced plasma"
+  venue: "30th International Toki Conference (ITC-30)"
+  location: "Virtual"
+  type: "Oral"
+  link: ""
+  status: "unverified"
+
+- authors: "Nandini Yadava; [add full coauthors]"
+  year: 2021
+  title: "Behavior of hydrogen and impurities in ADITYA-U tokamak plasmas after lithium coating"
+  venue: "V International Summer School on the Physics of Plasma–Surface Interactions"
+  location: "MEPhI, Moscow (virtual)"
+  type: "Oral"
+  link: ""
+  status: "unverified"
+
+- authors: "Nandini Yadava; [add full coauthors]"
+  year: 2020
+  title: "Spectroscopic Plasma Diagnostic Technique to Estimate Temperature from Line Emissions Influenced by Magnetic Field"
+  venue: "8th PSSI Plasma Scholars Colloquium (PSC-2020)"
+  location: "KIIT (virtual)"
+  type: "Oral"
+  link: ""
+  status: "unverified"
+
+- authors: "Nandini Yadava; [add full coauthors]"
+  year: 2020
+  title: "Simulation of Zeeman-Influenced Impurity Ion Spectral Lines in Aditya-U tokamak"
+  venue: "3rd National Seminar on Nonlinear and Complex Phenomena"
+  location: "Jadavpur University, Kolkata"
+  type: "Oral"
+  link: ""
+  status: "unverified"
+
+- authors: "Nandini Yadava; [add full coauthors]"
+  year: 2019
+  title: "Impurity Ion Temperature Measurement using Zeeman-Influenced Spectral Lines in Aditya-U Tokamak"
+  venue: "34th National Symposium on Plasma Science and Technology"
+  location: "Vellore/Chennai"
+  type: "Oral"
+  link: ""
+  status: "unverified"
+
+- authors: "Nandini Yadava; [add full coauthors]"
+  year: 2019
+  title: "Spatial profile measurement of Hα and C⁺ ion Temperature in Aditya-U Tokamak"
+  venue: "7th PSSI-Plasma Scholars Colloquium"
+  location: "Institute for Advanced Research (IAR), Gandhinagar"
+  type: "Oral"
+  dates: "8–10 Aug 2019"
+  link: ""
+  status: "unverified"
+
+
+- authors: "Nandini Yadava; [add full coauthors]"
+  year: 2024
+  title: "Initial Results from Spectroscopic Investigation of Plasma–Molecular Interaction on DIII-D Detached Divertor Plasma"
+  venue: "26th International Conference on Plasma–Surface Interactions in Controlled Fusion Devices (PSI-26)"
+  location: "Marseille, France"
+  type: "Poster"
+  dates: "12–17 May 2024"
+  link: "https://irfm.cea.fr/en/evenement/26th-psi-conference/"
+  status: "partially_verified"
+
+- authors: "Nandini Yadava"
+  year: 2021
+  title: "Global Particle Balance and Recycling Properties in Aditya-U Tokamak Plasmas"
+  venue: "5th Asia-Pacific Conference on Plasma Physics (AAPPS-DPP 2021)"
+  location: "Virtual"
+  type: "Poster"
+  code: "MF-P15"
+  link: "https://www.aappsdpp.org/DPP2021/poster/5348.pdf"
+  status: "verified"
+
+- authors: "Nandini Yadava; [add full coauthors]"
+  year: 2019
+  title: "Plasma Gas Temperature Measurement with Boltzmann Plot Method of 6 MW PWT"
+  venue: "12th International Conference on Plasma Science and Applications (CPSA 2019)"
+  location: "University of Lucknow, India"
+  type: "Poster"
+  link: ""
+  status: "unverified"
+
+- authors: "Nandini Yadava; [add full coauthors]"
+  year: 2019
+  title: "Preliminary Results for Estimation of Neutral Temperature in Aditya-U Tokamak"
+  venue: "IAEA–ICTP School on Atomic and Molecular Spectroscopy 2019"
+  location: "Trieste, Italy"
+  type: "Poster"
+  link: ""
+  status: "unverified"
+
+- authors: "Nandini Yadava; [add full coauthors]"
+  year: 2021
+  title: "Impurity Transport in Aditya-U Tokamak with Indigenously Developed Semi-Implicit Impurity Transport Code"
+  venue: "34th National Symposium on Plasma Science and Technology"
+  location: "BIT Mesra, Jaipur (virtual)"
+  type: "Poster"
+  link: ""
+  status: "unverified"
+
+- authors: "Nandini Yadava; [add full coauthors]"
+  year: 2020
+  title: "Neutral and impurity influx measurement from limiter and wall of Aditya-U Tokamak"
+  venue: "8th Topical Conference on Atomic and Molecular Collisions for Plasma Applications (TC-2020)"
+  location: "IIT Roorkee"
+  type: "Poster"
+  link: ""
+  status: "unverified"
+
+- authors: "Nandini Yadava; [add full coauthors]"
+  year: 2020
+  title: "Investigation of Neutral Recycling and Ion Temperature of Various Plasma Species in ADITYA and ADITYA-U Tokamak"
+  venue: "National Symposium for Commemorating 30-years of ADITYA Tokamak"
+  location: "EDII, Ahmedabad"
+  type: "Poster"
+  link: "https://www.ipr.res.in/Aditya30Years/documents/30_Years_Of_ADITYA_Book_of_Abstracts.pdf"
+  status: "verified"
+
+- authors: "Nandini Yadava; [add full coauthors]"
+  year: 2019
+  title: "Spectroscopic Studies of Cold Atomic Hydrogen in Aditya-U Tokamak Edge"
+  venue: "22nd National Conference on Atomic and Molecular Physics (NCAMP)"
+  location: "IIT Kanpur"
+  type: "Poster"
+  link: ""
+  status: "unverified"
+
+- authors: "Nandini Yadava; [add full coauthors]"
+  year: 2018
+  title: "Hydrogen-alpha (Hα) simulation emitting from different plasma locations"
+  venue: "33rd National Symposium on Plasma Science and Technology (PLASMA-2018)"
+  location: "University of Delhi"
+  type: "Poster"
+  link: ""
+  status: "unverified"
+
+- authors: "Nandini Yadava; [add full coauthors]"
+  year: 2018
+  title: "Global Particle Balance and Wall Recycling Study for Aditya–U Tokamak"
+  venue: "6th PSSI-Plasma Scholars Colloquium"
+  location: "Sikkim Manipal Institute of Technology"
+  type: "Poster"
+  link: ""
+  status: "unverified"
+
+- authors: "Nandini Yadava; [add full coauthors]"
+  year: 2018
+  title: "Measurement of Recycling Coefficient for Aditya–U tokamak"
+  venue: "6th PSSI-Plasma Scholars Colloquium"
+  location: "Sikkim Manipal Institute of Technology"
+  type: "Poster"
+  link: ""
+  status: "unverified"
+
+- authors: "Nandini Yadava; [add full coauthors]"
+  year: 2017
+  title: "Identification and Simulation of Spectral Molecular Bands of Nitrogen Present in RF Plasmas"
+  venue: "32nd National Symposium on Plasma Science and Technology (PLASMA-2017)"
+  location: "IPR, Gandhinagar"
+  type: "Poster"
+  link: ""
+  status: "unverified"
+
+- authors: "Nandini Yadava; [add full coauthors]"
+  year: 2017
+  title: "Studies of Oxygen Impurity Behavior in Aditya Tokamak Plasma"
+  venue: "32nd National Symposium on Plasma Science and Technology (PLASMA-2017)"
+  location: "IPR, Gandhinagar"
+  type: "Poster"
+  link: ""
+  status: "unverified"
+
+- authors: "Nandini Yadava; [add full coauthors]"
+  year: 2017
+  title: "Simulation of Hydrogen-alpha (Hα) spectral line shape emitting from the edge region of Aditya Tokamak"
+  venue: "21st National Conference on Atomic and Molecular Physics (NCAMP)"
+  location: "PRL, Ahmedabad"
+  type: "Poster"
+  link: ""
+  status: "unverified"
