@@ -6,14 +6,52 @@ permalink: /publications
 
 # Publications
 
-<p>Select a category to view detailed publications in each section.</p>
+## Recently Submitted
 
-<ul>
-  <li><a href="/recently-submitted">Recently Submitted</a></li>
-  <li><a href="/peer-reviewed-publications">Peer-reviewed Publications</a></li>
-  <li><a href="/conference-proceedings">Conference Proceedings</a></li>
-  <li><a href="/oral-presentations">Oral Presentations</a></li>
-  <li><a href="/poster-presentations">Poster Presentations</a></li>
-</ul>
+{% for pub in site.data.publications_recent %}
+[{{ pub.title }}]({{ pub.link }})  
+{{ pub.authors }}  
+*{{ pub.journal }}*, {{ pub.year }}
+
+{% endfor %}
+
+## Peer-Reviewed Articles
+
+{% for pub in site.data.publications_peerreviewed %}
+[{{ pub.title }}]({{ pub.link }})  
+{{ pub.authors }}  
+*{{ pub.journal }}*, {{ pub.year }}
+
+{% endfor %}
+
+## Conference Proceedings
+
+{% for pub in site.data.publications_conference %}
+[{{ pub.title }}]({{ pub.link }})  
+{{ pub.authors }}  
+*{{ pub.conference }}*, {{ pub.location }}, {{ pub.year }}
+
+{% endfor %}
+
+## Oral Presentations
+
+{% for pub in site.data.publications_oral %}
+**{{ pub.title }}**  
+{{ pub.authors }}  
+*{{ pub.conference }}*, {{ pub.location }}, {{ pub.year }}
+
+{% endfor %}
+
+## Poster Presentations
+
+{% for pub in site.data.publications_poster %}
+**{{ pub.title }}**  
+{{ pub.authors }}  
+*{{ pub.conference }}*, {{ pub.location }}, {{ pub.year }}
+
+{% endfor %}
+
+
+
 
 

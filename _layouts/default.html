@@ -3,12 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <title>{{ page.title }} | {{ site.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/icons.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/header-footer.css">
 </head>
 <body>
   {% include header.html %}
   <main>
-    {{ content }}
+    <div class="main-content">
+      {{ content }}
+    </div>
   </main>
   {% include footer.html %}
 </body>
