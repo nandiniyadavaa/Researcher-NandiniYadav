@@ -1,4 +1,4 @@
-talks_yaml = """\
+
 - authors: "Dinh Truong; Brian S. Victor; Adam G. McLean; Steven L. Allen; Igor Bykov; Austin Keller; KyuBeen Kwon; Benjamin Penaflor; Filippo Scotti; Shengyu Shi; Peter J. Traverso; Dan M. Thomas; Nandini Yadava"
   year: 2024
   title: "Core Impurity Spectroscopy in a Complex Mixed-Species Environment"
