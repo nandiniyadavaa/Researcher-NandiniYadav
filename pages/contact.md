@@ -5,6 +5,42 @@ permalink: /contact/
 ---
 
 <style>
+  /* widen only THIS page's content box */
+.page-content .wrapper{
+  max-width: 1200px;     /* wider page container */
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+/* center the hero card; no funky width tricks */
+.contact-hero{
+  margin: 0 auto 28px;
+  max-width: 1100px;     /* the card itself */
+  border-radius: 22px;
+  overflow: hidden;
+}
+
+/* layout: photo + info */
+.contact-grid{
+  display: grid;
+  grid-template-columns: 360px minmax(0,1fr);  /* minmax prevents overflow */
+  gap: 28px;
+  align-items: start;
+}
+@media (max-width: 980px){
+  .contact-grid{ grid-template-columns: 1fr; }
+}
+
+/* make sure images can’t push layout wider */
+img{ max-width:100%; height:auto; }
+
+/* optional: slightly smaller title to avoid long wrap */
+.contact-info h1{
+  font-size: clamp(1.6rem, 2.2vw, 2.2rem);
+  line-height: 1.2;
+  overflow-wrap: anywhere;
+}
+
 /* Simple, tidy contact layout */
 .contact {
   max-width: 980px; margin: 0 auto 2.5rem; padding: 0 1rem;
