@@ -196,3 +196,8 @@ body .page-content{ background:
     <div><a href="https://scholar.google.com/" target="_blank" rel="noopener">Google Scholar</a></div>
   </div>
 </div>
+
+
+{% if page.permalink == '/contact/' or page.url == '/contact/' %}
+<link rel="stylesheet" href="{{ '/assets/css/contact.css' | relative_url }}">
+{% endif %}
