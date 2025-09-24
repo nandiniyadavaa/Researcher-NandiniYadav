@@ -119,7 +119,7 @@ body .page-content{ background:
     <div class="contact-avatar">
       <div class="imgwrap">
         <!-- update the image path -->
-        <img src="{{ site.baseurl }}/assets/image/contact.jpg" alt="Dr. Nandini Yadav (Yadava)">
+        <img src="{{ site.baseurl }}/assets/image/Nandini_Yadava.jpg" alt="Dr. Nandini Yadav (Yadava)">
         <span class="badge">Available for collab</span>
       </div>
 
