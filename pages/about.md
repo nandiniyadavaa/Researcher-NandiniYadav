@@ -55,14 +55,12 @@ redirect_from:
     <div class="about-body">
 
       <p>
-        I am a postdoctoral researcher at the <strong>DIII-D National Fusion Facility (General Atomics)</strong> in San Diego, USA. My work focuses on the physics of the tokamak boundary—scrape-off layer and divertor—with an emphasis on <strong>divertor detachment</strong>, Balmer-series spectroscopy, and impurity/neutral dynamics. I apply analysis methods that separate excitation and recombination, quantify particle sources and sinks, and diagnose molecule-assisted processes.
+        I am a postdoctoral researcher at the <strong>DIII-D National Fusion Facility (General Atomics), San Diego, USA</strong>. My work focuses on the physics of the tokamak boundary—scrape-off layer and divertor—with an emphasis on <strong>divertor detachment</strong>, Balmer-series spectroscopy, and impurity/neutral dynamics. I apply analysis methods that separate excitation and recombination, quantify particle sources and sinks, and diagnose molecule-assisted processes.
       </p>
 
       <p>
-        I pursued my Bachelor's in 2013 and Master's in 2015 from <a href="https://www.gujaratuniversity.ac.in" target="_blank" rel="noopener">Gujarat University</a>, with Physics as major. 
- 
+        I pursued my Bachelor’s (2013) and Master’s (2015) at <a href="https://www.gujaratuniversity.ac.in" target="_blank" rel="noopener"> Gujarat University, Ahmedabad, Gujarat, India </a>, with Physics as my major. I began my research career in 2015 as a Scientific Assistant at<a href="https://www.ipr.res.in/" target="_blank" rel="noopener"> the Institute for Plasma Research (IPR), Ahmedabad, Gujarat, India </a>. I later continued working at IPR while collaborating with other institutes. I earned my Ph.D. in 2023 (enrollment 2020–2023). Subsequently, I started in my current position.
       </p>
-
       
       <p>
         At DIII-D I collaborate across experiment and modeling teams to design shots, commission and calibrate optical systems, and interpret measurements alongside transport simulations. A recurring theme in my work is turning line-integrated spectra into physics-based, spatially aware inferences that can guide scenario development and control for reliable power exhaust.
