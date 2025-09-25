@@ -78,7 +78,7 @@ h1.contact-title { margin: .25rem 0 .5rem; font-size: clamp(1.6rem, 2.2vw, 2.1re
 
   <!-- Right: Info -->
   <div>
-    <h1 class="contact-title">Dr. Nandini Yadav (Yadava)</h1>
+    <h1 class="contact-title">Dr. Nandini Yadava (Yadav)</h1>
     <p class="contact-sub">Postdoctoral Researcher · DIII-D National Fusion Facility (General Atomics)</p>
 
     <div class="kv">
