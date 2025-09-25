@@ -45,7 +45,7 @@ h1.contact-title { margin: .25rem 0 .5rem; font-size: clamp(1.6rem, 2.2vw, 2.1re
 
 .kv { display: grid; grid-template-columns: 140px 1fr; gap: 10px 18px; }
 .kv div:first-child { color:#6b7280; font-weight:600; }
-.kv a { color: inherit; text-decoration: none}
+.kv a{ text-decoration:underline; text-underline-offset:2px; }
 
 .cards { display: grid; gap: 16px; grid-template-columns: repeat(2, minmax(0,1fr)); margin-top: 16px; }
 @media (max-width: 600px){ .cards { grid-template-columns: 1fr; } }
