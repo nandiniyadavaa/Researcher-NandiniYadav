@@ -73,7 +73,7 @@ h1.contact-title { margin: .25rem 0 .5rem; font-size: clamp(1.6rem, 2.2vw, 2.1re
   <!-- Left: Photo -->
   <div class="photo">
     <!-- Put your picture at /assets/image/contact.jpg -->
-    <img src="{{ site.baseurl }}/assets/image/contact.jpg" alt="Dr. Nandini Yadav (Yadava)">
+    <img src="{{ site.baseurl }}/assets/image/Nandini_Yadava.jpg" alt="Dr. Nandini Yadav (Yadava)">
   </div>
 
   <!-- Right: Info -->
