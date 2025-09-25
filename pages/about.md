@@ -21,10 +21,10 @@ redirect_from:
 }
 @media (max-width: 980px){ .about-grid{ grid-template-columns:1fr; } }
 
-.about-photo img{
-  width:100%; height:auto; display:block; border-radius:10px;
-  box-shadow: 0 2px 10px rgba(0,0,0,.06);
-}
+<div class="about-photo">
+  <img src="{{ '/assets/image/2401_PUB012535-Nandni_Yadava_2.jpg' | relative_url }}" alt="Nandini Yadava">
+</div>
+
 
 /* readable paragraphs like the example */
 .about-body p{
