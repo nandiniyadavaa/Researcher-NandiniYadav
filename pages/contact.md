@@ -49,7 +49,7 @@ h1.contact-title { margin: .25rem 0 .5rem; font-size: clamp(1.6rem, 2.2vw, 2.1re
 
 .cards { display: grid; gap: 16px; grid-template-columns: repeat(2, minmax(0,1fr)); margin-top: 16px; }
 @media (max-width: 600px){ .cards { grid-template-columns: 1fr; } }
-.card { border: 1px solid #e5e7eb; border-radius: 10px; padding: 14px; }
+.card { border: none; }
 .card h3 { margin: 0 0 .4rem; font-size: 1rem; }
 
 .links { display:flex; gap:18px; flex-wrap:wrap; margin-top: 10px; }
