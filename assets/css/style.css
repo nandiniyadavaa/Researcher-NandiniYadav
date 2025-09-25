@@ -4,7 +4,7 @@
   --text-color: #333;
   --link-color: #0066cc;
   --link-hover-color: #004c99;
-  --background-color: #fff;
+  --background-color: none;
   --header-bg: #f5f5f5 !important;
   --header-text: #333333 !important;
   --footer-bg: #f5f5f5 !important;
@@ -152,7 +152,7 @@ footer {
   padding: 0;
 }
 .pub-item {
-  background: #fff;
+  background: none;
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.04);
   padding: 22px 28px 18px 28px;
