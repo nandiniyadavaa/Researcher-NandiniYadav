@@ -53,26 +53,15 @@ redirect_from:
 
       <p>
         I am a postdoctoral researcher at the
-        <strong>DIII-D National Fusion Facility (General Atomics)</strong> in San Diego.
-        My work focuses on the physics of the tokamak boundary—scrape-off layer and divertor—with an emphasis on
-        <strong>divertor detachment</strong>, Balmer-series spectroscopy, and impurity/neutral dynamics.
-        I develop and apply analysis methods that separate excitation and recombination, quantify particle sources
-        and sinks, and diagnose molecule-assisted processes (EIR/MAR) under reactor-relevant conditions.
+        <strong>DIII-D National Fusion Facility (General Atomics)</strong> in San Diego. My work focuses on the physics of the tokamak boundary—scrape-off layer and divertor—with an emphasis on <strong>divertor detachment</strong>, Balmer-series spectroscopy, and impurity/neutral dynamics.I develop and apply analysis methods that separate excitation and recombination, quantify particle sources and sinks, and diagnose molecule-assisted processes (EIR/MAR) under reactor-relevant conditions.
       </p>
 
       <p>
-        At DIII-D I collaborate across experiment and modeling teams to design shots, commission and calibrate
-        optical systems, and interpret measurements alongside transport simulations. A recurring theme in my work
-        is turning line-integrated spectra into physics-based, spatially aware inferences that can guide scenario
-        development and control for reliable power exhaust.
+        At DIII-D I collaborate across experiment and modeling teams to design shots, commission and calibrate optical systems, and interpret measurements alongside transport simulations. A recurring theme in my work is turning line-integrated spectra into physics-based, spatially aware inferences that can guide scenario development and control for reliable power exhaust.
       </p>
 
       <p>
-        Before joining DIII-D, I contributed to tokamak research at <strong>ADITYA-U</strong>, where I investigated
-        recycling, impurity influx, and edge temperatures using spectroscopy and imaging. Across projects I enjoy
-        translating complex diagnostics into clear, actionable results for operations and theory groups.
-        My long-term goal is to help bridge diagnostics, modeling, and control so that power-exhaust solutions for
-        future fusion devices are robust and repeatable.
+        Before joining DIII-D, I contributed to tokamak research at <strong>ADITYA-U</strong>, where I investigated recycling, impurity influx, and edge temperatures using spectroscopy and imaging. Across projects I enjoy translating complex diagnostics into clear, actionable results for operations and theory groups. My long-term goal is to help bridge diagnostics, modeling, and control so that power-exhaust solutions for future fusion devices are robust and repeatable.
       </p>
 
       <hr class="hr-soft">
