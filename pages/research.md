@@ -1,6 +1,6 @@
 ---
-title: Research Projects
 layout: default
+title: Research Projects
 permalink: /projects/
 ---
 
@@ -67,7 +67,7 @@ permalink: /projects/
 
     <!-- CARD 1 -->
     <article class="card" data-tags="detachment spectroscopy diagnostics">
-      <img class="thumb" src="{{ '/assets/image/proj_detach_balmer.jpg' | relative_url }}" alt="">
+      /*<img class="thumb" src="{{ '/assets/image/proj_detach_balmer.jpg' | relative_url }}" alt="">*/
       <div class="body">
         <div class="h">Balmer Spectroscopy of Divertor Detachment (DIII-D)</div>
         <div class="meta"><span class="tag">2024–</span><span class="tag">DIII-D</span></div>
@@ -82,7 +82,7 @@ permalink: /projects/
 
     <!-- CARD 2 -->
     <article class="card" data-tags="diagnostics spectroscopy">
-      <img class="thumb" src="{{ '/assets/image/proj_optics.jpg' | relative_url }}" alt="">
+      /*<img class="thumb" src="{{ '/assets/image/proj_optics.jpg' | relative_url }}" alt="">*/
       <div class="body">
         <div class="h">Edge Optical Diagnostics: Design & Calibration</div>
         <div class="meta"><span class="tag">2023–</span><span class="tag">DIII-D</span></div>
@@ -95,7 +95,7 @@ permalink: /projects/
 
     <!-- CARD 3 -->
     <article class="card" data-tags="impurities detachment">
-      <img class="thumb" src="{{ '/assets/image/proj_impurity.jpg' | relative_url }}" alt="">
+      /*<img class="thumb" src="{{ '/assets/image/proj_impurity.jpg' | relative_url }}" alt="">*/
       <div class="body">
         <div class="h">Impurity & Neutral Dynamics Near the X-Point</div>
         <div class="meta"><span class="tag">2022–</span><span class="tag">DIII-D</span></div>
@@ -108,7 +108,7 @@ permalink: /projects/
 
     <!-- CARD 4 -->
     <article class="card" data-tags="spectroscopy modeling">
-      <img class="thumb" src="{{ '/assets/image/proj_inversion.jpg' | relative_url }}" alt="">
+      /*<img class="thumb" src="{{ '/assets/image/proj_inversion.jpg' | relative_url }}" alt="">*/
       <div class="body">
         <div class="h">Spectral Inversion & Tomography for Line-Integrated Views</div>
         <div class="meta"><span class="tag">2021–</span><span class="tag">DIII-D</span></div>
@@ -121,7 +121,7 @@ permalink: /projects/
 
     <!-- CARD 5 -->
     <article class="card" data-tags="diagnostics">
-      <img class="thumb" src="{{ '/assets/image/proj_aditya.jpg' | relative_url }}" alt="">
+      /*<img class="thumb" src="{{ '/assets/image/proj_aditya.jpg' | relative_url }}" alt="">*/
       <div class="body">
         <div class="h">ADITYA-U: Recycling & Temperature from Visible Lines</div>
         <div class="meta"><span class="tag">2019–2021</span><span class="tag">ADITYA-U</span></div>
