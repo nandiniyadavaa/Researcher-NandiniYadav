@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Research Projects
+title: Research
 permalink: /projects/
 ---
 
