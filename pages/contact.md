@@ -44,7 +44,7 @@ img{ max-width:100%; height:auto; }
 /* Simple, tidy contact layout */
 .contact {
   max-width: 980px; margin: 0 auto 2.5rem; padding: 0 1rem;
-  display: grid; grid-template-columns: 320px 1fr; gap: 28px; align-items: start;
+  display: grid; grid-template-columns: 420px 1fr; gap: 28px; align-items: start;
 }
 @media (max-width: 900px){ .contact { grid-template-columns: 1fr; } }
 
