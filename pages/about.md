@@ -100,13 +100,13 @@ redirect_from:
       </p>
       <h3>Acheivements</h3>
       <p>
-      <strong>[2022]<strong> Buti Young Scientist Award<br>
-      <strong>[2021]<strong> PSSI - Z. H. Sholapurwala Award for Fusion Research<br>
-      <strong>[2018]<strong> PSSI visiting student fellowship [November 2017 to March 2018]<br>
-      <strong>[2017]<strong> PSSI poster award <br>
-      <strong>[2016]<strong> Selected for the DST-INSPIRE Fellowship <br>
-      <strong>[2015]<strong> 1st Rank in M.Sc. Physics at Gujarat University <br>
-      <strong>[2013]<strong> 2nd Rank in M.Sc. Physics at Gujarat University <br>
+      <strong>[2022]</strong> Buti Young Scientist Award<br>
+      <strong>[2021]</strong> PSSI - Z. H. Sholapurwala Award for Fusion Research<br>
+      <strong>[2018]</strong> PSSI visiting student fellowship [November 2017 to March 2018]<br>
+      <strong>[2017]</strong> PSSI poster award <br>
+      <strong>[2016]</strong> Selected for the DST-INSPIRE Fellowship <br>
+      <strong>[2015]</strong> 1st Rank in M.Sc. Physics at Gujarat University <br>
+      <strong>[2013]</strong> 2nd Rank in M.Sc. Physics at Gujarat University <br>
       </p>
     </section>
     
@@ -117,5 +117,3 @@ redirect_from:
       </p>
 
     </div>
-  </div>
-</div>
