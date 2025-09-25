@@ -37,7 +37,7 @@ img{ max-width:100%; height:auto; }
 
 .contact .photo img {
   width: 100%; height: auto; display: block; border-radius: 12px;
-  box-shadow: 0 4px 18px rgba(0,0,0,.08);
+  box-shadow: none;
 }
 
 h1.contact-title { margin: .25rem 0 .5rem; font-size: clamp(1.6rem, 2.2vw, 2.1rem); }
