@@ -74,7 +74,27 @@ redirect_from:
 
       <p><strong>Research themes:</strong> divertor detachment; edge/SOL transport; Balmer spectroscopy; impurity/neutral dynamics; EIR/MAR; power exhaust; tokamak diagnostics.</p>
 
-      <p><strong>Profiles:</strong>
+    <hr class="hr-soft">
+    
+    <section class="edu">
+      <h3>Education</h3>
+      <p>
+        <strong>Ph.D. (Physics)</strong> <span class="years">2021–2023</span><br>
+        Institute of Science, Nirma University, Ahmedabad, Gujarat, India<br>
+        <em>Thesis:</em> “Spectroscopic Investigation of Neutrals and Impurity Dynamics
+        in the Edge Region of ADITYA-U Tokamak”
+      </p>
+    
+      <h3 style="margin-top:1rem">Positions / Experience</h3>
+      <p>
+        <strong>JRF (DAE-BRNS)</strong> <span class="years">2021–2022</span> — Indian Institute of Technology (IIT) Kanpur, Uttar Pradesh<br>
+        <strong>JRF (DAE-BRNS)</strong> <span class="years">2018–2021</span> — The National Institute of Engineering, Mysuru, Karnataka<br>
+        <strong>Research Scholar</strong> <span class="years">2016–2018</span> — Gujarat University, Ahmedabad, Gujarat<br>
+        <strong>Scientific Assistant</strong> <span class="years">2015–2016</span> — Institute for Plasma Research, Gandhinagar
+      </p>
+    </section>
+
+
         <a href="https://orcid.org/0000-0001-5522-2450" target="_blank" rel="noopener">ORCID</a> ·
         <a href="https://scholar.google.com/" target="_blank" rel="noopener">Google Scholar</a> ·
         <a href="https://www.researchgate.net/" target="_blank" rel="noopener">ResearchGate</a> ·
