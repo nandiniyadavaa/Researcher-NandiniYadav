@@ -72,7 +72,6 @@ redirect_from:
       <hr class="hr-soft">
       <p><strong>Research themes:</strong> divertor detachment; edge/SOL transport; Balmer spectroscopy; impurity/neutral dynamics; EIR/MAR; power exhaust; tokamak diagnostics.</p>
     <hr class="hr-soft">
-    <section class="edu">
       <h3>Education</h3>
       <p>
         <strong>Postdoctaral researcher</strong> <span class="years">2023–Now</span><br>
@@ -107,7 +106,6 @@ redirect_from:
       <strong>[2015]</strong> 1st Rank in M.Sc. Physics at Gujarat University <br>
       <strong>[2013]</strong> 2nd Rank in M.Sc. Physics at Gujarat University <br>
       </p>
-    </section>
     </div>
   </div>
 </div>
