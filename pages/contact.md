@@ -95,8 +95,8 @@ h1.contact-title{ margin:.25rem 0 .5rem; font-size:clamp(1.6rem,2.2vw,2.1rem); }
   <div class="card">
     <h3>Academic IDs</h3>
     <div class="links">
-      <a href="https://scholar.google.com/" target="_blank">Google Scholar</a>
-      <a href="https://www.researchgate.net/" target="_blank">ResearchGate</a>
+      <a href="[https://scholar.google.com/](https://scholar.google.com/citations?user=WxZzZl8AAAAJ&hl=en)" target="_blank">Google Scholar</a>
+      <a href="[https://www.researchgate.net/](https://www.researchgate.net/profile/Nandini_Yadava)" target="_blank">ResearchGate</a>
       <a href="https://publons.com/" target="_blank">Publons</a>
     </div>
   </div>
