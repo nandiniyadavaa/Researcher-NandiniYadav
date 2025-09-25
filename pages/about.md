@@ -56,8 +56,7 @@ redirect_from:
       </p>
 
       <p>
-        I pursued my Bachelor's in 2013 and Master's in 2015 from Gujarat University, Ahmedabad, India.
-At <a href="https://www.gujaratuniversity.ac.in" target="_blank" rel="noopener">Gujarat University</a>, with Physics as major. 
+        I pursued my Bachelor's in 2013 and Master's in 2015 from <a href="https://www.gujaratuniversity.ac.in" target="_blank" rel="noopener">Gujarat University</a>, with Physics as major. 
  
       </p>
 
