@@ -32,7 +32,14 @@ permalink: /projects/
 .card{background:var(--card);border:1px solid var(--ring);border-radius:12px;overflow:hidden;
   transition:box-shadow .2s, transform .1s}
 .card:hover{box-shadow:0 8px 24px rgba(13,62,169,.12);transform:translateY(-1px)}
-.thumb{aspect-ratio: 16/9;object-fit:cover;width:100%;display:block;background:#f4f6fb}
+
+/* header strip used when no image */
+.thumbless{
+  height:8px; width:100%;
+  background: linear-gradient(90deg,#eaf2fd,#dbeafe,#c7f9e9);
+}
+
+/* body */
 .body{padding:14px 16px 16px}
 .h{margin:2px 0 6px;font-weight:700;color:#0d3ea9;font-size:1.05rem}
 .meta{display:flex;gap:10px;flex-wrap:wrap;margin:0 0 8px;color:var(--muted);font-size:.92rem}
@@ -40,8 +47,6 @@ permalink: /projects/
 .p{color:#222;line-height:1.55;margin:0}
 .links{display:flex;gap:12px;margin-top:10px}
 .links a{color:var(--ink);text-decoration:underline}
-
-/* small badge row */
 .badges{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0 0}
 </style>
 
@@ -67,7 +72,7 @@ permalink: /projects/
 
     <!-- CARD 1 -->
     <article class="card" data-tags="detachment spectroscopy diagnostics">
-      /*<img class="thumb" src="{{ '/assets/image/proj_detach_balmer.jpg' | relative_url }}" alt="">*/
+      <div class="thumbless"></div>
       <div class="body">
         <div class="h">Balmer Spectroscopy of Divertor Detachment (DIII-D)</div>
         <div class="meta"><span class="tag">2024–</span><span class="tag">DIII-D</span></div>
@@ -82,9 +87,9 @@ permalink: /projects/
 
     <!-- CARD 2 -->
     <article class="card" data-tags="diagnostics spectroscopy">
-      /*<img class="thumb" src="{{ '/assets/image/proj_optics.jpg' | relative_url }}" alt="">*/
+      <div class="thumbless"></div>
       <div class="body">
-        <div class="h">Edge Optical Diagnostics: Design & Calibration</div>
+        <div class="h">Edge Optical Diagnostics: Design &amp; Calibration</div>
         <div class="meta"><span class="tag">2023–</span><span class="tag">DIII-D</span></div>
         <p class="p">Commission line-of-sight and imaging systems, absolute calibration, and uncertainty
           pipelines for multi-campaign analysis.</p>
@@ -95,9 +100,9 @@ permalink: /projects/
 
     <!-- CARD 3 -->
     <article class="card" data-tags="impurities detachment">
-      /*<img class="thumb" src="{{ '/assets/image/proj_impurity.jpg' | relative_url }}" alt="">*/
+      <div class="thumbless"></div>
       <div class="body">
-        <div class="h">Impurity & Neutral Dynamics Near the X-Point</div>
+        <div class="h">Impurity &amp; Neutral Dynamics Near the X-Point</div>
         <div class="meta"><span class="tag">2022–</span><span class="tag">DIII-D</span></div>
         <p class="p">Assess impurity screening vs. leakage and the role of molecule-assisted processes for
           reactor-relevant power exhaust.</p>
@@ -108,9 +113,9 @@ permalink: /projects/
 
     <!-- CARD 4 -->
     <article class="card" data-tags="spectroscopy modeling">
-      /*<img class="thumb" src="{{ '/assets/image/proj_inversion.jpg' | relative_url }}" alt="">*/
+      <div class="thumbless"></div>
       <div class="body">
-        <div class="h">Spectral Inversion & Tomography for Line-Integrated Views</div>
+        <div class="h">Spectral Inversion &amp; Tomography for Line-Integrated Views</div>
         <div class="meta"><span class="tag">2021–</span><span class="tag">DIII-D</span></div>
         <p class="p">From chords to fields: physics-aware inversions to recover emissivity and
           recombination fronts consistent with transport models.</p>
@@ -121,9 +126,9 @@ permalink: /projects/
 
     <!-- CARD 5 -->
     <article class="card" data-tags="diagnostics">
-      /*<img class="thumb" src="{{ '/assets/image/proj_aditya.jpg' | relative_url }}" alt="">*/
+      <div class="thumbless"></div>
       <div class="body">
-        <div class="h">ADITYA-U: Recycling & Temperature from Visible Lines</div>
+        <div class="h">ADITYA-U: Recycling &amp; Temperature from Visible Lines</div>
         <div class="meta"><span class="tag">2019–2021</span><span class="tag">ADITYA-U</span></div>
         <p class="p">Visible spectroscopy and imaging to study wall recycling, impurity influx, and edge temperature trends.</p>
         <div class="badges"><span class="tag">diagnostics</span></div>
