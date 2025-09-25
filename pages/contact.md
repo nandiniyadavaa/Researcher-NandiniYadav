@@ -66,7 +66,8 @@ h1.contact-title { margin: .25rem 0 .5rem; font-size: clamp(1.6rem, 2.2vw, 2.1re
   <!-- Right: Info -->
   <div>
     <h1 class="contact-title">Dr. Nandini Yadava (Yadav)</h1>
-    <p class="contact-sub">Postdoctoral Researcher · DIII-D National Fusion Facility (General Atomics)</p>
+    <p class="contact-sub">Postdoctoral Researcher </p>
+    <p class="contact-sub"> DIII-D National Fusion Facility (General Atomics)</p>
 
     <div class="kv">
       <div>Phone</div>
@@ -94,6 +95,10 @@ h1.contact-title { margin: .25rem 0 .5rem; font-size: clamp(1.6rem, 2.2vw, 2.1re
       <div>ORCID</div>
       <div><a href="https://orcid.org/0000-0001-5522-2450">0000-0001-5522-2450</a></div>
     </div>
+---
+
+## Next section title
+
 
     <div class="cards">
       <div class="card">
