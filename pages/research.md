@@ -1,7 +1,7 @@
 ---
-layout: default
 title: Research
-permalink: /projects/
+layout: default
+permalink: /research
 ---
 
 <style>
