@@ -8,46 +8,37 @@ redirect_from:
 
 
 <style>
-/* ====== Clean About layout (like the screenshot) ====== */
-.about-wrap{
-  max-width: 1100px; margin: 0 auto; padding: 0 1rem 2rem;
-}
-.about-title{
-  text-align: center; font-size: clamp(1.8rem, 2.6vw, 2.4rem);
-  font-weight: 700; letter-spacing:.01em; margin: .2rem 0 1.4rem;
-}
-.about-grid{
-  display:grid; grid-template-columns: 360px 1fr; gap: 28px; align-items:start;
-}
-@media (max-width: 980px){ .about-grid{ grid-template-columns:1fr; } }
+/* About page layout */
+.about-wrap{max-width:1100px;margin:0 auto;padding:0 1rem 2rem}
+.about-title{ text-align:center;font-size:clamp(1.8rem,2.6vw,2.4rem);font-weight:700;margin:.2rem 0 1.4rem }
 
-<div class="about-photo">
-  <!-- Left: Photo -->
-  <div class="photo">
-    <img src="{{ site.baseurl }}/assets/image/2401_PUB012535-Nandni_Yadava_2.jpg" alt="Dr. Nandini Yadav (Yadava)">
-  </div>
-
+/* WRAP AROUND PHOTO + SQUARE EDGES */
+.about-body{ text-align: justify; hyphens: auto; }
 .about-photo img{
-  float:left;
-  width:1024px;
-  max-width:40%;
-  height:auto;
-  margin:0 24px 14px 0;
-  border-radius:10px;
-  box-shadow:0 2px 10px rgba(0,0,0,.06);
-  shape-outside: None;
+  float: left;                  /* wrap text around the image */
+  width: 360px;                 /* size of photo; adjust to taste */
+  max-width: 40%;
+  height: auto;
+  margin: 0 24px 14px 0;
+  border-radius: 0 !important;  /* override any global “circle image” rule */
+  box-shadow: none !important;  /* remove soft frame/shadow if you don’t want it */
+  shape-outside: inset(0);      /* keep wrap clean */
 }
 
-/* readable paragraphs like the example */
-.about-body p{
-  margin: .75rem 0; line-height: 1.7; font-size: 1.02rem; color:#222;
-}
-.about-body a{ color:#0d3ea9; font-weight:600; text-decoration: underline; }
-.about-body strong{ font-weight:700; }
-.about-body em{ font-style: italic; }
+/* clear the float after the text block */
+.about-body::after{ content:""; display:block; clear:both; }
 
-/* optional subtle divider between main paragraphs and the list below */
-.hr-soft{ height:1px; background:#e6e6e6; border:0; margin: 1.4rem 0; }
+/* paragraph/link styling */
+.about-body p{ margin:.75rem 0; line-height:1.7; font-size:1.02rem; color:#222 }
+.about-body a{ color:#0d3ea9; font-weight:600; text-decoration:underline }
+.hr-soft{ height:1px; background:#e6e6e6; border:0; margin:1.4rem 0 }
+
+/* mobile: stack image above text, no wrap */
+@media (max-width:700px){
+  .about-photo img{ float:none; display:block; width:100%; max-width:none; margin:0 0 12px 0; shape-outside:none }
+  .about-body{ text-align:left; }
+}
+
 </style>
 
 <div class="about-wrap">
