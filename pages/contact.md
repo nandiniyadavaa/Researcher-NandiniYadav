@@ -29,6 +29,21 @@ h1.contact-title{ margin:.25rem 0 .5rem; font-size:clamp(1.6rem,2.2vw,2.1rem); }
 
 /* styled horizontal rule */
 .section-line{ border:0; height:2px; background:#ddd; margin:28px 0 20px; }
+
+/* Remove the theme's card behind the content (this page only) */
+.page-content .wrapper{ 
+  background: transparent !important;
+  box-shadow: none !important;
+  border: 0 !important;
+}
+
+/* Some themes wrap in .post or .page – nuke those too just in case */
+.post, .page{
+  background: transparent !important;
+  box-shadow: none !important;
+  border: 0 !important;
+}
+
 </style>
 
 <div class="contact">
@@ -40,19 +55,19 @@ h1.contact-title{ margin:.25rem 0 .5rem; font-size:clamp(1.6rem,2.2vw,2.1rem); }
   <!-- Right: Info -->
   <div>
     <h1 class="contact-title">Dr. Nandini Yadava (Yadav)</h1>
-    <p class="contact-sub">Postdoctoral Researcher</p>
-    <p class="contact-sub">DIII-D National Fusion Facility (General Atomics)</p>
+    <p class="contact-sub">Postdoctoral Researcher <p>
+    <p class="contact-sub">DIII-D National Fusion Facility  <p>
 
     <div class="kv">
       <div>Phone</div>
       <div>
-        <a href="tel:+18587174976">+1-858-717-4976 (M)</a> ·
+        <a href="tel:+18587174976">+1-858-717-4976 (M)</a>
         <a href="tel:+18584554748">+1-858-455-4748 (O)</a>
       </div>
 
       <div>Email</div>
       <div>
-        <a href="mailto:nandini7754@gmail.com">nandini7754@gmail.com</a> ·
+        <a href="mailto:nandini7754@gmail.com">nandini7754@gmail.com</a>
         <a href="mailto:yadavn@fusion.gat.com">yadavn@fusion.gat.com</a>
       </div>
 
@@ -74,7 +89,7 @@ h1.contact-title{ margin:.25rem 0 .5rem; font-size:clamp(1.6rem,2.2vw,2.1rem); }
 
 <hr class="section-line">
 
-## Next section title
+
 
 <div class="cards">
   <div class="card">
