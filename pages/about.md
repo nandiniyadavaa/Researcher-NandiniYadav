@@ -69,11 +69,8 @@ redirect_from:
       <p>
         Before joining DIII-D, I contributed to tokamak research at <strong>ADITYA-U</strong>, where I investigated recycling, impurity influx, and edge temperatures using spectroscopy and imaging. Across projects I enjoy translating complex diagnostics into clear, actionable results for operations and theory groups. My long-term goal is to help bridge diagnostics, modeling, and control so that power-exhaust solutions for future fusion devices are robust and repeatable.
       </p>
-
       <hr class="hr-soft">
-
       <p><strong>Research themes:</strong> divertor detachment; edge/SOL transport; Balmer spectroscopy; impurity/neutral dynamics; EIR/MAR; power exhaust; tokamak diagnostics.</p>
-
     <hr class="hr-soft">
     
     <section class="edu">
@@ -88,7 +85,8 @@ redirect_from:
         <em>Thesis:</em> “Spectroscopic Investigation of Neutrals and Impurity Dynamics
         in the Edge Region of ADITYA-U Tokamak”
       </p>
-    
+      <hr class="hr-soft">
+      
       <h3 style="margin-top:1rem">Positions / Experience</h3>
       <p>
         <strong>JRF (DAE-BRNS)</strong> <span class="years">2021–2022</span> — Indian Institute of Technology (IIT) Kanpur, Uttar Pradesh<br>
@@ -98,6 +96,8 @@ redirect_from:
         <strong>Master of Science</strong> <span class="years">2013–2015</span> — Gujarat University, Ahmedabad, Gujarat<br>
         <strong>Bachlor of Science</strong> <span class="years">2010–2013</span> — Gujarat University, Ahmedabad, Gujarat<br>
       </p>
+      <hr class="hr-soft">
+      
       <h3>Acheivements</h3>
       <p>
       <strong>[2022]</strong> Buti Young Scientist Award<br>
@@ -115,7 +115,6 @@ redirect_from:
         <a href="https://www.researchgate.net/" target="_blank" rel="noopener">ResearchGate</a> ·
         <a href="https://publons.com/" target="_blank" rel="noopener">Publons</a>
       </p>
-
     </div>
   </div>
 </div>
