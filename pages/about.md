@@ -29,13 +29,13 @@ redirect_from:
 
 .about-photo img{
   float:left;
-  width:360px;
+  width:1024px;
   max-width:40%;
   height:auto;
   margin:0 24px 14px 0;
   border-radius:10px;
   box-shadow:0 2px 10px rgba(0,0,0,.06);
-  shape-outside: inset(0 round 10px);
+  shape-outside: None;
 }
 
 /* readable paragraphs like the example */
