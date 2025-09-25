@@ -5,20 +5,7 @@ permalink: /contact/
 ---
 
 <style>
-  /* widen only THIS page's content box */
-.page-content .wrapper{
-  max-width: 1200px;     /* wider page container */
-  padding-left: 16px;
-  padding-right: 16px;
-}
 
-/* center the hero card; no funky width tricks */
-.contact-hero{
-  margin: 0 auto 28px;
-  max-width: 1100px;     /* the card itself */
-  border-radius: 22px;
-  overflow: hidden;
-}
 
 /* layout: photo + info */
 .contact-grid{
