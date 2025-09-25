@@ -45,7 +45,7 @@ redirect_from:
     <!-- LEFT: Photo -->
     <div class="about-photo">
       <!-- Put your image here -->
-      <img src="{{ site.baseurl }}assets/image/2401_PUB012535-Nandni_Yadava_1.jpg" alt="Nandini Yadava">
+      <img src="{{ site.baseurl }}assets/image/2401_PUB012535-Nandni_Yadava_2.jpg" alt="Nandini Yadava">
     </div>
 
     <!-- RIGHT: Long bio -->
