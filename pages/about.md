@@ -79,6 +79,10 @@ redirect_from:
     <section class="edu">
       <h3>Education</h3>
       <p>
+        <strong>Postdoctaral researcher</strong> <span class="years">2023–Now</span><br>
+        Oak Ridge Associated University, Tannessee, USA<br>
+        DIII-D National Fusion Facility, San Diego, USA<br>
+        
         <strong>Ph.D. (Physics)</strong> <span class="years">2021–2023</span><br>
         Institute of Science, Nirma University, Ahmedabad, Gujarat, India<br>
         <em>Thesis:</em> “Spectroscopic Investigation of Neutrals and Impurity Dynamics
@@ -90,11 +94,22 @@ redirect_from:
         <strong>JRF (DAE-BRNS)</strong> <span class="years">2021–2022</span> — Indian Institute of Technology (IIT) Kanpur, Uttar Pradesh<br>
         <strong>JRF (DAE-BRNS)</strong> <span class="years">2018–2021</span> — The National Institute of Engineering, Mysuru, Karnataka<br>
         <strong>Research Scholar</strong> <span class="years">2016–2018</span> — Gujarat University, Ahmedabad, Gujarat<br>
-        <strong>Scientific Assistant</strong> <span class="years">2015–2016</span> — Institute for Plasma Research, Gandhinagar
+        <strong>Scientific Assistant</strong> <span class="years">2015–2016</span> — Institute for Plasma Research, Gandhinagar<br>
+        <strong>Master of Science</strong> <span class="years">2013–2015</span> — Gujarat University, Ahmedabad, Gujarat<br>
+        <strong>Bachlor of Science</strong> <span class="years">2010–2013</span> — Gujarat University, Ahmedabad, Gujarat<br>
+      </p>
+      <h3>Acheivements</h3>
+      <p>
+      <strong>[2022]<strong> Buti Young Scientist Award<br>
+      <strong>[2021]<strong> PSSI - Z. H. Sholapurwala Award for Fusion Research<br>
+      <strong>[2018]<strong> PSSI visiting student fellowship [November 2017 to March 2018]<br>
+      <strong>[2017]<strong> PSSI poster award <br>
+      <strong>[2016]<strong> Selected for the DST-INSPIRE Fellowship <br>
+      <strong>[2015]<strong> 1st Rank in M.Sc. Physics at Gujarat University <br>
+      <strong>[2013]<strong> 2nd Rank in M.Sc. Physics at Gujarat University <br>
       </p>
     </section>
-
-
+    
         <a href="https://orcid.org/0000-0001-5522-2450" target="_blank" rel="noopener">ORCID</a> ·
         <a href="https://scholar.google.com/" target="_blank" rel="noopener">Google Scholar</a> ·
         <a href="https://www.researchgate.net/" target="_blank" rel="noopener">ResearchGate</a> ·
