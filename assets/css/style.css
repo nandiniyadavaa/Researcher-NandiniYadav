@@ -10,7 +10,7 @@
   --footer-bg: #f5f5f5 !important;
   --footer-text: #333333 !important;
   --border-color: #eaeaea;
-  --content-max-width: 1000px;
+  --content-max-width: 1200px;
 }
 
 /* Reset and base styles */
@@ -45,13 +45,18 @@ body {
 }
 
 /* Layout */
-main, section {
-  max-width: 800px;
-  margin: 40px auto 40px auto;
+/* Layout (wider + no card background) */
+main, section{
+  max-width: var(--content-max-width);
+  width: min(96vw, var(--content-max-width));
+  margin: 40px auto;
   padding: 40px 24px;
-  background: #fafbfc;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+
+  /* remove the “card” feel; keep if you like the card */
+  background: transparent;
+  box-shadow: none;
+  border: 0;
+  border-radius: 0;
 }
 
 /* Header & Navigation */
