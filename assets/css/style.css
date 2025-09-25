@@ -165,7 +165,7 @@ footer {
   transition: box-shadow 0.2s;
 }
 .pub-item:hover {
-  box-shadow: 0 4px 16px rgba(26,79,163,0.10);
+  box-shadow: none;
 }
 .pub-title {
   font-size: 1.15em;
