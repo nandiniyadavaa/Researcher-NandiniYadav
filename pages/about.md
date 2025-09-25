@@ -22,8 +22,10 @@ redirect_from:
 @media (max-width: 980px){ .about-grid{ grid-template-columns:1fr; } }
 
 <div class="about-photo">
-  <img src="{{ '/assets/image/2401_PUB012535-Nandni_Yadava_2.jpg' | relative_url }}" alt="Nandini Yadava">
-</div>
+  <!-- Left: Photo -->
+  <div class="photo">
+    <img src="{{ site.baseurl }}/assets/image/2401_PUB012535-Nandni_Yadava_2.jpg" alt="Dr. Nandini Yadav (Yadava)">
+  </div>
 
 .about-photo img{
   float:left;
