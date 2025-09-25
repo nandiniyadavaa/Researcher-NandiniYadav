@@ -109,7 +109,7 @@ redirect_from:
       <strong>[2013]</strong> 2nd Rank in M.Sc. Physics at Gujarat University <br>
       </p>
     </section>
-    
+      <p>
         <a href="https://orcid.org/0000-0001-5522-2450" target="_blank" rel="noopener">ORCID</a> ·
         <a href="https://scholar.google.com/" target="_blank" rel="noopener">Google Scholar</a> ·
         <a href="https://www.researchgate.net/" target="_blank" rel="noopener">ResearchGate</a> ·
@@ -117,3 +117,5 @@ redirect_from:
       </p>
 
     </div>
+  </div>
+</div>
