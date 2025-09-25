@@ -84,13 +84,13 @@ h1.contact-title { margin: .25rem 0 .5rem; font-size: clamp(1.6rem, 2.2vw, 2.1re
     <div class="kv">
       <div>Phone</div>
       <div>
-        <a href="tel:+18587174976">+1-858-717-4976 (M)</a> ·
+        <a href="tel:+18587174976">+1-858-717-4976 (M)</a>
         <a href="tel:+18584554748">+1-858-455-4748 (O)</a>
       </div>
 
       <div>Email</div>
       <div>
-        <a href="mailto:nandini7754@gmail.com">nandini7754@gmail.com</a> ·
+        <a href="mailto:nandini7754@gmail.com">nandini7754@gmail.com</a>
         <a href="mailto:yadavn@fusion.gat.com">yadavn@fusion.gat.com</a>
       </div>
 
