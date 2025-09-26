@@ -65,6 +65,7 @@ permalink: /research
     <button class="filter-btn" data-tag="impurities">Impurities</button>
     <button class="filter-btn" data-tag="diagnostics">Diagnostics</button>
     <button class="filter-btn" data-tag="modeling">Modeling</button>
+    <button class="filter-btn" data-tag="low-temperature plasma">Modeling</button>
   </div>
 
   <!-- Grid -->
@@ -76,8 +77,7 @@ permalink: /research
       <div class="body">
         <div class="h">Balmer Spectroscopy of Divertor Detachment (DIII-D)</div>
         <div class="meta"><span class="tag">2024–</span><span class="tag">DIII-D</span></div>
-        <p class="p">Separate excitation vs. recombination contributions in Balmer lines to quantify
-          particle sources/sinks and onset of EIR/MAR; connect to heat-flux reduction and control.</p>
+        <p class="p">To be updated</p>
         <div class="badges"><span class="tag">detachment</span><span class="tag">spectroscopy</span></div>
         <div class="links">
           <a href="#">Summary</a><a href="#">Slides</a><a href="#">Preprint</a>
@@ -91,8 +91,7 @@ permalink: /research
       <div class="body">
         <div class="h">Edge Optical Diagnostics: Design &amp; Calibration</div>
         <div class="meta"><span class="tag">2023–</span><span class="tag">DIII-D</span></div>
-        <p class="p">Commission line-of-sight and imaging systems, absolute calibration, and uncertainty
-          pipelines for multi-campaign analysis.</p>
+        <p class="p">To be updated</p>
         <div class="badges"><span class="tag">diagnostics</span></div>
         <div class="links"><a href="#">Methods</a></div>
       </div>
@@ -104,8 +103,7 @@ permalink: /research
       <div class="body">
         <div class="h">Impurity &amp; Neutral Dynamics Near the X-Point</div>
         <div class="meta"><span class="tag">2022–</span><span class="tag">DIII-D</span></div>
-        <p class="p">Assess impurity screening vs. leakage and the role of molecule-assisted processes for
-          reactor-relevant power exhaust.</p>
+        <p class="p">To be updated</p>
         <div class="badges"><span class="tag">impurities</span><span class="tag">detachment</span></div>
         <div class="links"><a href="#">Poster</a></div>
       </div>
@@ -117,8 +115,7 @@ permalink: /research
       <div class="body">
         <div class="h">Spectral Inversion &amp; Tomography for Line-Integrated Views</div>
         <div class="meta"><span class="tag">2021–</span><span class="tag">DIII-D</span></div>
-        <p class="p">From chords to fields: physics-aware inversions to recover emissivity and
-          recombination fronts consistent with transport models.</p>
+        <p class="p">To be updated</p>
         <div class="badges"><span class="tag">modeling</span><span class="tag">spectroscopy</span></div>
         <div class="links"><a href="#">Code</a></div>
       </div>
@@ -128,7 +125,8 @@ permalink: /research
     <article class="card" data-tags="diagnostics">
       <div class="thumbless"></div>
       <div class="body">
-        <div class="h">ADITYA-U: Recycling &amp; Temperature from Visible Lines</div>
+        <div class="h">moment things
+mperature from Visible Lines</div>
         <div class="meta"><span class="tag">2019–2021</span><span class="tag">ADITYA-U</span></div>
         <p class="p">Visible spectroscopy and imaging to study wall recycling, impurity influx, and edge temperature trends.</p>
         <div class="badges"><span class="tag">diagnostics</span></div>
