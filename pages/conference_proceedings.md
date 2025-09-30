@@ -6,7 +6,7 @@ permalink: /conference-proceedings
 
 # Conference Proceedings
 <ol class="pub-list">
-{% for pub in site.data.publications_oral %}
+{% for pub in site.data.publications_conference %}
   <li class="pub-item">
     <div class="pub-title"><em>{{ pub.title }}</em></div>
     <div class="pub-authors">{{ pub.authors }}</div>
