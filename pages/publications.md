@@ -7,25 +7,22 @@ permalink: /publications
 # Publications
 
 ## Recently Submitted
-
 {% for pub in site.data.publications_recent %}
 [{{ pub.title }}]({{ pub.link }})  
 {{ pub.authors }}  
-*{{ pub.journal }}*, {{ pub.year }}
+{%- if pub.journal -%}*{{ pub.journal }}*{%- endif -%}{% if pub.year %}{% if pub.journal %}, {% endif %}{{ pub.year }}{% endif %}
 
 {% endfor %}
 
 ## Peer-Reviewed Articles
-
 {% for pub in site.data.publications_peerreviewed %}
 [{{ pub.title }}]({{ pub.link }})  
 {{ pub.authors }}  
-*{{ pub.journal }}*, {{ pub.year }}
+{%- if pub.journal -%}*{{ pub.journal }}*{%- endif -%}{% if pub.year %}{% if pub.journal %}, {% endif %}{{ pub.year }}{% endif %}
 
 {% endfor %}
 
 ## Conference Proceedings
-
 <ol class="pub-list">
 {% for pub in site.data.publications_conference %}
   <li class="pub-item">
@@ -43,27 +40,18 @@ permalink: /publications
 {% endfor %}
 </ol>
 
-{% endfor %}
-
 ## Oral Presentations
-
 {% for pub in site.data.publications_oral %}
 **{{ pub.title }}**  
 {{ pub.authors }}  
-*{{ pub.conference }}*, {{ pub.location }}, {{ pub.year }}
+{%- if pub.venue -%}*{{ pub.venue }}*{%- endif -%}{% if pub.location %}, {{ pub.location }}{% endif %}{% if pub.year %}, {{ pub.year }}{% endif %}{% if pub.session %}, Session {{ pub.session }}{% endif %}{% if pub.link %}, <a href="{{ pub.link }}" target="_blank" rel="noopener">link</a>{% endif %}
 
 {% endfor %}
 
 ## Poster Presentations
-
 {% for pub in site.data.publications_poster %}
 **{{ pub.title }}**  
 {{ pub.authors }}  
-*{{ pub.conference }}*, {{ pub.location }}, {{ pub.year }}
+{%- if pub.venue -%}*{{ pub.venue }}*{%- endif -%}{% if pub.location %}, {{ pub.location }}{% endif %}{% if pub.year %}, {{ pub.year }}{% endif %}{% if pub.session %}, Session {{ pub.session }}{% endif %}{% if pub.link %}, <a href="{{ pub.link }}" target="_blank" rel="noopener">link</a>{% endif %}
 
 {% endfor %}
-
-
-
-
-
