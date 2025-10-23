@@ -40,7 +40,7 @@ permalink: /publications
 
 ## Conference proceedings
 <ol class="pub-list">
-{% for pub in site.data.conference_conference %}
+{% for pub in site.data.publications_conference %}
   <li class="pub-item">
     <div class="pub-title">
       {% if pub.link %}
