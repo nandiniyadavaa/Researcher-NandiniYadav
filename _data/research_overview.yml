@@ -1,0 +1,128 @@
+# Each item = one project card
+- key: balmer-detachment-diiid
+  title: "Balmer Spectroscopy of Divertor Detachment (DIII-D)"
+  org: "DIII-D"
+  years: "2024–"
+  tags: ["detachment", "spectroscopy", "diagnostics"]
+  links:
+    summary: ""
+    slides: ""
+    preprint: ""
+  blurb: >
+    I develop quantitative detachment metrics from absolutely-calibrated Balmer and continuum spectra,
+    separating recombination and excitation and cross-validating with probes and cameras. The workflow
+    tracks detachment/reattachment and extends to mixed-species, high-density hybrid plasmas, building
+    on my APS-reported high-n Balmer / Fulcher work and an upcoming manuscript on Balmer-based detachment
+    quantification. Goal: a machine-independent, uncertainty-aware recipe for real-time inference.
+
+- key: edge-optics
+  title: "Edge Optical Diagnostics: Design & Calibration"
+  org: "DIII-D"
+  years: "2023–"
+  tags: ["diagnostics", "spectroscopy"]
+  links:
+    methods: ""
+  blurb: >
+    I lead end-to-end edge spectroscopy: sightlines, spectrograph/fiber selection, baffling, and radiometric
+    calibration with uncertainty budgets (lamp transfer, slit function, linearity). The same rigor underpinned
+    ADITYA-U instruments (space/time-resolved visible spectroscopy) and now supports DIII-D upgrades for impurity,
+    neutral and molecular measurements—making inferences traceable enough to benchmark models and inform control.
+
+- key: xpoint-dynamics
+  title: "Impurity & Neutral Dynamics Near the X-Point"
+  org: "DIII-D"
+  years: "2022–"
+  tags: ["impurities", "detachment"]
+  links:
+    poster: ""
+  blurb: >
+    I analyze how seeded impurities and cold neutrals evolve through detachment onset and rollback, focusing
+    on X-point radiation, particle sources and fueling balance. Building on ADITYA-U results (argon transport,
+    rotation impacts, lithium conditioning, recycling studies), I link Balmer/Fulcher emissions to power exhaust,
+    clarifying when radiation stabilizes detachment versus triggers re-attachment; outcomes guide seeding strategies.
+
+- key: spectral-inversion
+  title: "Spectral Inversion & Tomography for Line-Integrated Views"
+  org: "DIII-D"
+  years: "2021–"
+  tags: ["spectroscopy", "modeling"]
+  links:
+    code: ""
+  blurb: >
+    I implement Abel/tomographic inversions with spectral priors (instrument function, Zeeman/Stark, molecular bands)
+    to recover local emissivity and temperature surrogates from line-integrated measurements. Synthetic diagnostics
+    and uncertainty propagation guard against over-interpretation. Methods honed on ADITYA-U now support DIII-D edge
+    reconstructions used for model validation and scenario development.
+
+- key: aditya-visible
+  title: "Edge Temperature from Visible Lines (ADITYA-U)"
+  org: "ADITYA-U"
+  years: "2019–2021"
+  tags: ["diagnostics", "low-temperature plasma"]
+  links:
+    paper: ""
+  blurb: >
+    I established visible-line thermometry (Balmer, Fulcher) to estimate neutral/edge temperatures, quantify recycling,
+    and show how wall conditioning (lithium, GDC) shifts particle balance. Results include poloidal asymmetries,
+    gas-puff cold-pulse responses, and impurity behavior in high-performance shots, culminating in papers in Nuclear Fusion,
+    RSI, Atoms, PFR and Scientific Reports.
+
+# ——— Section: Physics Studies ———
+- key: detachment-quant
+  title: "Detachment Quantification"
+  org: "Design & Experiments"
+  years: ""
+  tags: ["detachment", "modeling", "diagnostics"]
+  links: {}
+  blurb: >
+    I designed density-scan experiments across Greenwald fractions to quantify the degree of detachment,
+    using calibrated Balmer/continuum diagnostics to separate recombination from excitation. Lower-divertor
+    profiles distinguish atomic vs. molecular channels and provide code-validation targets under minimal baffling,
+    NT geometry and varied leg length, with cross-checks to probes/imaging and opacity handling.
+
+- key: edge-analysis
+  title: "Edge-Plasma Diagnostics & Analysis"
+  org: "Methods"
+  years: ""
+  tags: ["diagnostics", "spectroscopy"]
+  links: {}
+  blurb: >
+    I extract neutral and impurity-ion temperatures from Doppler/Zeeman broadening and assess opacity/self-absorption.
+    I plan and analyze Ar/Ne/H gas-puff and pellet-injection experiments to localize sources, capture transients and
+    benchmark transport closures, fusing spectra, cameras, probes and helium-beam signals into consistent edge/divertor
+    inferences with propagated uncertainties.
+
+- key: recycling-balance
+  title: "Recycling, Particle Balance & Influx"
+  org: "Walls & Fueling"
+  years: ""
+  tags: ["impurities", "recycling", "diagnostics"]
+  links: {}
+  blurb: >
+    I quantify neutral/impurity influx from plasma-facing components and close the particle balance, including
+    lithiumization and GDC effects on recycling coefficients, fueling asymmetries and wall sources. Calibrated
+    emissions, beam data and wall models separate core fueling from edge return fluxes, tying wall state to confinement,
+    ELM behavior and detachment stability.
+
+- key: transport-modeling
+  title: "Neutral & Impurity Transport Modeling"
+  org: "DEGAS2 & SITA"
+  years: ""
+  tags: ["modeling", "impurities", "spectroscopy"]
+  links: {}
+  blurb: >
+    I simulate edge/divertor transport with DEGAS2 and an in-house semi-implicit code (SITA) for O, C, Ne, Ar and Fe,
+    generating synthetic spectra for direct comparison. Studies include molecular-hydrogen effects on recycling influx
+    and diffusivity vs. Z trends in ADITYA-U. The tight experiment-model loop refines rates, informs diagnostics and
+    accelerates convergence on edge conditions.
+
+- key: linear-methods
+  title: "Linear-Device Spectroscopy (Methods)"
+  org: "RF & Plasma Wind Tunnel"
+  years: ""
+  tags: ["low-temperature plasma", "spectroscopy"]
+  links: {}
+  blurb: >
+    In RF/arc devices and the Plasma Wind Tunnel, I measure rotational/vibrational temperatures (N2, CN) via Boltzmann plots
+    and derive electron temperature from line ratios, quantifying H2 admixture effects on spectra. Clean, calibrated datasets
+    tighten rate choices and anchor spectral libraries used in tokamak inversions on DIII-D and ADITYA-U.
