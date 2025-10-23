@@ -38,7 +38,7 @@ permalink: /publications
 
 ## Peer-Reviewed Articles
 <ol class="pub-list">
-{% for pub in site.data.publications_recent %}
+{% for pub in site.data.publications_peerreviewed %}
   <li class="pub-item">
     <div class="pub-title">
       {% if pub.link %}
