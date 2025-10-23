@@ -38,8 +38,6 @@ permalink: /publications
 {% endfor %}
 </ol>
 
-<p>conference count: {{ site.data.publications_conference | size }}</p>
-<pre style="white-space:pre-wrap">{{ site.data.publications_conference | jsonify }}</pre>
 
 ## Conference proceedings
 <ol class="pub-list">
