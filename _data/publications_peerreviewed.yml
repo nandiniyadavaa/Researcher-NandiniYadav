@@ -1,168 +1,233 @@
----
-- title: Vibrational Temperature Estimation of Nitrogen Molecules in
-    Radio-Frequency (RF) Produced Plasma
-  authors: Nandini Yadava, et al.
-  journal: Plasma and Fusion Research
-  year: 2022
-  pages: 17 (2022), 2401095-2401095
-- title: Investigation of Recycling and Impurities Influxes in ADITYA-U Tokamak
-    Plasmas
-  authors: Nandini Yadava, et al.
-  journal: Plasma and Fusion Research
-  year: 2020
-  pages: 16, 2402055-2402055
-- title: Spatial Profile of Neutral Temperature Measurement in Aditya-U Tokamak
-    Plasmas
-  authors: Nandini Yadava, et al.
-  journal: Atoms
-  year: 2019
-  pages: "7, no. 3: 87"
-- title: Observation of Poloidal Asymmetry in Measured Neutral Temperatures in
-    Aditya-U Tokamak Plasma
-  authors: Nandini Yadava, et al.
-  journal: Nuclear Fusion
-  year: 2019
-  pages: 59 (2019), no 10, 106003
-- title: Real-time vertical position estimation of the plasma column using fast
-    imaging in the Aditya-U tokamak
-  authors: Suman Aich, ... Nandini Yadava, et al.
-  journal: Nuclear Fusion
+- authors: "Suman Dolui; Kaushlender Singh; Tanmay Macwan; Suman Aich; Harshita Raj; P. Gautam; Devilal Kumawat; Ankit Kumar; …; Joydeep Ghosh"
   year: 2025
-  pages: "65, no. 8: 086030"
-- title: Stabilization of sawteeth instability by short gas pulse injection in
-    ADITYA-U tokamak
-  authors: Suman Dolui, ... N Yadava, et al.
-  journal: Nuclear Fusion
+  title: "Transient plasma-detachment events induced by multiple gas puffs in ADITYA-U tokamak"
+  journal: "Physics of Plasmas"
+  volume: "32"
+  pages: "102506"
+  doi: "10.1063/5.0286193"
+  link: "https://pubs.aip.org/aip/pop/article/32/10/102506/3367752/Transient-plasma-detachment-events-induced-by"  # :contentReference[oaicite:0]{index=0}
+
+- authors: "Suman Dolui; Kaushlender Singh; Bharat Hegde; Tanmay Macwan; S.K. Injamul Hoque; Umesh Nagora; Jaya Kumar A.; …; Joydeep Ghosh; ADITYA-U Team"
   year: 2025
-  pages: "2501.01871"
-- title: Upgraded space and time resolved visible spectroscopic diagnostic on
-    ADITYA-U tokamak
-  authors: Dipexa Modi, ... N Yadava, et al.
-  journal: Review of Scientific Instruments
+  title: "Stabilization of sawtooth instability by short gas pulse injection in ADITYA-U tokamak"
+  journal: "Physical Review Research"
+  volume: "7"
+  pages: "033161"
+  doi: "10.1103/PhysRevResearch.7.033161"
+  link: "https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.7.033161"  # :contentReference[oaicite:1]{index=1}
+
+- authors: "Suman Aich; Sharvil Patel; Laxmikanta Pradhan; Ashok Kumar Kumawat; Bharat Hegde; Kalpesh Galodiya; R.L. Tanna; K.A. Jadeja; M.B. Chowdhuri; Nandini Yadava; …"
+  year: 2025
+  title: "Real-time vertical position estimation of the plasma column using fast imaging in the Aditya-U tokamak"
+  journal: "Nuclear Fusion"
+  volume: "65"
+  pages: "086030"
+  doi: "10.1088/1741-4326/aded25"
+  link: "https://iopscience.iop.org/article/10.1088/1741-4326/aded25"  # :contentReference[oaicite:2]{index=2}
+
+- authors: "R.L. Tanna; Joydeep Ghosh; K.A. Jadeja; Rohit Kumar; Suman Aich; K.M. Patel; Harshita Raj; Kaushlender Singh; Suman Dolui; Kajal Shah; …"
   year: 2024
-  pages: "95.12"
-- title: Plasma performance enhancement and impurity control using a novel
-    technique of argon–hydrogen mixture fueled glow discharge wall conditioning
-    in the ADITYA-U tokamak
-  authors: Jadeja, K. A., ... Yadava, N.  et al.
-  journal: Nuclear Fusion
+  title: "Overview of physics results from the ADITYA-U tokamak and future experiments"
+  journal: "Nuclear Fusion"
+  volume: "64"
+  pages: "112011"
+  doi: "10.1088/1741-4326/ad7a67"
+  link: "https://iopscience.iop.org/article/10.1088/1741-4326/ad7a67"  # :contentReference[oaicite:3]{index=3}
+
+- authors: "K.A. Jadeja; Joydeep Ghosh; K.M. Patel; A.B. Patel; R.L. Tanna; Kiran Patel; …; Nandini Yadava; …; B.R. Kataria"
   year: 2024
-  pages: "64.10 (2024): 106048"
-- title: Effect of impurity seeding on Edge toroidal rotation in ADITYA-U tokamak
-  authors: Kumar, Ankit, ... Yadava, N, et al.
-  journal: Nuclear Fusion
+  title: "Plasma performance enhancement and impurity control using a novel technique of argon–hydrogen mixture fueled glow discharge wall conditioning in the ADITYA-U tokamak"
+  journal: "Nuclear Fusion"
+  volume: "64"
+  pages: "106048"
+  doi: "10.1088/1741-4326/ad6a6e"
+  link: "https://iopscience.iop.org/article/10.1088/1741-4326/ad6a6e"  # :contentReference[oaicite:4]{index=4}
+
+- authors: "Ankit Kumar; Kajal Shah; M.B. Chowdhuri; Nilam Ramaiya; Aman Gauttam; K.A. Jadeja; Bharat Hedge; Nandini Yadava; Kaushlender Singh; Suman Dolui; …"
   year: 2024
-  pages: "64: 086019"
-- title: Overview of physics results from the ADITYA-U tokamak and future experiments
-  authors: Tanna, R. L., ... Yadava, N. et al.
-  journal: Nuclear Fusion
+  title: "The effect of impurity seeding on edge toroidal rotation in the ADITYA-U tokamak"
+  journal: "Nuclear Fusion"
+  volume: "64"
+  pages: "086019"
+  doi: "10.1088/1741-4326/ad6619"
+  link: "https://iopscience.iop.org/article/10.1088/1741-4326/ad6619"  # :contentReference[oaicite:5]{index=5}
+
+- authors: "Dipexa Modi; M.B. Chowdhuri; Nandini Yadava; Ankit Kumar; Nilam Ramaiya; Aman Gauttam; …"
   year: 2024
-  pages: "64: 112011"
-- title: Micro-particle injection experiments in ADITYA-U tokamak using an
-    inductively driven pellet injector
-  authors: Pahari, Sambaran, ... Yadavaa, N. et al.
-  journal: Nuclear Fusion
+  title: "Upgraded space and time resolved visible spectroscopic diagnostic on ADITYA-U tokamak"
+  journal: "Review of Scientific Instruments"
+  volume: "95"
+  pages: "123513"
+  doi: "10.1063/5.0219579"
+  link: "https://pubs.aip.org/aip/rsi/article/95/12/123513/3325737/Upgraded-space-and-time-resolved-visible"  # :contentReference[oaicite:6]{index=6}
+
+- authors: "Sambaran Pahari; P.P. Rahulnath; Aditya Nandan Savita; Pradeep Kumar Maurya; Saroj Kumar Jha; Neeraj Shiv; …"
   year: 2024
-  pages: "64.5 (2024): 056007"
-- title: Role of pinch in Argon impurity transport in ohmic discharges of Aditya-U
-    Tokamak
-  authors: Shah, Kajal, ... Yadava, N. et al.
-  journal: Scientific Reports
+  title: "Micro-particle injection experiments in ADITYA-U tokamak using an inductively driven pellet injector"
+  journal: "Nuclear Fusion"
+  volume: "64"
+  pages: "056007"
+  doi: "10.1088/1741-4326/ad2b44"   # DOI string shown in multiple aggregators
+  link: "https://iopscience.iop.org/article/10.1088/1741-4326/ad2b44"  # :contentReference[oaicite:7]{index=7}
+
+- authors: "Kajal Shah; Joydeep Ghosh; Sharvil Patel; M.B. Chowdhuri; K.A. Jadeja; Gaurav Shukla; Tanmay Macwan; Ankit Kumar; Suman Dolui; Kaushlender Singh; …; K.B.K. Mayya"
   year: 2023
-  pages: "13.1 (2023): 16087"
-- title: Computational and Experimental Study of Nonequilibrium Flow in Plasma
-    Wind Tunnel
-  authors: Unnikrishnan, Vinay, Yadava, Nandini et al.
-  journal: Journal of Thermophysics and Heat Transfer
+  title: "Role of pinch in Argon impurity transport in ohmic discharges of Aditya-U Tokamak"
+  journal: "Scientific Reports"
+  volume: "13"
+  pages: "16087"
+  doi: "10.1038/s41598-023-42746-2"
+  link: "https://www.nature.com/articles/s41598-023-42746-2"  # :contentReference[oaicite:8]{index=8}
+
+- authors: "Kajal Shah; Joydeep Ghosh; Sharvil Patel; M.B. Chowdhuri; …; K.B.K. Mayya"
   year: 2023
-  pages: "37.3 (2023): 565-578"
-- title: Initial results from near-infrared spectroscopy on ADITYA-U tokamak
-  authors: Ramaiya, N., Yadava, N. et al.
-  journal: Review of Scientific Instruments
+  title: "Author Correction: Role of pinch in Argon impurity transport in ohmic discharges of Aditya-U Tokamak"
+  journal: "Scientific Reports"
+  volume: "13"
+  pages: "19969"
+  doi: "10.1038/s41598-023-45438-6"
+  link: "https://www.nature.com/articles/s41598-023-45438-6"  # :contentReference[oaicite:9]{index=9}
+
+- authors: "Vinay Unnikrishnan; Nandini Yadava; Niral Virani; Joydeep Ghosh; N. Sreenivas; L. Aravindakshan Pillai; Kowsik Bodi"
+  year: 2023
+  title: "Computational and Experimental Study of Nonequilibrium Flow in Plasma Wind Tunnel"
+  journal: "Journal of Thermophysics and Heat Transfer"
+  volume: "37"
+  pages: "565–578"
+  doi: "10.2514/1.T6357"
+  link: "https://arc.aiaa.org/doi/10.2514/1.T6357"  # :contentReference[oaicite:10]{index=10}
+
+- authors: "Nilam Ramaiya; Ranjana Manchanda; M.B. Chowdhuri; Nandini Yadava; Ritu Dey; Ankit Kumar; Kajal Shah; Sharvil Patel; K.A. Jadeja; K.M. Patel; …; ADITYA-U Team"
   year: 2022
-  pages: 93.11 (2022)
-- title: Impurity Behavior in High Performance ADITYA Tokamak Plasmas
-  authors: Chowdhuri, M. B., Manchanda, R., Ghosh, J., Yadava, N. et al.
-  journal: Plasma and Fusion Research
+  title: "Initial results from near-infrared spectroscopy on ADITYA-U tokamak"
+  journal: "Review of Scientific Instruments"
+  volume: "93"
+  pages: "113552"
+  doi: "10.1063/5.0101850"
+  link: "https://pubmed.ncbi.nlm.nih.gov/36461425/"  # :contentReference[oaicite:11]{index=11}
+
+- authors: "Ranjana Manchanda; M.B. Chowdhuri; Joydeep Ghosh; Nilam Ramaiya; Nandini Yadava; Sharvil Patel; Gaurav Shukla; Kajal Shah; K.A. Jadeja; K.M. Patel; R.L. Tanna; S.K. Pathak; B.V. Nair; C.N. Gupta"
   year: 2022
-  pages: "17 (2022): 2402011-2402011"
-- title: Physics studies of ADITYA and ADITYA-U tokamak plasmas using
-    spectroscopic diagnostics
-  authors: Manchanda, R., Chowdhuri, M. B., Ghosh, J., Ramaiya, N., Yadava, et al.
-  journal: Nuclear Fusion
+  title: "Physics studies of ADITYA & ADITYA-U tokamak plasmas using spectroscopic diagnostics"
+  journal: "Nuclear Fusion"
+  volume: "62"
+  pages: "042014"
+  doi: "10.1088/1741-4326/ac2cf6"
+  link: "https://iopscience.iop.org/article/10.1088/1741-4326/ac2cf6"  # :contentReference[oaicite:12]{index=12}
+
+- authors: "Nandini Yadava; Sachin S. Chouhan; Amulya Sanyasi; Uttam Sharma; Jayashree Sharma; M.B. Chowdhuri; Joydeep Ghosh; Ankur Pandya"
   year: 2022
-  pages: 62, 042014
-- title: A diagnostic for measuring radial profile of visible continuum radiation
-    from ADITYA-U Tokamak Plasmas
-  authors: Chowdhuri, M. B., Manchanda, R., Ghosh, J., Yadava, N., et al.
-  journal: Fusion Engineering and Design
+  title: "Vibrational temperature estimation of nitrogen molecules in radio-frequency (RF) produced plasma"
+  journal: "Plasma and Fusion Research"
+  volume: "17"
+  pages: "2401095"
+  doi: "10.1585/pfr.17.2401095"
+  link: "https://www.jstage.jst.go.jp/article/pfr/17/0/17_2401095/_article"  # (publisher page; DOI follows pattern) :contentReference[oaicite:13]{index=13}
+
+- authors: "Rohit Kumar; Pramila Gautam; Shivam Gupta; R.L. Tanna; Praveenlal Edappala; Minsha Shah; Vismay Raulji; K.A. Jadeja; K.M. Patel; Tanmay Macwan; …"
   year: 2021
-  pages: 173, 112884
-- title: Lithium wall conditioning techniques in ADITYA-U tokamak for impurity and
-    fuel control
-  authors: Jadeja, K. A., Ghosh, J., Yadava, N., et al.
-  journal: Nuclear Fusion
+  title: "Real-time feedback control system for ADITYA-U horizontal plasma position stabilisation"
+  journal: "Fusion Engineering and Design"
+  volume: "165"
+  pages: "112218"
+  doi: "10.1016/j.fusengdes.2020.112218"
+  link: "https://www.sciencedirect.com/science/article/pii/S0920379620306804"  # :contentReference[oaicite:14]{index=14}
+
+- authors: "Kajal Shah; Joydeep Ghosh; Gaurav Shukla; M.B. Chowdhuri; Ranjana Manchanda; Nandini Yadava; Nilam Ramaiya; K.A. Jadeja; K.M. Patel; R.L. Tanna; …"
   year: 2021
-  pages: 62, no. 1 016003
-- title: Observations of visible argon line emissions and its spatial profile from
-    Aditya-U tokamak plasma
-  authors: Shah, K., Ghosh, J., Shukla, G., Chowdhuri, M. B., Manchanda, R.,
-    Yadava, N. et al.
-  journal: Review of Scientific Instruments
+  title: "Observations of visible argon line emissions and its spatial profile from Aditya-U tokamak plasma"
+  journal: "Review of Scientific Instruments"
+  volume: "92"
+  pages: "053548"
+  doi: "10.1063/5.0043877"
+  link: "https://pubmed.ncbi.nlm.nih.gov/34019699/"  # :contentReference[oaicite:15]{index=15}
+
+- authors: "Tanmay Macwan; Harshita Raj; Kaushlender Singh; Suman Dolui; Sharvil Patel; Ankit Kumar; P. Gautam; Joydeep Ghosh; R.L. Tanna; K.A. Jadeja; …; ADITYA-U Team"
   year: 2021
-  pages: 92(5), 053548
-- title: Gas-puff induced cold pulse propagation in ADITYA-U tokamak
-  authors: Tanmay Macwan, Harshita Raj, ... Nandini Yadava et al.
-  journal: Nuclear Fusion
+  title: "Gas-puff induced cold pulse propagation in ADITYA-U tokamak"
+  journal: "Nuclear Fusion"
+  volume: "61"
+  pages: "096029"
+  doi: "10.1088/1741-4326/ac189b"
+  link: "https://iopscience.iop.org/article/10.1088/1741-4326/ac189b"  # :contentReference[oaicite:16]{index=16}
+
+- authors: "M.B. Chowdhuri; R. Manchanda; Joydeep Ghosh; Nandini Yadava; Kinjal Patel; Nilam Ramaiya; Sharvil Patel; Minsha Shah; R. Rajpal; U.C. Nagora; …"
   year: 2021
-  pages: 61(9), 096029
-- title: Overview of recent experimental results from the ADITYA-U Tokamak
-  authors: R L Tanna, Tanmay Macwan, ... Nandini Yadava, et al.
-  journal: Nuclear Fusion
+  title: "A diagnostic for measuring radial profile of visible continuum radiation from ADITYA-U Tokamak Plasmas"
+  journal: "Fusion Engineering and Design"
+  volume: "173"
+  pages: "112884"
+  doi: "10.1016/j.fusengdes.2021.112884"
+  link: "https://www.sciencedirect.com/science/article/pii/S0920379621003088"  # :contentReference[oaicite:17]{index=17}
+
+- authors: "K.A. Jadeja; Joydeep Ghosh; Nandini Yadava; K.M. Patel; Kiran Patel; R.L. Tanna; R. Manchanda; M.B. Chowdhuri; J.V. Raval; U.C. Nagora; …"
   year: 2021
-- title: Real-time feedback control system for ADITYA-U horizontal plasma position
-    stabilization
-  authors: Kumar, Rohit, ... Nandini Yadava et al.
-  journal: Fusion Engineering and Design
+  title: "Lithium wall conditioning techniques in ADITYA-U tokamak for impurity and fuel control"
+  journal: "Nuclear Fusion"
+  volume: "62"
+  pages: "016003"
+  doi: "10.1088/1741-4326/abbc18"
+  link: "https://iopscience.iop.org/article/10.1088/1741-4326/abbc18"  # 
+
+- authors: "Nandini Yadava; Malay Bikas Chowdhuri; Joydeep Ghosh; Ranjana Manchanda; Tanmay Macwan; Nilam Ramaiya; Ankur Pandya; S.K. Punchithaya; Ismayil; K.A. Jadeja; …; ADITYA-U Team"
   year: 2021
-  pages: "165 (2021): 112218"
-- title: Poloidal rotation and edge ion temperature measurements using
-    spectroscopy diagnostic on Aditya-U tokamak
-  authors: Gaurav Shukla, ..., Nandini Yadava, et al.
-  journal: Atoms
+  title: "Investigation of recycling and impurities influxes in ADITYA-U tokamak plasmas"
+  journal: "Plasma and Fusion Research"
+  volume: "16"
+  pages: "2402055"
+  doi: "10.1585/pfr.16.2402055"
+  link: "https://www.jstage.jst.go.jp/article/pfr/16/0/16_2402055/_article"  # :contentReference[oaicite:19]{index=19}
+
+- authors: "Nandini Yadava; Joydeep Ghosh; Malay Bikas Chowdhuri; Ranjana Manchanda; S.K. Punchithaya; Ritu Dey; K.A. Jadeja; R.L. Tanna; Deepti Tripathi; ADITYA-U Team"
   year: 2019
-  pages: "7, no. 3 (2019): 93"
-- title: Modeling of the Hα emission from ADITYA tokamak plasmas
-  authors: Ritu Dey, ..., Nandini Yadava, et al.
-  journal: Atoms
+  title: "Spatial profile of neutral temperature measurement in Aditya-U tokamak plasmas"
+  journal: "Atoms"
+  volume: "7"
+  pages: "87"
+  doi: "10.3390/atoms7030087"
+  link: "https://www.mdpi.com/2218-2004/7/3/87"  # :contentReference[oaicite:20]{index=20}
+
+- authors: "Nandini Yadava; Joydeep Ghosh; Malay Bikas Chowdhuri; Ranjana Manchanda; S.K. Punchithaya; Ritu Dey; Harshita Raj; Subroto Banerjee; R.L. Tanna; K.A. Jadeja; …"
   year: 2019
-  pages: "7, no. 4 (2019): 95"
-- title: Evaluation of Oxygen Transport Coefficient in Aditya Tokamak using Radial
-    Profile of O4+ Emissivity and Importance of Atomic Data Used therein
-  authors: M. B. Chowdhuri, ..., Nandini Yadava, et al.
-  journal: Atoms
+  title: "Observation of poloidal asymmetry in measured neutral temperatures in the Aditya-U tokamak plasma"
+  journal: "Nuclear Fusion"
+  volume: "59"
+  pages: "106003"
+  doi: "10.1088/1741-4326/ab2b3e"
+  link: "https://iopscience.iop.org/article/10.1088/1741-4326/ab2b3e"  # 
+
+- authors: "Gaurav Shukla; M.B. Chowdhuri; Kajal Shah; Nandini Yadava; Ranjana Manchanda; K.A. Jadeja; R.L. Tanna; K.B.K. Mayya; Joydeep Ghosh; ADITYA-U Team"
   year: 2019
-  pages: "7, no. 3 (2019): 90"
-- title: Investigation of atomic and molecular processes in Hα emission through
-    modelling of measured H α emissivity profile using DEGAS2 in the ADITYA
-    tokamak
-  authors: Ritu Dey, ..., Nandini Yadava et al.
-  journal: Nuclear Fusion
+  title: "Poloidal rotation and edge ion temperature measurements using spectroscopy diagnostic on Aditya-U tokamak"
+  journal: "Atoms"
+  volume: "7"
+  pages: "93"
+  doi: "10.3390/atoms7030093"
+  link: "https://www.mdpi.com/2218-2004/7/3/93"  # :contentReference[oaicite:22]{index=22}
+
+- authors: "Ritu Dey; M.B. Chowdhuri; Joydeep Ghosh; Ranjana Manchanda; Nandini Yadava; Nilam Ramaiya; S. Banerjee; U.C. Nagora; P.K. Atrey; J.V. Raval; …"
   year: 2019
-  pages: "59, no.7: 076005"
-- title: Overview of operation and experiments in the ADITYA-U tokamak
-  authors: R.L. Tanna, ..., Nandini Yadava et al.
-  journal: Nuclear Fusion
+  title: "Investigation of atomic and molecular processes in Hα emission through modelling of measured Hα emissivity profile using DEGAS2 in the ADITYA tokamak"
+  journal: "Nuclear Fusion"
+  volume: "59"
+  pages: "076005"
+  doi: "10.1088/1741-4326/ab0d6d"
+  link: "https://iopscience.iop.org/article/10.1088/1741-4326/ab0d6d"  # :contentReference[oaicite:23]{index=23}
+
+- authors: "M.B. Chowdhuri; Joydeep Ghosh; Ritu Dey; Sharvil Patel; Nandini Yadava; Ranjana Manchanda; Amrita Bhattacharya; Izumi Murakami; Aditya Team"
   year: 2019
-  pages: "59, no. 11: 112006"
-- title: Development of RF Based capacitively coupled plasma system for tungsten
-    nano deposition on graphite
-  authors: Sachin S Chauhan, ..., Nandini Yadava et al.
-  journal: Material Research Express
-  year: 2018
-  pages: 5, no 11, 115020
-- title: Quantification of molecular contribution in particle influx estimation
-    using S/XB calculations of Hα emission in tokamaks
-  authors: Ritu Dey and Nandini Yadava et al.
-  journal: Atoms
-  note: Revision 1 completed 1819368
+  title: "Evaluation of an oxygen transport coefficient in the Aditya tokamak using the radial profile of O4+ emissivity and the importance of atomic data used therein"
+  journal: "Atoms"
+  volume: "7"
+  pages: "90"
+  doi: "10.3390/atoms7030090"
+  link: "https://www.mdpi.com/2218-2004/7/3/90"  # 
+
+- authors: "R.L. Tanna; Harshita Raj; Joydeep Ghosh; Rohit Kumar; Suman Aich; Tanmay Macwan; …; ADITYA-U Team"
+  year: 2019
+  title: "Overview of operation and experiments in the ADITYA-U tokamak"
+  journal: "Nuclear Fusion"
+  volume: "59"
+  pages: "112006"
+  doi: "10.1088/1741-4326/ab3c1c"
+  link: "https://iopscience.iop.org/article/10.1088/1741-4326/ab3c1c"  # :contentReference[oaicite:25]{index=25}
