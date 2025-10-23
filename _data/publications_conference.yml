@@ -1,1 +1,108 @@
 
+- authors: "Dinh Truong, Brian S. Victor, Adam G. McLean, Steven L. Allen, Igor Bykov, Austin Keller, KyuBeen Kwon, Benjamin Penaflor, Filippo Scotti, Shengyu Shi, Peter J. Traverso, Dan M. Thomas, Nandini Yadava, The DIII-D Team"
+  year: 2024
+  title: "Core Impurity Spectroscopy in a Complex Mixed-Species Environment"
+  journal: "Bulletin of the American Physical Society (66th APS Division of Plasma Physics Meeting)"
+  volume: "DPP 2024"
+  pages: "PP12.00091"
+  doi:
+  link: "https://meetings.aps.org/Meeting/DPP24/Session/PP12.91"  <!-- APS bulletin page confirms full author list and abstract id. :contentReference[oaicite:0]{index=0} -->
+
+- authors: "Nandini Yadava, Dan M. Thomas, Anthony W. Leonard, Filippo Scotti, Adam G. McLean, Mathias Groth, Claudio Marini, Igor Bykov, Gilson Ronchi, Robert S. Wilcox, Eric Matthias Hollmann, Kevin Verhaegh, Nick Osborne"
+  year: 2024
+  title: "Investigation of high-n Balmer lines and D₂-Fulcher band during high-recycling and detached divertor DIII-D plasma"
+  journal: "Bulletin of the American Physical Society (66th APS Division of Plasma Physics Meeting)"
+  volume: "DPP 2024"
+  pages: "PP12.00081"
+  doi:
+  link: "https://meetings.aps.org/Meeting/DPP24/Session/PP12.81"  <!-- Authors + session id from APS bulletin, extended list from session index. :contentReference[oaicite:1]{index=1} -->
+
+- authors: "Nandini Yadava"
+  year: 2023
+  title: "Quantitative Study Of Influx, Recycling And Particle Balance With Different Wall Conditioning In ADITYA-U Tokamak"
+  journal: "29th IAEA Fusion Energy Conference (FEC 2023), Book of Abstracts"
+  volume: "CN-316"
+  pages: "Paper 2259"
+  doi:
+  link: "https://www.iaea.org/sites/default/files/23/10/cn-316_fec_preliminary_program.pdf"  <!-- Program listing shows item 2259 with title/author. :contentReference[oaicite:2]{index=2} -->
+
+- authors: "Nandini Yadava, Joydeep Ghosh, Malay B. Chowdhuri, Ashoke De, Amrita Bhattacharya, Ranjana Manchanda, Nilam Ramaiya, Kajal Shah, Sharvil Patel, Shishir Purohit, Manoj Gupta, Umesh C. Nagora, Surya K. Pathak, Tanmay Macwan, Kumarpalsinh A. Jadeja, Kaushal M. Patel, Ankur Pandya, Rohit Kumar, Suman Aich, Kaushlender Singh, Suman Dolui"
+  year: 2021
+  title: "Investigation of Charge Dependency in impurity transport in Aditya-U tokamak"
+  journal: "APS Division of Plasma Physics Meeting Abstracts (63rd APS DPP)"
+  volume: "DPP 2021"
+  pages: "CO07.00004"
+  doi:
+  link: "https://meetings.aps.org/Meeting/DPP21/Session/CO07.4"
+
+- authors: "Nandini Yadava, Paritosh Chaudhuri, Kumarpalsinh A. Jadeja, R. L. Tanna, Ritu Dey, Sharvil Patel, Nilam Ramaiya, Kajal Shah, Gaurav Shukla, Tanmay Macwan, Suman Aich, Rohit Kumar, Kaushal M. Patel, Suman Dolui, Kaushlender Singh, Devilal Kumawat, C. N. Gupta, Ankur Pandya, Sripathi K. Punchithaya, Ismayil, ADITYA-U Team"
+  year: 2021
+  title: "Investigation of Self-Absorbed Lithium Spectral Line Emissions during Li₂TiO₃ Injection in ADITYA-U tokamak"
+  journal: "28th IAEA Fusion Energy Conference (FEC 2020, held 2021) – Poster/Preprint"
+  volume: "Preprint 1291"
+  pages:
+  doi:
+  link: "https://conferences.iaea.org/event/214/contributions/17329/"
+  
+- authors: "M. B. Chowdhuri, Ranjana Manchanda, Joydeep Ghosh, Nandini Yadava, Kinjal Patel, Nilam Ramaiya, Sharvil Patel, Minsha Shah, Rachana Rajpal, U. C. Nagora, Surya K. Pathak, Jayesh V. Raval, Manoj K. Gupta, Rohit Kumar, Suman Aich, Kumarpalsinh A. Jadeja, Rakesh L. Tanna, ADITYA-U Team"
+  year: 2020
+  title: "A Diagnostic for Measurement of Radial Profile of Visible Bremsstrahlung for determining Z_eff in ADITYA-U Tokamak Plasmas"
+  journal: "23rd Topical Conference on High-Temperature Plasma Diagnostics (HTPD 2020), Online (LANL)"
+  volume:
+  pages:
+  doi:
+  link: "https://pubs.aip.org/aip/rsi/issue/92/4"
+
+- authors: "Kajal Shah, Joydeep Ghosh, Gaurav Shukla, Malay B. Chowdhuri, Ranjana Manchanda, Nandini Yadava, Nilam Ramaiya, Kumarpalsinh A. Jadeja, Kaushal M. Patel, Rakesh L. Tanna, K.B.K. Mayya"
+  year: 2020
+  title: "Observation of spatially resolved Argon line emissions in ADITYA-U tokamak using high resolution spectroscopic diagnostic"
+  journal: "23rd Topical Conference on High-Temperature Plasma Diagnostics (HTPD 2020), Online (LANL, USA)"
+  volume:
+  pages:
+  doi:
+  link: "https://inspirehep.net/conferences/1840351"  # HTPD 2020 conference record, author list matches the later RSI article. :contentReference[oaicite:0]{index=0}
+
+- authors: "Nandini Yadava"
+  year: 2020
+  title: "Investigation of Recycling and Impurities Influxes in ADITYA-U Tokamak Plasmas"
+  journal: "29th International Toki Conference (ITC-29), Toki, Japan (virtual)"
+  volume:
+  pages: "Poster-2-F2-11"
+  doi:
+  link: "https://www.nifs.ac.jp/itc/itc29/program.pdf"  # Program lists your poster with code Poster-2-F2-11. :contentReference[oaicite:1]{index=1}
+
+- authors: "Nandini Yadava, Deepti Tripathi, Joydeep Ghosh, Malay B. Chowdhuri, Ranjana Manchanda, Ritu Dey, Harshita Raj, Subroto Banerjee, R.L. Tanna, K.A. Jadeja, Kaushal Patel"
+  year: 2018
+  title: "Effect of multiple periodic gas puff on neutral temperature in Aditya–U tokamak"
+  journal: "27th IAEA Fusion Energy Conference (FEC 2018), IAEA-CN-258, Gandhinagar, India"
+  volume:
+  pages: "EX/P4-13 (Contribution ID: 629)"
+  doi:
+  link: "https://conferences.iaea.org/event/151/contributions/5849/contribution.pdf"  # Official contribution PDF shows full author block and poster code. :contentReference[oaicite:2]{index=2}
+
+- authors: "Malay B. Chowdhuri, Joydeep Ghosh, R.L. Tanna, K.A. Jadeja, K.M. Patel, Ranjana Manchanda, Nandini Yadav, P. Pandit, Sharvil Patel, Gaurav Shukla, Kajal Shah, Harshita Raj, L.T. Lachvani, S. Pandya, S.B. Bhatt, N.C. Patel, Subroto Banerjee, U.C. Nagora, S.K. Pathak, P.K. Atrey, J.V. Raval, Y.S. Joisa, Manoj K. Gupta, M.V. Gopalakrishna, K. Tahiliani, C.N. Gupta, P.K. Chattopadhyay, and the Aditya-U Team"
+  year: 2018
+  title: "Neon Gas Seeded Radiative Improved Mode in Aditya-U Tokamak"
+  journal: "27th IAEA Fusion Energy Conference (FEC 2018), IAEA-CN-258, Gandhinagar, India"
+  volume:
+  pages: "EX/P4-5"
+  doi:
+  link: "https://nucleus.iaea.org/sites/fusionportal/Shared%20Documents/FEC%202018/fec2018-preprints/preprint0578.pdf"  # Preprint with full author list. :contentReference[oaicite:3]{index=3}
+
+- authors: "Ranjana Manchanda, M. B. Chowdhuri, Nandini Yadava, J. Ghosh, P. Pandit, S. Patel, G. Shukla, K. Shah, S. Banerjee, Nilam Nimavat, K. Tahiliani, M. V. Gopalakrishna, U. C. Nagora, P. K. Atrey, J. Raval, Y. S. Joisa, K. A. Jadeja, R. L. Tanna, Aditya Team"
+  year: 2018
+  title: "Impurity Screening in High Density Aditya Tokamak Plasmas"
+  journal: "27th IAEA Fusion Energy Conference (FEC 2018), IAEA-CN-258, Gandhinagar, India"
+  volume:
+  pages: "EX/P4 (preprint 0640)"
+  doi:
+  link: "https://nucleus.iaea.org/sites/fusionportal/Shared%20Documents/FEC%202018/fec2018-preprints/preprint0640.pdf"
+
+- authors: "Sachin S. Chauhan, Uttam Sharma, Jayshree Sharma, A. K. Sanyasi, J. Ghosh, Nandini Yadava, K. K. Choudhary, S. K. Ghosh"
+  year: 2018
+  title: "Development of RF based capacitively coupled plasma system for deposition of tungsten nano layers on graphite"
+  journal: "27th IAEA Fusion Energy Conference (FEC 2018), IAEA-CN-258, Gandhinagar, India"
+  volume:
+  pages: "FIP/P4 (preprint 0699)"
+  doi:
+  link: "https://nucleus.iaea.org/sites/fusionportal/Shared%20Documents/FEC%202018/fec2018-preprints/preprint0699.pdf"
