@@ -10,7 +10,7 @@ permalink: /publications
 
 ## Peer-Reviewed Articles
 <ol class="pub-list">
-{% for pub in site.data.conference_proceedings %}
+{% for pub in site.data.publications_peerreviewed %}
   <li class="pub-item">
     <div class="pub-title">
       {% if pub.link %}
@@ -40,7 +40,7 @@ permalink: /publications
 
 ## Conference proceedings
 <ol class="pub-list">
-{% for pub in site.data.publications_peerreviewed %}
+{% for pub in site.data.conference_proceedings %}
   <li class="pub-item">
     <div class="pub-title">
       {% if pub.link %}
