@@ -1,10 +1,89 @@
-- title: Initial Results from Spectroscopic Investigation of Plasma-Molecular Interaction on DIII-D Detached Divertor Plasma
-  authors: Nandini Yadava, et al.
-  event: 26th International Conference on Plasma Surface Interaction in Controlled Fusion Devices (PSI-26)
-  year: 2024
-  location: Marseille, France
-- title: Global Particle Balance and Recycling Properties in Aditya-U Tokamak Plasmas
-  authors: Nandini Yadava, et al.
-  event: 5th Asia-Pacific Conference on Plasma Physics
+- authors: "Nandini Yadava; Joydeep Ghosh; Malay B. Chowdhuri; Ranjana Manchanda; Sharvil Patel; Kajal Shah; Tanmay Macwan; Nilam Ramaiya; Kumarpalsinh A. Jadeja; Rakesh L. Tanna; ADITYA-U Team"
   year: 2021
-  note: virtual
+  title: "Impurity Transport in Aditya-U Tokamak with Indigenously Developed Semi-Implicit Impurity Transport Code"
+  journal: "PLASMA 2021: 34th National Symposium on Plasma Science & Technology (BIT Mesra, Jaipur) — Abstract"
+  volume:
+  pages:
+  doi:
+  link:
+
+- authors: "Nandini Yadava; Joydeep Ghosh; Malay B. Chowdhuri; Ranjana Manchanda; Nilam Ramaiya; Sharvil Patel; Kajal Shah; Kumarpalsinh A. Jadeja; Rakesh L. Tanna"
+  year: 2020
+  title: "Neutral and impurity influx measurement from limiter and wall of Aditya-U Tokamak"
+  journal: "8th Topical Conference on Atomic & Molecular Collisions for Plasma Applications (TC-2020, IIT Roorkee) — Poster"
+  volume:
+  pages:
+  doi:
+  link: "https://www.iitr.ac.in/tc2020/TC_2020_poster.pdf"
+
+- authors: "Nandini Yadava; Joydeep Ghosh; Malay Bikas Chowdhuri; Ranjana Manchanda; Sripathi K. Punchithaya; Ismayil; Ritu Dey; Tanmay Macwan; Sharvil Patel; Nilam Ramaiya; Kumarpalsinh A. Jadeja; Rakesh L. Tanna; ADITYA-U Team"
+  year: 2020
+  title: "Investigation of Neutral Recycling and Ion Temperature of Various Plasma Species in ADITYA and ADITYA-U Tokamak"
+  journal: "Proceedings of the National Symposium for Commemorating 30-years of ADITYA Tokamak — Book of Abstracts"
+  volume:
+  pages: "27–27"
+  doi:
+  link: "https://www.researchgate.net/publication/340221141_Investigation_of_neutral_recycling_and_ion_temperature_of_various_plasma_species_in_ADITYA_and_ADITYA-U_Tokamak"
+
+- authors: "Nandini Yadava; Sripathi K. Punchithaya; Malay B. Chowdhuri; Ranjana Manchanda; Joydeep Ghosh; (and collaborators from the ADITYA-U Team)"
+  year: 2019
+  title: "Spectroscopic Studies of Cold Atomic Hydrogen in Aditya-U Tokamak Edge"
+  journal: "22nd National Conference on Atomic and Molecular Physics (NCAMP 2019, IIT Kanpur) — Abstract"
+  volume:
+  pages:
+  doi:
+  link:
+
+- authors: "Nandini Yadava; ADITYA-U Team"
+  year: 2018
+  title: "Hydrogen-alpha (Hα) simulation emitting from different plasma locations"
+  journal: "PLASMA 2018: 33rd National Symposium on Plasma Science & Technology (University of Delhi, Delhi) — Abstract"
+  volume:
+  pages:
+  doi:
+  link:
+
+- authors: "Nandini Yadava; ADITYA-U Team"
+  year: 2018
+  title: "Global Particle Balance and Wall Recycling Study for Aditya–U Tokamak"
+  journal: "6th PSSI – Plasma Scholars Colloquium (Sikkim Manipal Institute of Technology, Sikkim) — Abstract"
+  volume:
+  pages:
+  doi:
+  link:
+
+- authors: "Nandini Yadava; ADITYA-U Team"
+  year: 2018
+  title: "Measurement of Recycling Coefficient for Aditya–U Tokamak"
+  journal: "6th PSSI – Plasma Scholars Colloquium (Sikkim Manipal Institute of Technology, Sikkim) — Abstract"
+  volume:
+  pages:
+  doi:
+  link:
+
+- authors: "Nandini Yadava; ADITYA-U Team"
+  year: 2017
+  title: "Identification and Simulation of Spectral Molecular Bands of Nitrogen Present in RF Plasmas"
+  journal: "PLASMA 2017: 32nd National Symposium on Plasma Science & Technology (IPR, Gandhinagar) — Abstract"
+  volume:
+  pages:
+  doi:
+  link:
+
+- authors: "Nandini Yadava; ADITYA-U Team"
+  year: 2017
+  title: "Studies of Oxygen Impurity Behavior in Aditya Tokamak Plasma"
+  journal: "PLASMA 2017: 32nd National Symposium on Plasma Science & Technology (IPR, Gandhinagar) — Abstract"
+  volume:
+  pages:
+  doi:
+  link:
+
+- authors: "Nandini Yadava; ADITYA-U Team"
+  year: 2017
+  title: "Simulation of Hydrogen-alpha (Hα) spectral line shape emitting from the edge region of Aditya Tokamak"
+  journal: "21st National Conference on Atomic and Molecular Physics (NCAMP 2017, PRL Ahmedabad) — Abstract"
+  volume:
+  pages:
+  doi:
+  link:
