@@ -1,20 +1,20 @@
-- authors: "Dinh Truong, Brian S. Victor, Adam G. McLean, Steven L. Allen, Igor Bykov, Austin Keller, KyuBeen Kwon, Benjamin Penaflor, Filippo Scotti, Shengyu Shi, Peter J. Traverso, Dan M. Thomas, Nandini Yadava, The DIII-D Team"
+- authors: "Dinh Truong; Brian S. Victor; Adam G. McLean; Steven L. Allen; Igor Bykov; Austin Keller; KyuBeen Kwon; Benjamin Penaflor; Filippo Scotti; Shengyu Shi; Peter J. Traverso; Dan M. Thomas; Nandini Yadava"
   year: 2024
   title: "Core Impurity Spectroscopy in a Complex Mixed-Species Environment"
   journal: "Bulletin of the American Physical Society (66th APS Division of Plasma Physics Meeting)"
   volume: "DPP 2024"
   pages: "PP12.00091"
   doi:
-  link: "https://meetings.aps.org/Meeting/DPP24/Session/PP12.91"  <!-- APS bulletin page confirms full author list and abstract id. :contentReference[oaicite:0]{index=0} -->
+  link: "https://meetings.aps.org/Meeting/DPP24/Session/PP12.91"
 
-- authors: "Nandini Yadava, Dan M. Thomas, Anthony W. Leonard, Filippo Scotti, Adam G. McLean, Mathias Groth, Claudio Marini, Igor Bykov, Gilson Ronchi, Robert S. Wilcox, Eric Matthias Hollmann, Kevin Verhaegh, Nick Osborne"
+- authors: "Nandini Yadava; Dan M. Thomas; Anthony W. Leonard; Filippo Scotti; Adam G. McLean; Mathias Groth; Claudio Marini; Igor Bykov; Gilson Ronchi; Robert S. Wilcox; Eric Matthias Hollmann; Kevin Verhaegh; Nick Osborne"
   year: 2024
   title: "Investigation of high-n Balmer lines and D₂-Fulcher band during high-recycling and detached divertor DIII-D plasma"
   journal: "Bulletin of the American Physical Society (66th APS Division of Plasma Physics Meeting)"
   volume: "DPP 2024"
   pages: "PP12.00081"
   doi:
-  link: "https://meetings.aps.org/Meeting/DPP24/Session/PP12.81"  <!-- Authors + session id from APS bulletin, extended list from session index. :contentReference[oaicite:1]{index=1} -->
+  link: "https://meetings.aps.org/Meeting/DPP24/Session/PP12.81"
 
 - authors: "Nandini Yadava"
   year: 2023
@@ -23,7 +23,7 @@
   volume: "CN-316"
   pages: "Paper 2259"
   doi:
-  link: "https://www.iaea.org/sites/default/files/23/10/cn-316_fec_preliminary_program.pdf"  <!-- Program listing shows item 2259 with title/author. :contentReference[oaicite:2]{index=2} -->
+  link: "https://www.iaea.org/sites/default/files/23/10/cn-316_fec_preliminary_program.pdf"
 
 - authors: "Nandini Yadava, Joydeep Ghosh, Malay B. Chowdhuri, Ashoke De, Amrita Bhattacharya, Ranjana Manchanda, Nilam Ramaiya, Kajal Shah, Sharvil Patel, Shishir Purohit, Manoj Gupta, Umesh C. Nagora, Surya K. Pathak, Tanmay Macwan, Kumarpalsinh A. Jadeja, Kaushal M. Patel, Ankur Pandya, Rohit Kumar, Suman Aich, Kaushlender Singh, Suman Dolui"
   year: 2021
