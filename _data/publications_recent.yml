@@ -1,5 +1,29 @@
-- title: "Assessment of DIII-D plasma with Balmer analysis technique to quantify plasma detachment"
-  authors: "N. Yadava, F. Scotti, M. Groth, A. W. Leonard, A.G. McLean, N. Osborne, X. Pope,  G. Ronchi, D. Thomas, K. Verhaegh and R. Wilcox"
-  journal: "Plasma Physics and Controlled Fusion"
+- authors: "Nandini Yadava; Filippo Scotti; Mathias Groth; Anthony W. Leonard; Adam G. McLean; Nick Osborne; Xavier Pope; Gilson Ronchi; Dan M. Thomas; Kevin Verhaegh; Robert S. Wilcox"
   year: 2025
-  note: "Internal review completed."
+  title: "Assessment of DIII-D plasma with Balmer analysis technique to quantify plasma detachment"
+  journal: "Plasma Physics and Controlled Fusion"
+  volume:
+  pages:
+  doi:
+  link:
+  note: "Submitted; internal review completed"
+
+- authors: "R. Gerru; D. Hachmeister; G. Burke; L. Horvath; T. M. Wilks; A. Bortolon; J. W. Hughes; Q. Pratt; F. Scott; C. Tsui; R. Hood; Nandini Yadava; Gilson Ronchi; J. Damba; DIII-D Team; ASDEX Upgrade Team"
+  year: 2025
+  title: "Effect of outer divertor leg detachment on the high field side scrape-off layer in DIII-D and ASDEX Upgrade"
+  journal: "Nuclear Fusion"
+  volume:
+  pages:
+  doi:
+  link:
+  note: "Planned submission; internal tracker"
+
+- authors: "Shengyu Shi; Shizhao Ding; Brian S. Victor; Tomas Odstrcil; Jack Lestz; A. Tema Biwole; L. Schmitz; H. Wang; A. M. Garofalo; J. McClenaghan; G. Avdeeva; D. Truong; Nandini Yadava; Adam McLean; A. Moser; Anthony W. Leonard; E. Belli; J. Candy"
+  year: 2025
+  title: "Outward Neoclassical Convection Drives High-Z Impurity Expulsion in DIII-D High-Density and High-Performance Hybrid Plasmas"
+  journal: "Physical Review Letters"
+  volume:
+  pages:
+  doi:
+  link:
+  note: "Planned submission; internal review completed"
