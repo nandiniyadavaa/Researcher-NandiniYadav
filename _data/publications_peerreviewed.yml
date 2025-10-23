@@ -223,6 +223,15 @@
   doi: "10.3390/atoms7030093"
   link: "https://www.mdpi.com/2218-2004/7/3/93"  # :contentReference[oaicite:22]{index=22}
 
+- authors: "Ritu Dey; Malay B. Chowdhuri; Joydeep Ghosh; Ranjana Manchanda; Nandini Yadava; Umeshkumar C. Nagora; Parveen K. Atrey; Jayesh V. Raval; Y. Shankara Joisa; Rakesh L. Tanna; ADITYA Team"
+  year: 2019
+  title: "Modeling of the Hα Emission from ADITYA Tokamak Plasmas"
+  journal: "Atoms"
+  volume: "7"
+  pages: "95"
+  doi: "10.3390/atoms7040095"
+  link: "https://www.mdpi.com/2218-2004/7/4/95"
+
 - authors: "Ritu Dey; M. B. Chowdhuri; Joydeep Ghosh; Ranjana Manchanda; Nandini Yadava; Nilam Ramaiya; S. Banerjee; U. C. Nagora; P. K. Atrey; J. V. Raval; Y. Shankar Joisa; R. L. Tanna; D. P. Stotler"
   year: 2019
   title: "Investigation of atomic and molecular processes in Hα emission through modelling of measured Hα emissivity profile using DEGAS2 in the ADITYA tokamak"
@@ -249,6 +258,16 @@
   pages: "112006"
   doi: "10.1088/1741-4326/ab0a9e"
   link: "https://doi.org/10.1088/1741-4326/ab0a9e"
+
+- authors: "Sachin S. Chauhan; Uttam Sharma; Jayshree Sharma; Amulya K. Sanyasi; Joydeep Ghosh; Nandini Yadava; K.K. Choudhary; S.K. Ghosh"
+  year: 2018
+  title: "Development of RF based capacitively coupled plasma system for tungsten nano layer deposition on graphite"
+  journal: "Materials Research Express"
+  volume: "5"
+  pages: "115020"
+  doi: "10.1088/2053-1591/aadd8a"
+  link: "https://doi.org/10.1088/2053-1591/aadd8a"
+
 
 
 
