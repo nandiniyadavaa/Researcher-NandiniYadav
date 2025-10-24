@@ -75,9 +75,7 @@ redirect_from:
     <p class="btn-row">
         <a class="btn" href="{{ '/assets/pdfs/CV_N_YADAVA.pdf' | relative_url }}" target="_blank" rel="noopener">Download CV </a>
     </p>
-    <p class="btn-row">
-        <a class="btn" href="{{ '/assets/pdfs/NANDINI YADAV.pdf' | relative_url }}" target="_blank" rel="noopener">Download PhD Thesis</a>
-    </p>
+
       <h3>Education</h3>
       <p>
         <strong>Postdoctoral researcher</strong> <span class="years">2023–Now</span><br>
@@ -88,6 +86,9 @@ redirect_from:
         Institute of Science, Nirma University, Ahmedabad, Gujarat, India<br>
         <em>Thesis:</em> “Spectroscopic Investigation of Neutrals and Impurity Dynamics
         in the Edge Region of ADITYA-U Tokamak”
+        <p class="btn-row">
+          <a class="btn" href="{{ '/assets/pdfs/NANDINI YADAV.pdf' | relative_url }}" target="_blank" rel="noopener">Download PhD Thesis</a>
+        </p>
       </p>
       <hr class="hr-soft">
       
