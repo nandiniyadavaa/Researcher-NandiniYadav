@@ -73,10 +73,10 @@ redirect_from:
       <p><strong>Research themes:</strong> divertor detachment; edge/SOL transport; Balmer spectroscopy; impurity/neutral dynamics; EIR/MAR; power exhaust; tokamak diagnostics.</p>
     <hr class="hr-soft">
     <p class="btn-row">
-        <a class="btn" href="{{ '/assets/pdfs/CV_N_YADAVA.pdf' | relative_url }}" target="_blank" rel="noopener">Download CV (1-page)</a>
+        <a class="btn" href="{{ '/assets/pdfs/CV_N_YADAVA.pdf' | relative_url }}" target="_blank" rel="noopener">Download CV </a>
     </p>
     <p class="btn-row">
-        <a class="btn" href="{{ '/assets/pdfs/NANDINI YADAV.pdf' | relative_url }}" target="_blank" rel="noopener">PhD Thesis</a>
+        <a class="btn" href="{{ '/assets/pdfs/NANDINI YADAV.pdf' | relative_url }}" target="_blank" rel="noopener">Download PhD Thesis</a>
     </p>
       <h3>Education</h3>
       <p>
