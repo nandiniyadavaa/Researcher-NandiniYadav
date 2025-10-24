@@ -76,7 +76,7 @@ permalink: /research
       <article class="card" data-tags="{{ item.tags | default: empty | join: ',' }}">
         <div class="thumb-wrap">
           {% if item.image and item.image != '' %}
-            <img class="thumb" src="{{ item.image | relative_url }}" alt="{{ item.alt | default: item.title }}" loading="lazy">
+            <img class="thumb" src="{{ item.image | relative_url }}" alt="{{ item.alt | default: item.title }}">
           {% else %}
             <div class="thumb-fallback" aria-hidden="true"></div>
           {% endif %}
