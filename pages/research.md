@@ -41,12 +41,7 @@ permalink: /research
 .links a{color:#0d3ea9;text-decoration:underline;white-space:nowrap}
 
 /* responsive */
-@media (max-width:860px){ .thumb-wrap{flex-basis:220px;max-width:220px} }
-@media (max-width:640px){
-  .card{flex-direction:column}
-  .thumb-wrap{flex-basis:auto;max-width:none;aspect-ratio:16/9}
-  .body{padding:12px 14px 14px}
-}
+
 </style>
 
 <div class="projects-wrap">
