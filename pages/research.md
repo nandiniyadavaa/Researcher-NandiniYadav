@@ -142,3 +142,28 @@ permalink: /research
   });
 })();
 </script>
+
+/* === Force rectangular thumbnails (no oval, no rounding) === */
+.thumb-wrap,
+.thumb {
+  border-radius: 0 !important;   /* kill any rounding */
+  clip-path: none !important;     /* avoid accidental masking */
+}
+
+/* Make the image fill a rectangular box without distortion */
+.thumb-wrap { 
+  flex: 0 0 240px;                /* pick a width for the left column */
+  max-width: 240px;
+  height: 160px;                  /* fixed rectangle (adjust as you like) */
+  background: #f5f7fb;
+}
+.thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;              /* crop to fit the rectangle */
+  aspect-ratio: auto !important;  /* disable any earlier aspect-ratio */
+}
+
+/* Optional: if you also don’t want rounded cards at all */
+.card { border-radius: 0 !important; }
+
