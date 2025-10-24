@@ -75,7 +75,7 @@ redirect_from:
     <p class="btn-row">
         <a class="btn" href="{{ '/assets/pdfs/CV_N_YADAVA.pdf' | relative_url }}" target="_blank" rel="noopener">Download CV </a>
     </p>
-
+    <hr class="hr-soft">
       <h3>Education</h3>
       <p>
         <strong>Postdoctoral researcher</strong> <span class="years">2023–Now</span><br>
