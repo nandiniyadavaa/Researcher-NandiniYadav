@@ -9,7 +9,7 @@ permalink: /research
 .projects-wrap{max-width:var(--page-w);margin:0 auto;padding:0 1rem 2rem}
 .projects-title{text-align:center;font-weight:700;letter-spacing:.2px;margin:.2rem 0 1.2rem;
   font-size:clamp(1.8rem,2.6vw,2.2rem);color:var(--ink-2)}
-.projects-sub{color:var(--muted);text-align:center;margin:-.4rem auto 1.2rem;max-width:800px}
+.projects-sub{color:var(--muted);text-align:center;margin:-.4rem auto 1.2rem;max-width:860px}
 
 /* filters */
 .filters{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin:10px 0 20px}
@@ -26,13 +26,9 @@ permalink: /research
 
 /* thumbnail column */
 .thumb-wrap{position:relative;flex:0 0 220px;max-width:220px;background:#f5f7fb}
-.thumb{
-  width:100%; height:100%;
-  aspect-ratio: 16 / 11;       /* helps keep a consistent box */
-  object-fit: cover; display:block;
-}
+.thumb{width:100%;height:100%;aspect-ratio:16/11;object-fit:cover;display:block}
 .thumb-fallback{width:100%;height:100%;min-height:150px;background:
-  linear-gradient(135deg,#eaf2fd,#dbeafe 60%,#c7f9e9);}
+  linear-gradient(135deg,#eaf2fd,#dbeafe 60%,#c7f9e9)}
 
 /* text column */
 .body{padding:14px 16px 16px;flex:1;min-width:0}
@@ -45,13 +41,11 @@ permalink: /research
 .links a{color:var(--ink);text-decoration:underline;white-space:nowrap}
 
 /* responsive */
-@media (max-width:860px){
-  .thumb-wrap{flex-basis:180px;max-width:180px}
-}
+@media (max-width:860px){ .thumb-wrap{flex-basis:180px;max-width:180px} }
 @media (max-width:640px){
   .card{flex-direction:column}
   .thumb-wrap{flex-basis:auto;max-width:none}
-  .thumb, .thumb-fallback{aspect-ratio: 16 / 9; min-height:160px}
+  .thumb,.thumb-fallback{aspect-ratio:16/9;min-height:160px}
   .body{padding:12px 14px 14px}
 }
 </style>
@@ -59,7 +53,7 @@ permalink: /research
 <div class="projects-wrap">
   <h1 class="projects-title">Research Projects</h1>
   <p class="projects-sub">
-    Ongoing and past work across divertor/edge physics, spectroscopy, impurities, and power exhaust.
+    Ongoing and past work across divertor/edge physics, spectroscopy, impurities, recycling, and power exhaust.
     Use the filters to explore by theme.
   </p>
 
@@ -79,32 +73,38 @@ permalink: /research
   <div class="list" id="list">
     {% assign items = site.data.research %}
     {% for item in items %}
-      <article class="card" data-tags="{{ item.tags | join: ',' }}">
+      <article class="card" data-tags="{{ item.tags | default: empty | join: ',' }}">
         <div class="thumb-wrap">
           {% if item.image and item.image != '' %}
-            <img class="thumb" src="{{ item.image | relative_url }}" alt="{{ item.alt | default: item.title }}" loading="lazy" />
+            <img class="thumb" src="{{ item.image | relative_url }}" alt="{{ item.alt | default: item.title }}" loading="lazy">
           {% else %}
             <div class="thumb-fallback" aria-hidden="true"></div>
           {% endif %}
         </div>
+
         <div class="body">
           <div class="h">{{ item.title }}</div>
           <div class="meta">
             {% if item.years and item.years != '' %}<span class="tag">{{ item.years }}</span>{% endif %}
             {% if item.org and item.org != '' %}<span class="tag">{{ item.org }}</span>{% endif %}
           </div>
+
           <p class="p">{{ item.blurb }}</p>
+
           <div class="badges">
-            {% for t in item.tags %}<span class="tag">{{ t }}</span>{% endfor %}
+            {% if item.tags %}
+              {% for t in item.tags %}<span class="tag">{{ t }}</span>{% endfor %}
+            {% endif %}
           </div>
+
           {% if item.links %}
-          <div class="links">
-            {% for k in item.links %}
-              {% if k[1] and k[1] != '' %}
-                <a href="{{ k[1] }}" target="_blank" rel="noopener">{{ k[0] | capitalize }}</a>
-              {% endif %}
-            {% endfor %}
-          </div>
+            <div class="links">
+              {% for label, url in item.links %}
+                {% if url and url != '' %}
+                  <a href="{{ url }}" target="_blank" rel="noopener">{{ label | capitalize }}</a>
+                {% endif %}
+              {% endfor %}
+            </div>
           {% endif %}
         </div>
       </article>
@@ -120,10 +120,17 @@ permalink: /research
   const tagsOf = el => (el.getAttribute('data-tags')||'').split(',').map(s=>s.trim()).filter(Boolean);
 
   function setActive(btn){
-    btns.forEach(b=>{ const on=b===btn; b.classList.toggle('active', on); b.setAttribute('aria-selected', on?'true':'false'); });
+    btns.forEach(b=>{
+      const on = b===btn;
+      b.classList.toggle('active', on);
+      b.setAttribute('aria-selected', on ? 'true' : 'false');
+    });
   }
   function apply(tag){
-    cards.forEach(c => c.style.display = (tag==='all' || tagsOf(c).includes(tag)) ? '' : 'none');
+    cards.forEach(c => {
+      const have = tagsOf(c);
+      c.style.display = (tag==='all' || have.includes(tag)) ? '' : 'none';
+    });
   }
   btns.forEach(btn=>{
     btn.addEventListener('click', ()=>{ setActive(btn); apply(btn.dataset.tag); });
