@@ -4,45 +4,13 @@
   years: "2024–"
   tags: ["detachment", "spectroscopy", "diagnostics"]
   image: 
-  alt: "DIII-D divertor Balmer spectroscopy setup"
+  alt: "Balmer Spectroscopy of Divertor Detachment (DIII-D)"
   links:
     summary: ""
     slides: ""
     preprint: ""
   blurb: >
-    I develop quantitative detachment metrics from absolutely-calibrated Balmer and continuum spectra,
-    separating recombination and excitation and cross-validating with probes and cameras. The workflow
-    tracks detachment/reattachment and extends to mixed-species, high-density hybrid plasmas, building
-    on my APS-reported high-n Balmer / Fulcher work and an upcoming manuscript on Balmer-based detachment
-    quantification. Goal: a machine-independent, uncertainty-aware recipe for real-time inference.
-
-- key: edge-optics
-  title: "Edge Optical Diagnostics: Design & Calibration"
-  org: "DIII-D"
-  years: "2023–"
-  tags: ["diagnostics", "spectroscopy"]
-  image: 
-  alt: "Fiber-coupled spectrometer and calibration lamps"
-  links:
-    methods: ""
-  blurb: >
-    I lead end-to-end edge spectroscopy: sightlines, spectrograph/fiber selection, baffling, and radiometric
-    calibration with uncertainty budgets (lamp transfer, slit function, linearity). The same rigor underpinned
-    ADITYA-U instruments (space/time-resolved visible spectroscopy) and now supports DIII-D upgrades for impurity,
-    neutral and molecular measurements—making inferences traceable enough to benchmark models and inform control.
-
-- key: xpoint-dynamics
-  title: "Impurity & Neutral Dynamics Near the X-Point"
-  org: "DIII-D"
-  years: "2022–"
-  tags: ["impurities", "detachment"]
-  image: 
-  alt: "X-point region schematic with radiation zone"
-  links:
-    poster: ""
-  blurb: >
-    I analyze how seeded impurities and cold neutrals evolve through detachment onset and rollback, focusing
-    on X-point radiation, particle sources and fueling balance. Building on ADITYA-U results (argon transport,
-    rotation impacts, lithium conditioning, recycling studies), I link Balmer/Fulcher emissions to power exhaust,
-    clarifying when radiation stabilizes detachment versus triggers re-attachment; outcomes guide seeding strategies.
+   Divertor detachment is the reactor-relevant regime where parallel heat/particle fluxes to target plates are reduced by momentum and power loss in the divertor volume. As density (or fueling) is raised, the ionization source rolls over, recombination and molecular channels strengthen, and the ionization/recombination front modifies upstream; Balmer line brightness are most sensitive signature of this change. 
+   Building on my spectroscopy and edge-diagnostics work, I led a DIII-D experiment that (i) executed a controlled density scan across multiple Greenwald fractions, (ii) used absolutely calibrated spectroscopic views to measure Balmer emissisons brightness (low-n to high-n) and selected line ratios, (iii) separated excitation vs. recombination contributions (using Bayesian based Spectroscopic technique for Plasma-Molecular Interaction - Verhaegh, Kevin, et al. Nuclear Fusion 63.1 (2022): 016014.)
+   This is usful for detachment quantification through Atomic and Molecular Physics and understanding impact of it on power, particle and momentum balance. My work is validated the code for DIII-D tokamak (because of different line-of-sights). Future work includes detachment quantification with different divertor configuration and with H-mode plasmas.
 
