@@ -41,6 +41,11 @@ redirect_from:
 
 </style>
 
+<p class="btn-row">
+  <a class="btn" href="{{ '/assets/pdfs/CV_N_YADAVA.pdf' | relative_url }}" target="_blank" rel="noopener">Download CV (1-page)</a>
+  <a class="btn" href="{{ '/assets/pdfs/NANDINI YADAV.pdf' | relative_url }}" target="_blank" rel="noopener">PhD Thesis</a>
+</p>
+
 <div class="about-wrap">
   <h1 class="about-title">Dr. Nandini Yadava</h1>
 
