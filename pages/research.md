@@ -138,8 +138,10 @@ permalink: /research
     {% endfor %}
   </div>
 </div>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 <script>
+  
 /* Tag filter (comma-separated data-tags on cards) */
 (function() {
   const btns = Array.from(document.querySelectorAll('.filter-btn'));
