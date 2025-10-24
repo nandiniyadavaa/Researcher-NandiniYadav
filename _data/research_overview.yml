@@ -3,7 +3,7 @@
   org: "DIII-D"
   years: 
   tags: ["detachment", "spectroscopy", "diagnostics", "bayesian inference"]
-  image: "assets/image/DIIID.eps"
+  image: "assets/image/DIIID.svg"
   alt: "Balmer Spectroscopy of Divertor Detachment (DIII-D)"
   links:
     summary: ""
