@@ -74,8 +74,8 @@ redirect_from:
     <hr class="hr-soft">
       <h3>Education</h3>
       <p>
-        <strong>Postdoctaral researcher</strong> <span class="years">2023–Now</span><br>
-        Oak Ridge Associated University, Tannessee, USA<br>
+        <strong>Postdoctoral researcher</strong> <span class="years">2023–Now</span><br>
+        Oak Ridge Associated University, Tennessee, USA<br>
         DIII-D National Fusion Facility, San Diego, USA<br>
         
         <strong>Ph.D. (Physics)</strong> <span class="years">2021–2023</span><br>
@@ -92,11 +92,11 @@ redirect_from:
         <strong>Research Scholar</strong> <span class="years">2016–2018</span> — Gujarat University, Ahmedabad, Gujarat<br>
         <strong>Scientific Assistant</strong> <span class="years">2015–2016</span> — Institute for Plasma Research, Gandhinagar<br>
         <strong>Master of Science</strong> <span class="years">2013–2015</span> — Gujarat University, Ahmedabad, Gujarat<br>
-        <strong>Bachlor of Science</strong> <span class="years">2010–2013</span> — Gujarat University, Ahmedabad, Gujarat<br>
+        <strong>Bachelor of Science</strong> <span class="years">2010–2013</span> — Gujarat University, Ahmedabad, Gujarat<br>
       </p>
       <hr class="hr-soft">
       
-      <h3>Acheivements</h3>
+      <h3>Achievements</h3>
       <p>
       <strong>[2022]</strong> Buti Young Scientist Award<br>
       <strong>[2021]</strong> PSSI - Z. H. Sholapurwala Award for Fusion Research<br>
