@@ -79,6 +79,27 @@ permalink: /research
   }
   .card{padding:12px 12px 14px}
 }
+  /* Cap tall figures so a single item can't tower over the text */
+.thumb-wrap{
+  /* previous rules kept */
+  max-height: 420px;                 /* cap the float’s height */
+  display: flex; align-items: center; justify-content: center; /* center image in box */
+}
+
+/* Make the image fit inside the capped box without cropping */
+.thumb{
+  width: auto; height: auto;         /* use natural aspect */
+  max-width: 100%; max-height: 100%; /* shrink to fit the box */
+  object-fit: contain;               /* guarantees no crop */
+  aspect-ratio: auto;                /* ignore any inherited ratios */
+}
+
+/* Optional: if the oversized one is an SVG, enforce the same fit */
+.thumb[src$=".svg"]{
+  width: auto; height: auto;
+  max-width: 100%; max-height: 100%;
+}
+
 </style>
 
 <div class="projects-wrap">
