@@ -41,11 +41,6 @@ redirect_from:
 
 </style>
 
-<p class="btn-row">
-  <a class="btn" href="{{ '/assets/pdfs/CV_N_YADAVA.pdf' | relative_url }}" target="_blank" rel="noopener">Download CV (1-page)</a>
-  <a class="btn" href="{{ '/assets/pdfs/NANDINI YADAV.pdf' | relative_url }}" target="_blank" rel="noopener">PhD Thesis</a>
-</p>
-
 <div class="about-wrap">
   <h1 class="about-title">Dr. Nandini Yadava</h1>
 
@@ -77,6 +72,12 @@ redirect_from:
       <hr class="hr-soft">
       <p><strong>Research themes:</strong> divertor detachment; edge/SOL transport; Balmer spectroscopy; impurity/neutral dynamics; EIR/MAR; power exhaust; tokamak diagnostics.</p>
     <hr class="hr-soft">
+    <p class="btn-row">
+        <a class="btn" href="{{ '/assets/pdfs/CV_N_YADAVA.pdf' | relative_url }}" target="_blank" rel="noopener">Download CV (1-page)</a>
+    </p>
+    <p class="btn-row">
+        <a class="btn" href="{{ '/assets/pdfs/NANDINI YADAV.pdf' | relative_url }}" target="_blank" rel="noopener">PhD Thesis</a>
+    </p>
       <h3>Education</h3>
       <p>
         <strong>Postdoctoral researcher</strong> <span class="years">2023–Now</span><br>
