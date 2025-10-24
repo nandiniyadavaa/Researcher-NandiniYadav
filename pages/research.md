@@ -16,7 +16,7 @@ permalink: /research
 .filter-btn{border:1px solid var(--ring);background:#f7f8fb;border-radius:999px;padding:7px 14px;
   font-weight:600;cursor:pointer;transition:background .2s,border-color .2s,color .2s}
 .filter-btn:focus{outline:2px solid #cfe0ff;outline-offset:2px}
-.filter-btn.active{background:#eaf2fd;color:var(--ink);border-color:#cfe0ff}
+.filter-btn.active{background:#eaf2fd;color:#0d3ea9;border-color:#cfe0ff}
 
 /* horizontal list with thumbnail */
 .list{display:flex;flex-direction:column;gap:14px}
@@ -38,7 +38,7 @@ permalink: /research
 .p{color:#222;line-height:1.6;margin:0}
 .badges{display:flex;gap:6px;flex-wrap:wrap;margin:10px 0 0}
 .links{display:flex;gap:12px;margin-top:10px;flex-wrap:wrap}
-.links a{color:var(--ink);text-decoration:underline;white-space:nowrap}
+.links a{color:#0d3ea9;text-decoration:underline;white-space:nowrap}
 
 /* responsive */
 @media (max-width:860px){ .thumb-wrap{flex-basis:180px;max-width:180px} }
@@ -63,9 +63,9 @@ permalink: /research
     <button class="filter-btn" data-tag="detachment" role="tab" aria-selected="false">Detachment</button>
     <button class="filter-btn" data-tag="spectroscopy" role="tab" aria-selected="false">Spectroscopy</button>
     <button class="filter-btn" data-tag="impurities" role="tab" aria-selected="false">Impurities</button>
+    <button class="filter-btn" data-tag="recycling" role="tab" aria-selected="false">Recycling</button>
     <button class="filter-btn" data-tag="diagnostics" role="tab" aria-selected="false">Diagnostics</button>
     <button class="filter-btn" data-tag="modeling" role="tab" aria-selected="false">Modeling</button>
-    <button class="filter-btn" data-tag="recycling" role="tab" aria-selected="false">Recycling</button>
     <button class="filter-btn" data-tag="low-temperature plasma" role="tab" aria-selected="false">Low-Temperature Plasma</button>
   </div>
 
@@ -93,13 +93,17 @@ permalink: /research
 
           <div class="badges">
             {% if item.tags %}
-              {% for t in item.tags %}<span class="tag">{{ t }}</span>{% endfor %}
+              {% for t in item.tags %}
+                <span class="tag">{{ t }}</span>
+              {% endfor %}
             {% endif %}
           </div>
 
           {% if item.links %}
             <div class="links">
-              {% for label, url in item.links %}
+              {% for pair in item.links %}
+                {% assign label = pair[0] %}
+                {% assign url   = pair[1] %}
                 {% if url and url != '' %}
                   <a href="{{ url }}" target="_blank" rel="noopener">{{ label | capitalize }}</a>
                 {% endif %}
