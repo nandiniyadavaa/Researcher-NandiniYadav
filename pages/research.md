@@ -18,14 +18,25 @@ permalink: /research
 .filter-btn:focus{outline:2px solid #cfe0ff;outline-offset:2px}
 .filter-btn.active{background:#eaf2fd;color:var(--ink);border-color:#cfe0ff}
 
-/* horizontal list */
+/* horizontal list with thumbnail */
 .list{display:flex;flex-direction:column;gap:14px}
-.card{display:flex;gap:16px;align-items:stretch;background:var(--card);border:1px solid var(--ring);
+.card{display:flex;gap:0;align-items:stretch;background:var(--card);border:1px solid var(--ring);
   border-radius:12px;overflow:hidden;transition:box-shadow .2s,transform .1s}
 .card:hover{box-shadow:0 8px 24px rgba(13,62,169,.12);transform:translateY(-1px)}
-.accent{width:6px;background:linear-gradient(180deg,#eaf2fd,#dbeafe,#c7f9e9)}
+
+/* thumbnail column */
+.thumb-wrap{position:relative;flex:0 0 220px;max-width:220px;background:#f5f7fb}
+.thumb{
+  width:100%; height:100%;
+  aspect-ratio: 16 / 11;       /* helps keep a consistent box */
+  object-fit: cover; display:block;
+}
+.thumb-fallback{width:100%;height:100%;min-height:150px;background:
+  linear-gradient(135deg,#eaf2fd,#dbeafe 60%,#c7f9e9);}
+
+/* text column */
 .body{padding:14px 16px 16px;flex:1;min-width:0}
-.h{margin:0 0 6px;font-weight:700;color:#0d3ea9;font-size:1.05rem}
+.h{margin:0 0 6px;font-weight:700;color:#0d3ea9;font-size:1.08rem;line-height:1.25}
 .meta{display:flex;gap:10px;flex-wrap:wrap;margin:0 0 8px;color:var(--muted);font-size:.92rem}
 .tag{border:1px solid var(--ring);border-radius:999px;padding:2px 8px;font-size:.82rem;background:#fff}
 .p{color:#222;line-height:1.6;margin:0}
@@ -33,10 +44,14 @@ permalink: /research
 .links{display:flex;gap:12px;margin-top:10px;flex-wrap:wrap}
 .links a{color:var(--ink);text-decoration:underline;white-space:nowrap}
 
-/* responsive: stack body nicely */
+/* responsive */
+@media (max-width:860px){
+  .thumb-wrap{flex-basis:180px;max-width:180px}
+}
 @media (max-width:640px){
-  .card{gap:12px}
-  .accent{width:5px}
+  .card{flex-direction:column}
+  .thumb-wrap{flex-basis:auto;max-width:none}
+  .thumb, .thumb-fallback{aspect-ratio: 16 / 9; min-height:160px}
   .body{padding:12px 14px 14px}
 }
 </style>
@@ -65,7 +80,13 @@ permalink: /research
     {% assign items = site.data.research %}
     {% for item in items %}
       <article class="card" data-tags="{{ item.tags | join: ',' }}">
-        <div class="accent" aria-hidden="true"></div>
+        <div class="thumb-wrap">
+          {% if item.image and item.image != '' %}
+            <img class="thumb" src="{{ item.image | relative_url }}" alt="{{ item.alt | default: item.title }}" loading="lazy" />
+          {% else %}
+            <div class="thumb-fallback" aria-hidden="true"></div>
+          {% endif %}
+        </div>
         <div class="body">
           <div class="h">{{ item.title }}</div>
           <div class="meta">
@@ -92,7 +113,7 @@ permalink: /research
 </div>
 
 <script>
-/* Tag filter (works with comma-separated data-tags on cards) */
+/* Tag filter (comma-separated data-tags on cards) */
 (function() {
   const btns = Array.from(document.querySelectorAll('.filter-btn'));
   const cards = Array.from(document.querySelectorAll('.card'));
