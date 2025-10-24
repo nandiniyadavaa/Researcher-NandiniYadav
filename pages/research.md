@@ -71,7 +71,7 @@ permalink: /research
 
   <!-- Horizontal list -->
   <div class="list" id="list">
-    {% assign items = site.data.research %}
+    {% assign items = site.data.research_overview %}
     {% for item in items %}
       <article class="card" data-tags="{{ item.tags | default: empty | join: ',' }}">
         <div class="thumb-wrap">
