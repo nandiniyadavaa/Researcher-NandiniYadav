@@ -24,7 +24,7 @@
 
 - title: "SpectralGUI: Interactive Spectroscopy Viewer (Python/OMFIT)"
   org: "DIII-D"
-  years: "2024–present"
+  years: "2023–present"
   tags: ["diagnostics", "software", "spectroscopy", "python", "OMFIT"]
   image: "/assets/image/py_GUI.svg"
   alt: "WiSE/SpectralGUI interface with time–wavelength map, spectrum, and time trace"
