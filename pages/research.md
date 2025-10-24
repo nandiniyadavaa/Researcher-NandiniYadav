@@ -68,6 +68,12 @@ permalink: /research
   object-fit: cover;              /* crop to fit the rectangle */
   aspect-ratio: auto !important;  /* disable any earlier aspect-ratio */
 }
+  
+
+/* Optional: if you also don’t want rounded cards at all */
+/*  .card { border-radius: 0 !important; }*/
+
+
 </style>
 
 <div class="projects-wrap">
@@ -162,9 +168,4 @@ permalink: /research
   });
 })();
 </script>
-
-
-
-/* Optional: if you also don’t want rounded cards at all */
-.card { border-radius: 0 !important; }
 
