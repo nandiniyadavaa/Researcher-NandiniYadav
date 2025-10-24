@@ -1,7 +1,7 @@
 - key: balmer-detachment-diiid
   title: "Balmer Spectroscopy of Divertor Detachment (DIII-D)"
   org: "DIII-D"
-  years: 
+  years: "2023-present"
   tags: ["detachment", "spectroscopy", "diagnostics", "bayesian inference"]
   image: "assets/image/DIIID.svg"
   alt: "Balmer Spectroscopy of Divertor Detachment (DIII-D)"
@@ -13,4 +13,22 @@
      Divertor detachment is the reactor-relevant regime where parallel heat/particle fluxes to target plates are reduced by momentum and power loss in the divertor volume. As density (or fueling) is raised, the ionization source rolls over, recombination and molecular channels strengthen, and the ionization/recombination front modifies upstream; Balmer line brightness are most sensitive signature of this change. 
      Building on my spectroscopy and edge-diagnostics work, I led a DIII-D experiment that (i) executed a controlled density scan across multiple Greenwald fractions, (ii) used absolutely calibrated spectroscopic views to measure Balmer emissisons brightness (low-n to high-n) and selected line ratios, (iii) separated excitation vs. recombination contributions (using Bayesian based Spectroscopic technique for Plasma-Molecular Interaction - Verhaegh, Kevin, et al. Nuclear Fusion 63.1 (2022): 016014.)
      This is usful for detachment quantification through Atomic and Molecular Physics and understanding impact of it on power, particle and momentum balance. My work is validated the code for DIII-D tokamak (because of different line-of-sights). Future work includes detachment quantification with different divertor configuration and with H-mode plasmas.
+
+
+- key: balmer-detachment-diiid
+  title: "Spectroscopy plasma diagnostic"
+  org: "ADITYA-U"
+  years: "2015-2023"
+  tags: [ "spectroscopy", "diagnostics"]
+  image: "assets/image/DIIID.svg"
+  alt: 
+  links:
+    summary: ""
+    slides: ""
+    preprint: ""
+  blurb: >
+
+  I install, align, and commission **CCD and sCMOS detectors** on visible/NIR spectrometers to deliver quantitative, wavelength-accurate measurements. That includes setting focal planes and slit aligment, optimizing f/# coupling, and verifying **point-spread functions** with narrow calibration lines. I perform full absolute/relative intensity and wavelength calibration (Hg/Ne/Ar lamps). In parallel, I maintain and operate **time-resolved detectors**—photomultiplier tubes (PMTs) and fast photodiodes—integrated through low-noise preamplifiers and discriminators for microsecond–millisecond plasma emission studies. These systems are synchronized to machine timing via hardware triggers and delay generators, with signal paths verified on **digital storage oscilloscopes** and logged through DAQ modules for shot-by-shot analysis.
+  
+  I have also done precision cleaving and **fusion splicing** for SMA connectors, inspection under a fiber scope, and careful routing with minimum bend radii to preserve throughput. I design and mount fore-optics (apertures, bandpass filters, relay lenses) on the tokamak to define collection volumes and reject stray light, and I maintain alignment. My electronics work spans specifying and wiring low-noise **preamps/amplifiers**, configuring **signal/function generators** for calibration pulses, and implementing proper grounding/shielding to suppress EMI in high-current environments. I also write the acquisition/control scripts to coordinate shutters, filter wheels, camera SDKs, and trigger logic, and I maintain a calibration ledger so every dataset is traceable (lamp ID, detector gain, slit width, fiber and optics stack). Collectively, this toolkit—optomechanics, detectors, vacuum practice, and electronics—lets me deliver **absolute, time-resolved spectroscopic data** that are ready for physical inference (temperature, flow, opacity) and robust shot-to-shot comparison.
 
