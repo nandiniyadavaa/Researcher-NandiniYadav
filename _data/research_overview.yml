@@ -22,6 +22,27 @@
     methodology across DIII-D’s different sightlines and extends the analysis to alternative divertor
     configurations and H-mode plasmas.
 
+- title: "SpectralGUI: Interactive Spectroscopy Viewer (Python/OMFIT)"
+  org: "DIII-D"
+  years: "2024–present"
+  tags: ["diagnostics", "software", "spectroscopy", "python", "OMFIT"]
+  image: "/assets/image/py_GUI.svg"
+  alt: "WiSE/SpectralGUI interface with time–wavelength map, spectrum, and time trace"
+  links:
+    summary: ""
+    slides: ""
+    preprint: ""
+  blurb: >
+    SpectralGUI is a Python/OMFIT application I built to accelerate analysis of time-resolved spectroscopy
+    on DIII-D (WiSE/HRUVS/SPRED/Avantes). It has (top-left) a calibrated time–wavelength
+    brightness map, (top-right) an instantaneous spectrum with line-ID overlays, and (bottom) an integrated
+    intensity vs. time trace. Interactive sliders and ROI tools let users pick time windows or wavelength
+    bands, then export either “time slice” spectra or “time profile” traces with one click. An element palette
+    toggles labeled candidates (H/D Balmer, He, C, N, O, Ar, Ne, Xe, etc.) and supports custom linelists.
+    The pipeline preserves absolute calibration, applies background handling. Designed on Matplotlib+Qt, 
+    it runs inside OMFIT and on cluster backends with the same controls, enabling reproducible, 
+    fast turnaround from raw frames to physics-quality diagnostics.
+
 - title: "Spectroscopy Plasma Diagnostics"
   org: "ADITYA-U"
   years: "2015–2023"
