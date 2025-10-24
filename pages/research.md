@@ -99,6 +99,60 @@ permalink: /research
   width: auto; height: auto;
   max-width: 100%; max-height: 100%;
 }
+/* Justified text with smart hyphenation */
+.p{
+  color:#222; line-height:1.6; margin:0;
+  text-align:justify; text-justify:inter-word;
+  hyphens:auto; -webkit-hyphens:auto; -ms-hyphens:auto;
+}
+
+/* Give thumbnails a subtle box look */
+.thumb-wrap{
+  float:left;
+  inline-size:clamp(240px, 42%, 420px);
+  margin:4px 16px 10px 2px;
+  background:#f5f7fb;
+  border:1px solid var(--ring);
+  border-radius:12px;
+  overflow:hidden;
+  shape-outside: inset(0 round 12px);
+  max-height:420px;
+  display:flex; align-items:center; justify-content:center;
+  padding:6px; /* slight inner breathing room */
+}
+
+/* Make image fit inside the capped box without cropping */
+.thumb{
+  width:auto; height:auto;
+  max-width:100%; max-height:100%;
+  object-fit:contain; aspect-ratio:auto;
+}
+
+/* --- LANDSCAPE MODE: wide figures => horizontal, neatly aligned --- */
+.card.is-landscape{
+  /* switch from float-wrapping to a tidy two-column layout */
+  display:grid;
+  grid-template-columns: minmax(260px, 42%) 1fr;
+  column-gap:18px;
+  align-items:center; /* vertically center image vs text */
+  padding:14px 16px 16px; /* a touch more room when gridded */
+}
+.card.is-landscape .thumb-wrap{
+  float:none; /* stop wrapping */
+  inline-size:auto;
+  margin:0;           /* let grid gap handle spacing */
+  max-height:320px;   /* slightly shorter for wide banners */
+  padding:8px;        /* keep the framed look */
+}
+.card.is-landscape .body{min-width:0}
+
+/* Mobile: stack again */
+@media (max-width:640px){
+  .card.is-landscape{display:block}
+  .card.is-landscape .thumb-wrap{
+    float:none; inline-size:100%; margin:0 0 10px 0; max-height:360px;
+  }
+}
 
 </style>
 
