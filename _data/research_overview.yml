@@ -2,7 +2,7 @@
   org: "DIII-D"
   years: "2023–present"
   tags: ["detachment", "spectroscopy", "diagnostics", "bayesian-inference"]
-  image: "/assets/images/DIIID.svg"
+  image: "/assets/image/DIIID.svg"
   alt: "Balmer Spectroscopy of Divertor Detachment at DIII-D"
   links:
     summary: ""
@@ -26,7 +26,7 @@
   org: "ADITYA-U"
   years: "2015–2023"
   tags: ["spectroscopy", "diagnostics", "optics", "timing"]
-  image: "/assets/images/fig2.jpg"
+  image: "/assets/image/fig2.jpg"
   alt: ""
   links:
     summary: ""
@@ -52,7 +52,7 @@
   org: "ADITYA-U"
   years: "2020–2023"
   tags: ["recycling", "particle-balance", "wall-physics", "lithiumization", "gdc"]
-  image: "/assets/images/DIIID.svg"
+  image: "/assets/image/DIIID.svg"
   alt: ""
   links:
     summary: ""
@@ -72,7 +72,7 @@
   org: "ADITYA-U"
   years: "2017–2023"
   tags: ["modeling", "neutrals", "impurities", "DEGAS2", "transport"]
-  image: "/assets/images/DIIID.svg"
+  image: "/assets/image/DIIID.svg"
   alt: ""
   links:
     summary: ""
@@ -92,7 +92,7 @@
   org: "Low-temperature plasmas (RF & PWT)"
   years: "2015–2017"
   tags: ["spectroscopy", "molecular", "diagnostics", "calibration"]
-  image: "/assets/images/labview.svg"
+  image: "/assets/image/labview.svg"
   alt: ""
   links:
     summary: ""
