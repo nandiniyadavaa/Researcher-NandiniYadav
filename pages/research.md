@@ -18,20 +18,50 @@ permalink: /research
 .filter-btn:focus{outline:2px solid #cfe0ff;outline-offset:2px}
 .filter-btn.active{background:#eaf2fd;color:#0d3ea9;border-color:#cfe0ff}
 
-/* horizontal list with thumbnail */
+/* list */
 .list{display:flex;flex-direction:column;gap:14px}
-.card{display:flex;gap:0;align-items:stretch;background:var(--card);border:1px solid var(--ring);
-  border-radius:12px;overflow:hidden;transition:box-shadow .2s,transform .1s}
+
+/* CARD: switch to block flow so image can float and text wraps */
+.card{
+  display:block;
+  background:var(--card);
+  border:1px solid var(--ring);
+  border-radius:12px;
+  overflow:hidden;
+  transition:box-shadow .2s,transform .1s;
+  padding:12px 14px 14px; /* give room since no flex gutters */
+  position:relative;
+}
 .card:hover{box-shadow:0 8px 24px rgba(13,62,169,.12);transform:translateY(-1px)}
+/* clearfix for the float */
+.card::after{content:"";display:table;clear:both}
 
-/* thumbnail column (wide rectangle so plots fit) */
-.thumb-wrap{position:relative;flex:0 0 280px;max-width:280px;background:#f5f7fb;aspect-ratio:16/9;overflow:hidden}
-.thumb{width:100%;height:100%;object-fit:cover;display:block;border-radius:0;clip-path:none}
-.thumb.contain{object-fit:contain;background:#f5f7fb} /* opt-in to see entire image */
-.thumb-fallback{width:100%;height:100%;min-height:160px;background:linear-gradient(135deg,#eaf2fd,#dbeafe 60%,#c7f9e9)}
+/* THUMBNAIL: float left, keep full image (no crop), allow natural aspect ratio */
+.thumb-wrap{
+  float:left;
+  /* keep it reasonably sized while preserving the image’s own aspect ratio */
+  inline-size:clamp(240px, 42%, 420px);
+  margin:4px 16px 10px 2px;
+  background:#f5f7fb;
+  border-radius:10px;
+  overflow:hidden; /* just for rounded corners, not cropping aspect */
+  /* optional nicer wrap curve */
+  shape-outside: inset(0 round 12px);
+}
+.thumb{
+  display:block;
+  width:100%;
+  height:auto;          /* <- preserve orientation/ratio */
+  object-fit:contain;   /* <- never crop */
+  border-radius:0;
+  clip-path:none;
+  background:#f5f7fb;
+}
+.thumb.contain{object-fit:contain} /* keep your opt-in path working */
+.thumb-fallback{width:100%;aspect-ratio:16/9;min-height:160px;background:linear-gradient(135deg,#eaf2fd,#dbeafe 60%,#c7f9e9)}
 
-/* text column */
-.body{padding:14px 16px 16px;flex:1;min-width:0}
+/* TEXT column becomes normal flow content that wraps around the floated image */
+.body{min-width:0}
 .h{margin:0 0 6px;font-weight:700;color:#0d3ea9;font-size:1.08rem;line-height:1.25}
 .meta{display:flex;gap:10px;flex-wrap:wrap;margin:0 0 8px;color:var(--muted);font-size:.92rem}
 .tag{border:1px solid var(--ring);border-radius:999px;padding:2px 8px;font-size:.82rem;background:#fff}
@@ -40,8 +70,15 @@ permalink: /research
 .links{display:flex;gap:12px;margin-top:10px;flex-wrap:wrap}
 .links a{color:#0d3ea9;text-decoration:underline;white-space:nowrap}
 
-/* responsive */
-
+/* responsive: on narrow screens remove float so image stacks above text */
+@media (max-width:640px){
+  .thumb-wrap{
+    float:none;
+    inline-size:100%;
+    margin:0 0 10px 0;
+  }
+  .card{padding:12px 12px 14px}
+}
 </style>
 
 <div class="projects-wrap">
@@ -63,7 +100,7 @@ permalink: /research
     <button class="filter-btn" data-tag="low-temperature plasma" role="tab" aria-selected="false">Low-Temperature Plasma</button>
   </div>
 
-  <!-- Horizontal list -->
+  <!-- List -->
   <div class="list" id="list">
     {% assign items = site.data.research_overview %}
     {% for item in items %}
