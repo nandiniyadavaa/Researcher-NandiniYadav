@@ -24,11 +24,11 @@ permalink: /research
   border-radius:12px;overflow:hidden;transition:box-shadow .2s,transform .1s}
 .card:hover{box-shadow:0 8px 24px rgba(13,62,169,.12);transform:translateY(-1px)}
 
-/* thumbnail column */
-.thumb-wrap{position:relative;flex:0 0 220px;max-width:220px;background:#f5f7fb}
-.thumb{width:100%;height:100%;aspect-ratio:16/11;object-fit:cover;display:block}
-.thumb-fallback{width:100%;height:100%;min-height:150px;background:
-  linear-gradient(135deg,#eaf2fd,#dbeafe 60%,#c7f9e9)}
+/* thumbnail column (wide rectangle so plots fit) */
+.thumb-wrap{position:relative;flex:0 0 280px;max-width:280px;background:#f5f7fb;aspect-ratio:16/9;overflow:hidden}
+.thumb{width:100%;height:100%;object-fit:cover;display:block;border-radius:0;clip-path:none}
+.thumb.contain{object-fit:contain;background:#f5f7fb} /* opt-in to see entire image */
+.thumb-fallback{width:100%;height:100%;min-height:160px;background:linear-gradient(135deg,#eaf2fd,#dbeafe 60%,#c7f9e9)}
 
 /* text column */
 .body{padding:14px 16px 16px;flex:1;min-width:0}
@@ -41,33 +41,12 @@ permalink: /research
 .links a{color:#0d3ea9;text-decoration:underline;white-space:nowrap}
 
 /* responsive */
-@media (max-width:860px){ .thumb-wrap{flex-basis:180px;max-width:180px} }
+@media (max-width:860px){ .thumb-wrap{flex-basis:220px;max-width:220px} }
 @media (max-width:640px){
   .card{flex-direction:column}
-  .thumb-wrap{flex-basis:auto;max-width:none}
-  .thumb,.thumb-fallback{aspect-ratio:16/9;min-height:160px}
+  .thumb-wrap{flex-basis:auto;max-width:none;aspect-ratio:16/9}
   .body{padding:12px 14px 14px}
 }
-  /* === Force rectangular thumbnails (no oval, no rounding) === */
-.thumb-wrap,
-.thumb {
-  border-radius: 0 !important;   /* kill any rounding */
-  clip-path: none !important;     /* avoid accidental masking */
-}
-
-
-.thumb {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;              /* crop to fit the rectangle */
-  aspect-ratio: auto !important;  /* disable any earlier aspect-ratio */
-}
-  
-
-/* Optional: if you also don’t want rounded cards at all */
-/*  .card { border-radius: 0 !important; }*/
-
-
 </style>
 
 <div class="projects-wrap">
@@ -93,10 +72,14 @@ permalink: /research
   <div class="list" id="list">
     {% assign items = site.data.research_overview %}
     {% for item in items %}
-      <article class="card" data-tags="{{ item.tags | default: empty | join: ',' }}">
+      {% if item.tags %}{% assign tags_attr = item.tags | join: ',' %}{% else %}{% assign tags_attr = '' %}{% endif %}
+      <article class="card" data-tags="{{ tags_attr }}">
         <div class="thumb-wrap">
           {% if item.image and item.image != '' %}
-            <img class="thumb" src="{{ item.image | relative_url }}" alt="{{ item.alt | default: item.title }}">
+            <img class="thumb {% if item.image_fit == 'contain' %}contain{% endif %}"
+                 src="{{ item.image | relative_url }}"
+                 alt="{{ item.alt | default: item.title }}"
+                 loading="lazy">
           {% else %}
             <div class="thumb-fallback" aria-hidden="true"></div>
           {% endif %}
@@ -105,22 +88,19 @@ permalink: /research
         <div class="body">
           <div class="h">{{ item.title }}</div>
           <div class="meta">
-            {% if item.years and item.years != '' %}<span class="tag">{{ item.years }}</span>{% endif %}
-            {% if item.org and item.org != '' %}<span class="tag">{{ item.org }}</span>{% endif %}
+            {% if item.years %}<span class="tag">{{ item.years }}</span>{% endif %}
+            {% if item.org %}<span class="tag">{{ item.org }}</span>{% endif %}
           </div>
 
           <div class="p">
             {{ item.blurb | markdownify }}
           </div>
 
-
+          {% if item.tags %}
           <div class="badges">
-            {% if item.tags %}
-              {% for t in item.tags %}
-                <span class="tag">{{ t }}</span>
-              {% endfor %}
-            {% endif %}
+            {% for t in item.tags %}<span class="tag">{{ t }}</span>{% endfor %}
           </div>
+          {% endif %}
 
           {% if item.links %}
             <div class="links">
@@ -138,15 +118,18 @@ permalink: /research
     {% endfor %}
   </div>
 </div>
+
 <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 <script>
-  
 /* Tag filter (comma-separated data-tags on cards) */
 (function() {
   const btns = Array.from(document.querySelectorAll('.filter-btn'));
   const cards = Array.from(document.querySelectorAll('.card'));
-  const tagsOf = el => (el.getAttribute('data-tags')||'').split(',').map(s=>s.trim()).filter(Boolean);
+  const tagsOf = el => (el.getAttribute('data-tags')||'')
+                        .split(',')
+                        .map(s=>s.trim())
+                        .filter(Boolean);
 
   function setActive(btn){
     btns.forEach(b=>{
@@ -167,4 +150,3 @@ permalink: /research
   });
 })();
 </script>
-
