@@ -1,8 +1,8 @@
 - key: balmer-detachment-diiid
   title: "Balmer Spectroscopy of Divertor Detachment (DIII-D)"
   org: "DIII-D"
-  years: "2024–"
-  tags: ["detachment", "spectroscopy", "diagnostics"]
+  years: 
+  tags: ["detachment", "spectroscopy", "diagnostics", "bayesian inference"]
   image: 
   alt: "Balmer Spectroscopy of Divertor Detachment (DIII-D)"
   links:
