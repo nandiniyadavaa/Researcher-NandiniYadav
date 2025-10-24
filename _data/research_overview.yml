@@ -1,80 +1,112 @@
-- key:
-  title: "Balmer Spectroscopy of Divertor Detachment (DIII-D)"
+- title: "Balmer Spectroscopy of Divertor Detachment (DIII-D)"
   org: "DIII-D"
-  years: "2023-present"
-  tags: ["detachment", "spectroscopy", "diagnostics", "bayesian inference"]
-  image: "assets/image/DIIID.svg"
-  alt: "Balmer Spectroscopy of Divertor Detachment (DIII-D)"
+  years: "2023–present"
+  tags: ["detachment", "spectroscopy", "diagnostics", "bayesian-inference"]
+  image: "/assets/images/DIIID.svg"
+  alt: "Balmer Spectroscopy of Divertor Detachment at DIII-D"
   links:
     summary: ""
     slides: ""
     preprint: ""
   blurb: >
-     Divertor detachment is the reactor-relevant regime where parallel heat/particle fluxes to target plates are reduced by momentum and power loss in the divertor volume. As density (or fueling) is raised, the ionization source rolls over, recombination and molecular channels strengthen, and the ionization/recombination front modifies upstream; Balmer line brightness are most sensitive signature of this change. 
-     Building on my spectroscopy and edge-diagnostics work, I led a DIII-D experiment that (i) executed a controlled density scan across multiple Greenwald fractions, (ii) used absolutely calibrated spectroscopic views to measure Balmer emissisons brightness (low-n to high-n) and selected line ratios, (iii) separated excitation vs. recombination contributions (using Bayesian based Spectroscopic technique for Plasma-Molecular Interaction - Verhaegh, Kevin, et al. Nuclear Fusion 63.1 (2022): 016014.)
-     This is usful for detachment quantification through Atomic and Molecular Physics and understanding impact of it on power, particle and momentum balance. My work is validated the code for DIII-D tokamak (because of different line-of-sights). Future work includes detachment quantification with different divertor configuration and with H-mode plasmas.
+    Divertor detachment is a reactor-relevant regime in which parallel heat and particle fluxes to the targets
+    are reduced by volumetric momentum and power losses in the divertor. As density or fueling increases,
+    the ionization source rolls over, recombination and molecular channels strengthen, and the ionization/
+    recombination front retreats—changes that are imprinted on Balmer emissivity and line ratios. Building
+    on my spectroscopy and edge-diagnostics background, I led a DIII-D experiment that (i) executed a
+    controlled density scan across multiple Greenwald-fraction levels, (ii) used absolutely calibrated views to
+    measure Balmer brightness from low-n to high-n and diagnostic line ratios, and (iii) separated excitation
+    and recombination contributions using a Bayesian analysis framework adapted for plasma–molecular
+    interaction. These measurements enable quantitative detachment metrics grounded in atomic and molecular
+    physics and clarify impacts on power, particle, and momentum balance. Ongoing work validates the
+    methodology across DIII-D’s different sightlines and extends the analysis to alternative divertor
+    configurations and H-mode plasmas.
 
-
-- key:
-  title: "Spectroscopy plasma diagnostic"
+- title: "Spectroscopy Plasma Diagnostics (ADITYA-U)"
   org: "ADITYA-U"
-  years: "2015-2023"
-  tags: [ "spectroscopy", "diagnostics"]
-  image: 
-  alt: 
+  years: "2015–2023"
+  tags: ["spectroscopy", "diagnostics", "optics", "timing"]
+  image: ""
+  alt: ""
   links:
     summary: ""
     slides: ""
     preprint: ""
   blurb: >
-      I install, align, and commission  CCD and sCMOS detectors  on visible/NIR spectrometers to deliver quantitative, wavelength-accurate measurements. That includes setting focal planes and slit aligment, optimizing f/# coupling, and verifying  point-spread functions  with narrow calibration lines. I perform full absolute/relative intensity and wavelength calibration (Hg/Ne/Ar lamps). In parallel, I maintain and operate  time-resolved detectors —photomultiplier tubes (PMTs) and fast photodiodes—integrated through low-noise preamplifiers and discriminators for microsecond–millisecond plasma emission studies. These systems are synchronized to machine timing via hardware triggers and delay generators, with signal paths verified on  digital storage oscilloscopes  and logged through DAQ modules for shot-by-shot analysis.
-      I have also done precision cleaving and  fusion splicing  for SMA connectors, inspection under a fiber scope, and careful routing with minimum bend radii to preserve throughput. I design and mount fore-optics (apertures, bandpass filters, relay lenses) on the tokamak to define collection volumes and reject stray light, and I maintain alignment. My electronics work spans specifying and wiring low-noise  preamps/amplifiers , configuring  signal/function generators  for calibration pulses, and implementing proper grounding/shielding to suppress EMI in high-current environments. I also write the acquisition/control scripts to coordinate shutters, filter wheels, camera SDKs, and trigger logic, and I maintain a calibration ledger so every dataset is traceable (lamp ID, detector gain, slit width, fiber and optics stack). Collectively, this toolkit—optomechanics, detectors, vacuum practice, and electronics—lets me deliver  absolute, time-resolved spectroscopic data  that are ready for physical inference (temperature, flow, opacity) and robust shot-to-shot comparison.
+    I install, align, and commission CCD and sCMOS detectors on visible/NIR spectrometers to deliver
+    quantitative, wavelength-accurate measurements—setting focal planes and slit alignment, optimizing f/#
+    coupling, and verifying point-spread functions with narrow calibration lines. I perform absolute/relative
+    intensity and wavelength calibration (Hg/Ne/Ar lamps) and maintain time-resolved detector paths
+    (photomultiplier tubes and fast photodiodes) through low-noise preamplifiers and discriminators for
+    microsecond–millisecond studies. Systems are synchronized to machine timing via hardware triggers and
+    delay generators; signal integrity is verified on digital oscilloscopes and logged through DAQ for
+    shot-resolved analysis. I also handle precision fiber cleaving and fusion splicing for SMA connectors,
+    fore-optics design (apertures, bandpass filters, relay lenses) to define collection volumes and reject stray
+    light, and vacuum practice for spectrometer maintenance. My electronics work spans low-noise
+    preamps/amplifiers, function generators, and robust grounding/shielding against EMI. Acquisition/control
+    scripts coordinate shutters, filter wheels, camera SDKs, and trigger logic, with a calibration ledger to keep
+    every dataset traceable. This toolkit produces absolute, time-resolved spectra ready for inference of
+    temperature, flows, and opacity with reliable shot-to-shot comparisons.
 
-### Recycling, Particle Balance & Influx
-- key:
-  title: "Recycling, Particle Balance & Influx"
+- title: "Recycling, Particle Balance & Influx"
   org: "ADITYA-U"
-  years: "2020-2023"
-  tags: [ "spectroscopy", "diagnostics"]
-  image: 
-  alt: 
+  years: "2020–2023"
+  tags: ["recycling", "particle-balance", "wall-physics", "lithiumization", "gdc"]
+  image: ""
+  alt: ""
   links:
     summary: ""
     slides: ""
     preprint: ""
   blurb: >
-       On ADITYA-U, I combined absolutely calibrated visible measurements with openADAS database (https://open.adas.ac.uk), I demonstrated that **stainless-steel wall regions dominate recycling** relative to carbon limiters and quantified how wall state alters early-shot recycling coefficients and impurity source terms. I performed controlled wall-conditioning studies—**lithiumization** and **glow-discharge cleaning (GDC)**—and showed, through before/after balances and influx reconstructions, how Li coatings suppress chemical sputtering/oxygen-bearing influx while GDC reconditions surfaces to reduce prompt recycling and improve fueling efficiency.
+    Using absolutely calibrated visible spectroscopy tied to atomic data, I quantified how plasma-facing
+    components set neutral/impurity influx, recycling, and global particle balance. On ADITYA-U I showed
+    that stainless-steel wall regions dominate early-shot recycling relative to carbon limiters and mapped how
+    wall state modifies source terms for hydrogenic and impurity species. Through controlled wall-conditioning
+    studies—lithiumization and glow-discharge cleaning (GDC)—I carried out before/after particle-balance
+    reconstructions and influx estimates, demonstrating suppressed chemical sputtering and oxygen-bearing
+    influx after Li coatings and improved fueling efficiency following GDC. The framework provides a
+    consistent path from line-of-sight radiance to machine-level particle accountability.
 
-
-### Neutral & Impurity Transport Modeling
-- key:
-  title: "Neutral & Impurity Transport Modeling"
+- title: "Neutral & Impurity Transport Modeling"
   org: "ADITYA-U"
-  years: "2017-2023"
-  tags: [ "spectroscopy", "diagnostics"]
-  image: 
-  alt: 
+  years: "2017–2023"
+  tags: ["modeling", "neutrals", "impurities", "DEGAS2", "transport"]
+  image: ""
+  alt: ""
   links:
     summary: ""
     slides: ""
     preprint: ""
   blurb: >
-      Neutral and impurity transport in the edge is quantified using the Monte-Carlo neutral code **DEGAS2** to capture atomic/molecular kinetics of hydrogenic species, and an **indigenously developed SITA** (Study of Impurity Transport in ADITYA-U) code to evolve multi-charge-state impurities along field lines with cross-field diffusion and convective/pinch terms. Reproduced emission intensities are matched with experimentally measured emissivity (Abel inversion used to get emissivity). With impurity transport study using SITA, I perform scans of **effective diffusivity (D)** and **convective velocity (V)** for multiple species (O, C, Ne, Ar, Fe).
+    I quantify edge neutral and impurity transport using the Monte-Carlo neutral code DEGAS2 for
+    hydrogenic kinetics and an indigenously developed SITA (Study of Impurity Transport in ADITYA-U)
+    code that advances multi-charge-state impurities along field lines with cross-field diffusion and
+    convective/pinch terms. Synthetic emission is matched to experiment (with Abel-inverted emissivity where
+    applicable) to constrain transport. With SITA I perform scans of effective diffusivity (D) and convective
+    velocity (V) for O, C, Ne, Ar, and Fe, and assess sensitivity to profiles and atomic data. I also analyze how
+    molecular hydrogen alters recycling source terms and neutral penetration, feeding back to detachment and
+    wall-interaction interpretations.
 
-### Linear-Device Spectroscopy
-- key:
-  title: "Linear-Device Spectroscopy"
-  org: "Low-temperature plasma"
-  years: "2015-2017"
-  tags: [ "spectroscopy", "diagnostics"]
-  image: 
-  alt: 
+- title: "Linear-Device Spectroscopy"
+  org: "Low-temperature plasmas (RF & PWT)"
+  years: "2015–2017"
+  tags: ["spectroscopy", "molecular", "diagnostics", "calibration"]
+  image: ""
+  alt: ""
   links:
     summary: ""
     slides: ""
     preprint: ""
   blurb: >
-     In linear RF and arc plasmas—including a **Plasma Wind Tunnel (PWT)**—I developed a spectroscopy workflow that links molecular/atomic emission directly to the thermodynamic state of the discharge. On the molecular side, I extract **vibrational temperatures** (T_v) of **(\mathrm{N_2})** (Second Positive System, SPS) and **CN** (Violet System, when present) using band-head Boltzmann plots with **rotational-envelope corrections**. This explicitly process the spectrum by substracting the background and evaluating the Boltzmann plot for temperature measurement. 
-     A key use case of this platform is **controlled (\mathrm{H_2}) contamination studies**. By seeding (\mathrm{H_2}) into nominal (\mathrm{N_2}) flows, I quantify: (i) **quenching and energy-transfer effects** on the (\mathrm{N_2}) SPS intensity distribution and derived (T_v); (ii) the emergence of **Fulcher-α** ((d^3\Pi_u!\to!a^3\Sigma_g^+)) bands that constrain **(\mathrm{H_2}) rotational/vibrational excitation**; and (iii) the consequent shifts in inferred (T_e) from atomic line ratios when hydrogen alters the **electron energy distribution** and collisional pathways. Where appropriate, I use **actinometric normalizations** (e.g., trace Ar) and **absolute calibration** (lamp-based) to translate relative spectra into quantitative emissivities.
-     Because the **PWT** and bench RF sources offer stable, well-diagnosed boundary conditions (fixed flow, simple geometry), these measurements provide a **clean testbed** to validate CR models and **rate coefficients** that are later deployed in tokamak edge analysis. Practically, the linear-device results improve **spectrometer calibration** (spectral response and line-shape), refine our treatment of **rotational–vibrational energy exchange** and **dissociation pathways**, and quantify how trace (\mathrm{H_2}) modifies (\mathrm{N_2})/CN diagnostics. 
-
+    In linear RF and arc discharges—including a Plasma Wind Tunnel (PWT)—I developed a spectroscopy
+    workflow that links emission to thermodynamic state. I extract vibrational temperatures of N2 (Second
+    Positive System) and CN (Violet System) using band-head Boltzmann plots with rotational-envelope
+    corrections, after instrument-function deconvolution and background removal. Complementary line-ratio
+    thermometry provides electron temperature across power, pressure, and gas-mix scans. Controlled H2
+    seeding quantifies quenching and energy-transfer effects on N2 spectra, the appearance of Fulcher-α bands,
+    and impacts on inferred Te via changes in collisional pathways. Actinometric normalizations and lamp-based
+    radiometry convert relative spectra to emissivities with reported uncertainties. These well-diagnosed
+    conditions validate collisional-radiative models and rate coefficients used in tokamak edge analysis, improve
+    spectrometer calibrations, and inform how rotational/vibrational energy exchange and dissociation shape
+    recycling and detachment chemistry in toroidal devices.
