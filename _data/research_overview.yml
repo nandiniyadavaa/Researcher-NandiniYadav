@@ -3,7 +3,7 @@
   org: "DIII-D"
   years: "2024–"
   tags: ["detachment", "spectroscopy", "diagnostics"]
-  image: "/assets/research/balmer-detachment.jpg"
+  image: 
   alt: "DIII-D divertor Balmer spectroscopy setup"
   links:
     summary: ""
@@ -21,7 +21,7 @@
   org: "DIII-D"
   years: "2023–"
   tags: ["diagnostics", "spectroscopy"]
-  image: "/assets/research/edge-optics.jpg"
+  image: 
   alt: "Fiber-coupled spectrometer and calibration lamps"
   links:
     methods: ""
@@ -36,7 +36,7 @@
   org: "DIII-D"
   years: "2022–"
   tags: ["impurities", "detachment"]
-  image: "/assets/research/xpoint.jpg"
+  image: 
   alt: "X-point region schematic with radiation zone"
   links:
     poster: ""
