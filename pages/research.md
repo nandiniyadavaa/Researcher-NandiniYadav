@@ -109,7 +109,10 @@ permalink: /research
             {% if item.org and item.org != '' %}<span class="tag">{{ item.org }}</span>{% endif %}
           </div>
 
-          <p class="p">{{ item.blurb }}</p>
+          <div class="p">
+            {{ item.blurb | markdownify }}
+          </div>
+
 
           <div class="badges">
             {% if item.tags %}
