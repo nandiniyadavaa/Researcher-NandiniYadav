@@ -68,7 +68,7 @@
     influx after Li coatings and improved fueling efficiency following GDC. The framework provides a
     consistent path from line-of-sight radiance to machine-level particle accountability.
 
-- title: "Neutral & Impurity Transport Modeling"
+- title: "Poloidal asymmetry in neutrals & Impurity Transport Modeling"
   org: "ADITYA-U"
   years: "2017–2023"
   tags: ["modeling", "neutrals", "impurities", "DEGAS2", "transport"]
@@ -87,6 +87,16 @@
     velocity (V) for O, C, Ne, Ar, and Fe, and assess sensitivity to profiles and atomic data. I also analyze how
     molecular hydrogen alters recycling source terms and neutral penetration, feeding back to detachment and
     wall-interaction interpretations.
+    Neutral temperature in the edge is a key control knob for particle fueling and momentum/energy exchange, 
+    because it sets the efficiency of charge-exchange and ionization with escaping ions. I determine it spectroscopically—most 
+    commonly from Doppler broadening of Hα (and, where available, Fulcher-α rotational fits for H₂)—using absolutely 
+    calibrated, line-of-sight views. On ADITYA-U, my measurements revealed a clear **poloidal asymmetry** in neutral 
+    temperature: views near the inboard side and upper limiter recorded cooler, slower neutrals than views near the 
+    outboard mid-plane and lower limiter. This asymmetry arises from a combination of geometry and physics—localized 
+    recycling sources (limiters, wall tiles) that heat neutrals through repeated charge-exchange, longer neutral 
+    mean-free-paths along shallow incidence field lines, E×B/∇B-driven SOL drifts that convect hot ions toward specific 
+    strike regions, and sightline integration through different path lengths and densities. 
+
 
 - title: "Linear-Device Spectroscopy"
   org: "Low-temperature plasmas (RF & PWT)"
