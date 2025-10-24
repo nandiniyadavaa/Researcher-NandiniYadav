@@ -7,16 +7,16 @@
   doi:
   link: "https://meetings.aps.org/Meeting/DPP21/Session/CO07.4"
 
-- authors: "Nandini Yadava"
+- authors: "Yadava, Nandini, Sachin S. Chouhan, Amulya Sanyasi, Uttam Sharma, Jayashree Sharma, Malay B. Chowdhuri, Joydeep Ghosh, and Ankur Pandya"
   year: 2021
   title: "Vibrational temperature estimation of nitrogen molecules in radio-frequency (RF) produced plasma"
   journal: "30th International Toki Conference on Plasma and Fusion Research (ITC-30) — virtual"
   volume:
-  pages:
-  doi:
-  link:
+  pages: "2401095-2401095"
+  doi: "10.1585/pfr.17.2401095"
+  link: "https://inis.iaea.org/records/9z2sk-sr387"
 
-- authors: "Nandini Yadava"
+- authors: "Nandini Yadava et al."
   year: 2021
   title: "Behavior of hydrogen and impurities in ADITYA-U tokamak plasmas after lithium coating"
   journal: "V International Summer School on the Physics of Plasma–Surface Interactions, MEPhI, Moscow — virtual"
@@ -25,7 +25,7 @@
   doi:
   link:
   
-- authors: "Nandini Yadava; ADITYA-U Team"
+- authors: "Nandini Yadava et al."
   year: 2020
   title: "Spectroscopic Plasma Diagnostic Technique to Estimate Temperature from Line Emissions Influenced by Magnetic Field"
   journal: "8th PSSI Plasma Scholars Colloquium (PSC-2020), Kalinga Institute of Industrial Technology (KIIT) — virtual"
@@ -34,7 +34,7 @@
   doi:
   link:
 
-- authors: "Nandini Yadava; ADITYA-U Team"
+- authors: "Nandini Yadava et al."
   year: 2020
   title: "Simulation of Zeeman-Influenced and Impurity Ion Spectral Lines in Aditya-U Tokamak"
   journal: "3rd National Seminar on Nonlinear and Complex Phenomena, Jadavpur University, Kolkata"
@@ -43,7 +43,7 @@
   doi:
   link:
 
-- authors: "Nandini Yadava; ADITYA-U Team"
+- authors: "Nandini Yadava et al."
   year: 2019
   title: "Impurity Ion Temperature Measurement using Zeeman-Influenced Spectral Lines in Aditya-U Tokamak"
   journal: "PLASMA 2019: 34th National Symposium on Plasma Science & Technology, Vellore (Chennai region)"
@@ -52,7 +52,7 @@
   doi:
   link:
 
-- authors: "Nandini Yadava; ADITYA-U Team"
+- authors: "Nandini Yadava et al."
   year: 2019
   title: "Spatial Profile Measurement of Hα and C⁺ Ion Temperature in Aditya-U Tokamak"
   journal: "7th PSSI – Plasma Scholars Colloquium, Institute for Advanced Research (IAR), Gandhinagar, Gujarat (8–10 Aug 2019)"
