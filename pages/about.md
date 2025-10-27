@@ -83,7 +83,7 @@ redirect_from:
         Oak Ridge Associated University, Tennessee, USA<br>
         DIII-D National Fusion Facility, San Diego, USA<br>
         <p style="text-indent:2em;">
-          Currently working on a technique to characterize the detached plasma through quantification of plasma-atomic and plasma-molecular contributions in particle, power and momentum balance. This utilizes several existing visible diagnostics of DIII-D along with extensive computational analysis based on a Bayesian inference technique. 
+          Currently working on quantification of the detached plasma to understand power and particle balance. This requires use of Bayseian inference technique on Balmer emissions. Also, it needs extensive understanding of atomic & molecular processes. This utilizes several existing visible diagnostics of DIII-D. The code is validated for DIII-D with 2024 experimental mesurements using SAPP (simplest as possible plasmas).
         </p>
       <h3>Education</h3>
       <p>        
