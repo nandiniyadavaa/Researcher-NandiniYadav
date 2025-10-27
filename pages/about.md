@@ -100,7 +100,7 @@ redirect_from:
         <strong>[2021–2022]</strong> <span class="years"></span> — Senior Research Fellow, Indian Institute of Technology (IIT) Kanpur, Uttar Pradesh<br>
         <strong>[2018–2021]</strong> <span class="years"></span> — Junior Research Fellow, The National Institute of Engineering, Mysuru, Karnataka, India<br>
         <strong>[2016–2018]</strong> <span class="years"></span> — Research Scholar, Gujarat University, Ahmedabad, Gujarat, India<br>
-        <strong>Scientific Assistant</strong> <span class="years">2015–2016</span> — Scientific Assistant, Institute for Plasma Research, Gandhinagar, Gujarat, India<br>
+        <strong>[2015–2016]</strong> <span class="years"></span> — Scientific Assistant, Institute for Plasma Research, Gandhinagar, Gujarat, India<br>
       </p>
       <h3 style="margin-top:1rem">Positions / Experience</h3>
       <p>
