@@ -71,7 +71,10 @@ redirect_from:
       <p><strong>Research themes:</strong> divertor detachment; edge/SOL transport; Balmer spectroscopy; impurity/neutral dynamics; EIR/MAR; power exhaust; tokamak diagnostics.</p>
     <hr class="hr-soft">
     <p class="btn-row">
-        <a class="btn" href="{{ '/assets/pdfs/Nandini_CV_NY_Oct26.pdf' | relative_url }}" target="_blank" rel="noopener">Download CV </a>
+        <a class="btn" href="{{ '/assets/pdfs/Nandini_CV_NY_Oct26_1pg.pdf' | relative_url }}" target="_blank" rel="noopener">Download CV (short) </a>
+    </p>
+    <p class="btn-row">
+        <a class="btn" href="{{ '/assets/pdfs/Nandini_CV_NY_Oct26.pdf' | relative_url }}" target="_blank" rel="noopener">Download CV (full) </a>
     </p>
     <hr class="hr-soft">
       <h3>Present activity</h3>
@@ -94,12 +97,12 @@ redirect_from:
       
       <h3 style="margin-top:1rem">Positions / Experience</h3>
       <p>
-        <strong>JRF (DAE-BRNS)</strong> <span class="years">2021–2022</span> — Indian Institute of Technology (IIT) Kanpur, Uttar Pradesh<br>
-        <strong>JRF (DAE-BRNS)</strong> <span class="years">2018–2021</span> — The National Institute of Engineering, Mysuru, Karnataka<br>
-        <strong>Research Scholar</strong> <span class="years">2016–2018</span> — Gujarat University, Ahmedabad, Gujarat<br>
-        <strong>Scientific Assistant</strong> <span class="years">2015–2016</span> — Institute for Plasma Research, Gandhinagar<br>
-        <strong>Master of Science</strong> <span class="years">2013–2015</span> — Gujarat University, Ahmedabad, Gujarat<br>
-        <strong>Bachelor of Science</strong> <span class="years">2010–2013</span> — Gujarat University, Ahmedabad, Gujarat<br>
+        <strong>JRF (DAE-BRNS)</strong> <span class="years">2021–2022</span> — Senior Research Fellow, Indian Institute of Technology (IIT) Kanpur, Uttar Pradesh<br>
+        <strong>JRF (DAE-BRNS)</strong> <span class="years">2018–2021</span> — Junior Research Fellow, The National Institute of Engineering, Mysuru, Karnataka, India<br>
+        <strong>Research Scholar</strong> <span class="years">2016–2018</span> — Research Scholar, Gujarat University, Ahmedabad, Gujarat, India<br>
+        <strong>Scientific Assistant</strong> <span class="years">2015–2016</span> — Scientific Assistant, Institute for Plasma Research, Gandhinagar, Gujarat, India<br>
+        <strong>Master of Science</strong> <span class="years">2013–2015</span> — Gujarat University, Ahmedabad, Gujarat, India<br>
+        <strong>Bachelor of Science</strong> <span class="years">2010–2013</span> — Gujarat University, Ahmedabad, Gujarat, India<br>
       </p>
       <hr class="hr-soft">
       
