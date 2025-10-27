@@ -97,12 +97,15 @@ redirect_from:
       
       <h3 style="margin-top:1rem">Positions / Experience</h3>
       <p>
-        <strong>JRF (DAE-BRNS)</strong> <span class="years">2021–2022</span> — Senior Research Fellow, Indian Institute of Technology (IIT) Kanpur, Uttar Pradesh<br>
-        <strong>JRF (DAE-BRNS)</strong> <span class="years">2018–2021</span> — Junior Research Fellow, The National Institute of Engineering, Mysuru, Karnataka, India<br>
-        <strong>Research Scholar</strong> <span class="years">2016–2018</span> — Research Scholar, Gujarat University, Ahmedabad, Gujarat, India<br>
+        <strong>[2021–2022]</strong> <span class="years"></span> — Senior Research Fellow, Indian Institute of Technology (IIT) Kanpur, Uttar Pradesh<br>
+        <strong>[2018–2021]</strong> <span class="years"></span> — Junior Research Fellow, The National Institute of Engineering, Mysuru, Karnataka, India<br>
+        <strong>[2016–2018]</strong> <span class="years"></span> — Research Scholar, Gujarat University, Ahmedabad, Gujarat, India<br>
         <strong>Scientific Assistant</strong> <span class="years">2015–2016</span> — Scientific Assistant, Institute for Plasma Research, Gandhinagar, Gujarat, India<br>
-        <strong>Master of Science</strong> <span class="years">2013–2015</span> — Gujarat University, Ahmedabad, Gujarat, India<br>
-        <strong>Bachelor of Science</strong> <span class="years">2010–2013</span> — Gujarat University, Ahmedabad, Gujarat, India<br>
+      </p>
+      <h3 style="margin-top:1rem">Positions / Experience</h3>
+      <p>
+        <strong>[2013–2015]</strong> <span class="years"></span> — Gujarat University, Ahmedabad, Gujarat, India<br>
+        <strong>[2010–2013]</strong> <span class="years"></span> — Gujarat University, Ahmedabad, Gujarat, India<br>
       </p>
       <hr class="hr-soft">
       
