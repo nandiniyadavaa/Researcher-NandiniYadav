@@ -55,39 +55,41 @@ redirect_from:
     <div class="about-body">
 
       <p>
-        I am a postdoctoral researcher at the <strong>DIII-D National Fusion Facility (General Atomics), San Diego, USA</strong>. My work focuses on the physics of the tokamak boundary—scrape-off layer and divertor—with an emphasis on <strong>divertor detachment</strong>, Balmer-series spectroscopy, and impurity/neutral dynamics. I apply analysis methods that separate excitation and recombination, quantify particle sources and sinks, and diagnose molecule-assisted processes.
+        I am a postdoctoral researcher at the <strong>DIII-D National Fusion Facility (General Atomics), San Diego, USA</strong>. My work focuses on the physics of the tokamak boundary—scrape-off layer and divertor—with an experties on <strong>divertor detachment</strong>, Balmer-series spectroscopy, and impurity/neutral dynamics. I apply analysis methods that separate excitation and recombination, quantify particle sources and sinks, and diagnose molecule-assisted processes.
       </p>
 
       <p>
-        I pursued my Bachelor’s (2013) and Master’s (2015) at <a href="https://www.gujaratuniversity.ac.in" target="_blank" rel="noopener"> Gujarat University, Ahmedabad, Gujarat, India </a>, with Physics as my major. I began my research career in 2015 as a Scientific Assistant at<a href="https://www.ipr.res.in/" target="_blank" rel="noopener"> the Institute for Plasma Research (IPR), Ahmedabad, Gujarat, India </a>. I later continued working at IPR while collaborating with other institutes. I earned my Ph.D. in 2023 (enrollment 2020–2023). Subsequently, I started in my current position.
+        I contributed to tokamak research at ADITYA-U, where I investigated recycling, impurity influx, and edge temperatures using spectroscopy and imaging. Across projects I enjoy translating complex diagnostics into clear, actionable results for operations and theory groups. My long-term goal is to help bridge diagnostics, modeling, and control so that power-exhaust solutions for future fusion devices are robust and repeatable.
       </p>
       
       <p>
-        At DIII-D I collaborate across experiment and modeling teams to design shots, commission and calibrate optical systems, and interpret measurements alongside transport simulations. A recurring theme in my work is turning line-integrated spectra into physics-based, spatially aware inferences that can guide scenario development and control for reliable power exhaust.
+        At DIII-D, I collaborate with experimental and modeling teams to design shots, commission and calibrate optical systems, and interpret measurements utilizing transport simulations. A recurring theme in my present work is to link line-integrated spectra to physics-based processes; spatially exploring inferences that can guide future  developments leading to   control and  reliable energy extraction from tokamak.
       </p>
 
-      <p>
-        Before joining DIII-D, I contributed to tokamak research at <strong>ADITYA-U</strong>, where I investigated recycling, impurity influx, and edge temperatures using spectroscopy and imaging. Across projects I enjoy translating complex diagnostics into clear, actionable results for operations and theory groups. My long-term goal is to help bridge diagnostics, modeling, and control so that power-exhaust solutions for future fusion devices are robust and repeatable.
-      </p>
+
       <hr class="hr-soft">
       <p><strong>Research themes:</strong> divertor detachment; edge/SOL transport; Balmer spectroscopy; impurity/neutral dynamics; EIR/MAR; power exhaust; tokamak diagnostics.</p>
     <hr class="hr-soft">
     <p class="btn-row">
-        <a class="btn" href="{{ '/assets/pdfs/CV_N_YADAVA.pdf' | relative_url }}" target="_blank" rel="noopener">Download CV </a>
+        <a class="btn" href="{{ '/assets/pdfs/Nandini_CV_NY_Oct26.pdf' | relative_url }}" target="_blank" rel="noopener">Download CV </a>
     </p>
     <hr class="hr-soft">
-      <h3>Education</h3>
+      <h3>Current position and activity</h3>
       <p>
         <strong>Postdoctoral researcher</strong> <span class="years">2023–Now</span><br>
         Oak Ridge Associated University, Tennessee, USA<br>
         DIII-D National Fusion Facility, San Diego, USA<br>
-        
+        <p>
+          Currently working on a technique to characterize the detached plasma through quantification of plasma-atomic and plasma-molecular contributions in particle, power and momentum balance. This utilizes several existing visible diagnostics of DIII-D along with extensive computational analysis based on a Bayesian inference technique using existing atomic and molecular database (ADAS/AMJUL/YACORA). 
+        </p>
+      <h3>Education</h3>
+      <p>        
         <strong>Ph.D. (Physics)</strong> <span class="years">2021–2023</span><br>
         Institute of Science, Nirma University, Ahmedabad, Gujarat, India<br>
-        <em>Thesis:</em> “Spectroscopic Investigation of Neutrals and Impurity Dynamics
-        in the Edge Region of ADITYA-U Tokamak”
+        <em>Thesis:</em> 
         <p class="btn-row">
-          <a class="btn" href="{{ '/assets/pdfs/NANDINI YADAV.pdf' | relative_url }}" target="_blank" rel="noopener">Download PhD Thesis</a>
+          <a class="btn" href="{{ '/assets/pdfs/NANDINI YADAV.pdf' | relative_url }}" target="_blank" rel="noopener">“Spectroscopic Investigation of Neutrals and Impurity Dynamics
+        in the Edge Region of ADITYA-U Tokamak”</a>
         </p>
       </p>
       <hr class="hr-soft">
