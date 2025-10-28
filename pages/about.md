@@ -110,7 +110,7 @@ redirect_from:
       <strong>[2022]</strong> Buti Young Scientist Award      
         <a class="btn" href="{{ '/assets/pdfs/BUTI_Award.png' | relative_url }}" target="_blank" rel="noopener"> certificate, </a>
         <a class="btn" href="{{ '/assets/pdfs/Nandini_Buti_paper_final.pdf' | relative_url }}" target="_blank" rel="noopener"> paper, </a>
-        <a class="btn" href="{{ '/assets/pdfs/Nandini_Buti_PPT_040422.pdf' | relative_url }}" target="_blank" rel="noopener"> ppt </a>
+        <a class="btn" href="{{ '/assets/pdfs/Nandini_Buti_PPT_040222.pdf' | relative_url }}" target="_blank" rel="noopener"> ppt </a>
       <br> 
       <strong>[2021]</strong> PSSI - Z. H. Sholapurwala Award for Fusion Research<br>
       <strong>[2018]</strong> PSSI visiting student fellowship [November 2017 to March 2018]<br>
