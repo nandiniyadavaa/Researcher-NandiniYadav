@@ -102,10 +102,13 @@ redirect_from:
         <strong>[2016–2018]</strong> <span class="years"></span> — Research Scholar, Gujarat University, Ahmedabad, Gujarat, India<br>
         <strong>[2015–2016]</strong> <span class="years"></span> — Scientific Assistant, Institute for Plasma Research, Gandhinagar, Gujarat, India<br>
       </p>
-      <h3 style="margin-top:1rem">Positions / Experience</h3>
+      <h3 style="margin-top:1rem">Education</h3>
       <p>
-        <strong>[2013–2015]</strong> <span class="years"></span> — Gujarat University, Ahmedabad, Gujarat, India<br>
-        <strong>[2010–2013]</strong> <span class="years"></span> — Gujarat University, Ahmedabad, Gujarat, India<br>
+        <strong>[2020–2023]</strong> <span class="years"></span> — Ph.D., Institute of Science, Nirma University, Ahmedabad, Gujarat, India<br>
+        <em>Thesis:</em> <p class="btn-row">
+                            <a class="btn" href="{{ '/assets/pdfs/NANDINI YADAV.pdf' | relative_url }}" target="_blank" rel="noopener">“Spectroscopic Investigation of Neutrals and Impurity Dynamics in the Edge Region of ADITYA-U Tokamak”                               </a>
+        <strong>[2013–2015]</strong> <span class="years"></span> — M.Sc., Master of Science, School of Science, Gujarat University, India<br>
+        <strong>[2010–2013]</strong> <span class="years"></span> — B.Sc., Bachlor of Science, C. U. Shah Science College, Gujarat University, Ahmedabad, Gujarat, India<br>
       </p>
       <hr class="hr-soft">
       
