@@ -53,7 +53,6 @@ redirect_from:
 
     <!-- RIGHT: Long bio -->
     <div class="about-body">
-
       <p style="text-indent:2em;">
         I am a postdoctoral researcher at the <strong>DIII-D National Fusion Facility (General Atomics), San Diego, USA</strong>. My work focuses on the physics of the tokamak boundary—scrape-off layer and divertor—with an experties on <strong>divertor detachment</strong>, Balmer-series spectroscopy, and impurity/neutral dynamics. I apply analysis methods that separate excitation and recombination, quantify particle sources and sinks, and diagnose molecule-assisted processes.
       </p>
@@ -71,7 +70,7 @@ redirect_from:
       <p><strong>Research themes:</strong> divertor detachment; edge/SOL transport; Balmer spectroscopy; impurity/neutral dynamics; EIR/MAR; power exhaust; tokamak diagnostics.</p>
     <hr class="hr-soft">
     <p class="btn-row">
-        <a class="btn" href="{{ '/assets/pdfs/N_Yadava_Resume.pdf' | relative_url }}" target="_blank" rel="noopener">Download CV (short) </a>
+        <a class="btn" href="{{ '/assets/pdfs/N_Yadava_Resume.pdf' | relative_url }}" target="_blank" rel="noopener">Download CV (short)            </a>
     </p>
     <p class="btn-row">
         <a class="btn" href="{{ '/assets/pdfs/N_Yadava_CV.pdf' | relative_url }}" target="_blank" rel="noopener">Download CV (full) </a>
@@ -120,5 +119,5 @@ redirect_from:
       <strong>[2013]</strong> 2nd Rank in M.Sc. Physics at Gujarat University <br>
       </p>
     </div>
-  </div>
-</div>
+    </div>
+    </div>
