@@ -49,16 +49,27 @@ redirect_from:
   <div class="about-wrap">
   <h1 class="about-title">Dr. Nandini Yadava</h1>
 
-  <div class="about-body">
-    <img class="about-img" src="{{ '/assets/image/2401_PUB012535-Nandni_Yadava_2.jpg' | relative_url }}" alt="Portrait of Dr. Nandini Yadava">
+.about-body { text-align: justify; hyphens: auto; }
 
-    <p style="text-indent:2em;">…your first paragraph…</p>
-    <p style="text-indent:2em;">…second paragraph…</p>
-    <p style="text-indent:2em;">…third paragraph…</p>
+/* float the image so text wraps around it */
+.about-img{
+  float:left;
+  width:360px;        /* or max-width:40% */
+  height:auto;
+  margin:0 24px 14px 0;
+  border-radius:0 !important;
+  box-shadow:none !important;
+  shape-outside: inset(0);
+}
 
-    <!-- keep the rest of your sections here -->
-  </div>
-</div>
+/* clearfix so content below doesn’t slide up under the float */
+.about-body::after{ content:""; display:block; clear:both; }
+
+/* mobile: stack image above text */
+@media (max-width:700px){
+  .about-img{ float:none; display:block; width:100%; margin:0 0 12px 0; shape-outside:none; }
+  .about-body{ text-align:left; }
+}
 
 </style>
 
