@@ -86,13 +86,7 @@ redirect_from:
           Currently working on quantification of the detached plasma to understand power and particle balance. This requires use of Bayseian inference technique on Balmer emissions. Also, it needs extensive understanding of atomic & molecular processes. This utilizes several existing visible diagnostics of DIII-D. The code is validated for DIII-D with 2024 experimental mesurements using SAPP (simplest as possible plasmas).
         </p>
       <h3>Education</h3>
-      <p>        
-        <strong>Ph.D. (Physics)</strong> <span class="years">2021–2023</span><br>
-        Institute of Science, Nirma University, Ahmedabad, Gujarat, India<br>
-        <em>Thesis:</em> <p class="btn-row">
-                            <a class="btn" href="{{ '/assets/pdfs/NANDINI YADAV.pdf' | relative_url }}" target="_blank" rel="noopener">“Spectroscopic Investigation of Neutrals and Impurity Dynamics in the Edge Region of ADITYA-U Tokamak”                               </a>
-        </p>
-      </p>
+      
       <hr class="hr-soft">
       
       <h3 style="margin-top:1rem">Positions / Experience</h3>
@@ -105,8 +99,7 @@ redirect_from:
       <h3 style="margin-top:1rem">Education</h3>
       <p>
         <strong>[2020–2023]</strong> <span class="years"></span> — Ph.D., Institute of Science, Nirma University, Ahmedabad, Gujarat, India<br>
-        <em>Thesis:</em> <p class="btn-row">
-                            <a class="btn" href="{{ '/assets/pdfs/NANDINI YADAV.pdf' | relative_url }}" target="_blank" rel="noopener">“Spectroscopic Investigation of Neutrals and Impurity Dynamics in the Edge Region of ADITYA-U Tokamak”                               </a>
+        <strong>Thesis:</strong><span class="btn" href="{{ '/assets/pdfs/NANDINI YADAV.pdf' | relative_url }}" target="_blank" rel="noopener">“Spectroscopic Investigation of Neutrals and Impurity Dynamics in the Edge Region of ADITYA-U Tokamak”                       
         <strong>[2013–2015]</strong> <span class="years"></span> — M.Sc., Master of Science, School of Science, Gujarat University, India<br>
         <strong>[2010–2013]</strong> <span class="years"></span> — B.Sc., Bachlor of Science, C. U. Shah Science College, Gujarat University, Ahmedabad, Gujarat, India<br>
       </p>
