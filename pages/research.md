@@ -164,9 +164,9 @@ permalink: /research
   <!-- Filters -->
   <div class="filters" id="filters" role="tablist" aria-label="Project filters">
     <button class="filter-btn active" data-tag="all" role="tab" aria-selected="true">All</button>
-    <button class="filter-btn" data-tag="detachment" role="tab" aria-selected="false">ADITYA-U</button>
-    <button class="filter-btn" data-tag="spectroscopy" role="tab" aria-selected="false">DIII-D</button>
-    <button class="filter-btn" data-tag="impurities" role="tab" aria-selected="false">linear device</button>
+    <button class="filter-btn" data-tag="ADITYA-U" role="tab" aria-selected="false">ADITYA-U</button>
+    <button class="filter-btn" data-tag="DIII-D" role="tab" aria-selected="false">DIII-D</button>
+    <button class="filter-btn" data-tag="linear device" role="tab" aria-selected="false">linear device</button>
   </div>
 
   <!-- List -->
