@@ -85,7 +85,6 @@ redirect_from:
         <p style="text-indent:2em;">
           Currently working on quantification of the detached plasma to understand power and particle balance. This requires use of Bayseian inference technique on Balmer emissions. Also, it needs extensive understanding of atomic & molecular processes. This utilizes several existing visible diagnostics of DIII-D. The code is validated for DIII-D with 2024 experimental mesurements using SAPP (simplest as possible plasmas).
         </p>
-      <h3>Education</h3>
      
       <hr class="hr-soft">
       
@@ -96,6 +95,7 @@ redirect_from:
         <strong>[2016–2018]</strong> <span class="years"></span> — Research Scholar, Gujarat University, Ahmedabad, Gujarat, India<br>
         <strong>[2015–2016]</strong> <span class="years"></span> — Scientific Assistant, Institute for Plasma Research, Gandhinagar, Gujarat, India<br>
       </p>
+      <hr class="hr-soft">
       <h3 style="margin-top:1rem">Education</h3>
       <p>
         <strong>[2020–2023]</strong> <span class="years"></span> — Ph.D., Institute of Science, Nirma University, Ahmedabad, Gujarat, India<br>
