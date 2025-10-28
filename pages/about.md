@@ -71,10 +71,10 @@ redirect_from:
       <p><strong>Research themes:</strong> divertor detachment; edge/SOL transport; Balmer spectroscopy; impurity/neutral dynamics; EIR/MAR; power exhaust; tokamak diagnostics.</p>
     <hr class="hr-soft">
     <p class="btn-row">
-        <a class="btn" href="{{ '/assets/pdfs/Nandini_CV_NY_Oct26_1pg.pdf' | relative_url }}" target="_blank" rel="noopener">Download CV (short) </a>
+        <a class="btn" href="{{ '/assets/pdfs/N_Yadava_resume.pdf' | relative_url }}" target="_blank" rel="noopener">Download CV (short) </a>
     </p>
     <p class="btn-row">
-        <a class="btn" href="{{ '/assets/pdfs/Nandini_CV_NY_Oct26.pdf' | relative_url }}" target="_blank" rel="noopener">Download CV (full) </a>
+        <a class="btn" href="{{ '/assets/pdfs/N_Yadava_CV.pdf' | relative_url }}" target="_blank" rel="noopener">Download CV (full) </a>
     </p>
     <hr class="hr-soft">
       <h3>Present activity</h3>
@@ -107,7 +107,12 @@ redirect_from:
       
       <h3>Achievements</h3>
       <p>
-      <strong>[2022]</strong> Buti Young Scientist Award<br>
+      <strong>[2022]</strong> Buti Young Scientist Award      
+      <p class="btn-row">
+        <a class="btn" href="{{ '/assets/pdfs/BUTI_Award.png' | relative_url }}" target="_blank" rel="noopener"> certificate, </a>
+        <a class="btn" href="{{ '/assets/pdfs/Nandini_Buti_paper_final.pdf' | relative_url }}" target="_blank" rel="noopener"> paper, </a>
+        <a class="btn" href="{{ '/assets/pdfs/Nandini_Buti_PPT_040422.pdf' | relative_url }}" target="_blank" rel="noopener"> ppt </a>
+      </p><br> 
       <strong>[2021]</strong> PSSI - Z. H. Sholapurwala Award for Fusion Research<br>
       <strong>[2018]</strong> PSSI visiting student fellowship [November 2017 to March 2018]<br>
       <strong>[2017]</strong> PSSI poster award <br>
