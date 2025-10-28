@@ -105,7 +105,9 @@ redirect_from:
       <h3 style="margin-top:1rem">Education</h3>
       <p>
         <strong>[2020–2023]</strong> <span class="years"></span> — Ph.D., Institute of Science, Nirma University, Ahmedabad, Gujarat, India<br>
-        <strong>Thesis:</strong><a class="btn" href="{{ '/assets/pdfs/NANDINI YADAV.pdf' | relative_url }}" target="_blank" rel="noopener">“Spectroscopic Investigation of Neutrals and Impurity Dynamics in the Edge Region of ADITYA-U Tokamak”   </a>                    
+      </p>
+        <strong>Thesis:</strong><a class="btn" href="{{ '/assets/pdfs/NANDINI YADAV.pdf' | relative_url }}" target="_blank" rel="noopener">“Spectroscopic Investigation of Neutrals and Impurity Dynamics in the Edge Region of ADITYA-U Tokamak”   </a>
+      <p>
         <strong>[2013–2015]</strong> <span class="years"></span> — M.Sc., Master of Science, School of Science, Gujarat University, India<br>
         <strong>[2010–2013]</strong> <span class="years"></span> — B.Sc., Bachlor of Science, C. U. Shah Science College, Gujarat University, Ahmedabad, Gujarat, India<br>
       </p>
