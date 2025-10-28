@@ -102,6 +102,6 @@ h1.contact-title{ margin:.25rem 0 .5rem; font-size:clamp(1.6rem,2.2vw,2.1rem); }
   </div>
   <div class="card">
     <h3>Focus</h3>
-    <p>Divertor detachment · Balmer spectroscopy · AM processes (EIR/MAR)</p>
+    <p>Spectroscopy · divertor detachment · boundary physics · Balmer spectroscopy · impurity/neutral dynamics · power exhaust · tokamak diagnostics</p>
   </div>
 </div>
