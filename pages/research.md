@@ -159,20 +159,14 @@ permalink: /research
 <div class="projects-wrap">
   <h1 class="projects-title">Research Projects</h1>
   <p class="projects-sub">
-    Ongoing and past work across divertor/edge physics, spectroscopy, impurities, recycling, and power exhaust.
-    Use the filters to explore by theme.
   </p>
 
   <!-- Filters -->
   <div class="filters" id="filters" role="tablist" aria-label="Project filters">
     <button class="filter-btn active" data-tag="all" role="tab" aria-selected="true">All</button>
-    <button class="filter-btn" data-tag="detachment" role="tab" aria-selected="false">Detachment</button>
-    <button class="filter-btn" data-tag="spectroscopy" role="tab" aria-selected="false">Spectroscopy</button>
-    <button class="filter-btn" data-tag="impurities" role="tab" aria-selected="false">Impurities</button>
-    <button class="filter-btn" data-tag="recycling" role="tab" aria-selected="false">Recycling</button>
-    <button class="filter-btn" data-tag="diagnostics" role="tab" aria-selected="false">Diagnostics</button>
-    <button class="filter-btn" data-tag="modeling" role="tab" aria-selected="false">Modeling</button>
-    <button class="filter-btn" data-tag="low-temperature plasma" role="tab" aria-selected="false">Low-Temperature Plasma</button>
+    <button class="filter-btn" data-tag="detachment" role="tab" aria-selected="false">ADITYA-U</button>
+    <button class="filter-btn" data-tag="spectroscopy" role="tab" aria-selected="false">DIII-D</button>
+    <button class="filter-btn" data-tag="impurities" role="tab" aria-selected="false">linear device</button>
   </div>
 
   <!-- List -->
