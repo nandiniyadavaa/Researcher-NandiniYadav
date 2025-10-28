@@ -46,6 +46,20 @@ redirect_from:
   .about-photo img{ float:none; display:block; width:100%; margin:0 0 12px 0; shape-outside:none }
   .about-body{ text-align:left; }
 }
+  <div class="about-wrap">
+  <h1 class="about-title">Dr. Nandini Yadava</h1>
+
+  <div class="about-body">
+    <img class="about-img" src="{{ '/assets/image/2401_PUB012535-Nandni_Yadava_2.jpg' | relative_url }}" alt="Portrait of Dr. Nandini Yadava">
+
+    <p style="text-indent:2em;">…your first paragraph…</p>
+    <p style="text-indent:2em;">…second paragraph…</p>
+    <p style="text-indent:2em;">…third paragraph…</p>
+
+    <!-- keep the rest of your sections here -->
+  </div>
+</div>
+
 </style>
 
 <div class="about-wrap">
