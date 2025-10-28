@@ -53,21 +53,18 @@ redirect_from:
     <img class="about-img" src="{{ '/assets/image/2401_PUB012535-Nandni_Yadava_2.jpg' | relative_url }}" alt="Portrait of Dr. Nandini Yadava">
 
     <p style="text-indent:2em;">
-      I am a postdoctoral researcher at the <strong>DIII-D National Fusion Facility (General Atomics), San Diego, USA</strong>. My work focuses on the physics of the tokamak boundary—scrape-off layer and divertor—with an expertise in <strong>divertor detachment</strong>, Balmer-series spectroscopy, and impurity/neutral dynamics. I apply analysis methods that separate excitation and recombination, quantify particle sources and sinks, and diagnose molecule-assisted processes.
+      I am a postdoctoral researcher at the DIII-D National Fusion Facility (General Atomics), San Diego, USA. My work focuses on the physics of the tokamak boundary with an expertise in divertor detachmen, Balmer-series spectroscopy, and impurity/neutral dynamics. I apply Bayesian inference technique to Balmer emissions to separate excitation and recombination, quantify particle sources and sinks, and diagnose molecule-assisted processes.
     </p>
 
     <p style="text-indent:2em;">
-      I contributed to tokamak research at ADITYA-U, where I investigated recycling, impurity influx, and edge temperatures using spectroscopy and imaging. Across projects I enjoy translating complex diagnostics into clear, actionable results for operations and theory groups. My long-term goal is to help bridge diagnostics, modeling, and control so that power-exhaust solutions for future fusion devices are robust and repeatable.
+      I contributed to tokamak research at ADITYA-U, where I investigated recycling, impurity influx, and edge temperatures using spectroscopy and Langmuir probe diagnostics. I also, developed MATLAB code to evaluate magnetic-field influenced spectral line shape profile and determining neutral and ion temperatures. My long-term goal is to help bridge diagnostics, modeling, and control so that power-exhaust solutions for future fusion devices are robust and repeatable.
     </p>
 
     <p style="text-indent:2em;">
       At DIII-D, I collaborate with experimental and modeling teams to design shots, commission and calibrate optical systems, and interpret measurements utilizing transport simulations. A recurring theme in my present work is to link line-integrated spectra to physics-based processes; spatially exploring inferences that can guide future developments leading to control and reliable energy extraction from tokamak devices.
     </p>
+    <p><strong>Research themes:</strong> Spectroscopy, divertor detachment, boundary physics, Balmer spectroscopy, impurity/neutral dynamics, power exhaust, tokamak diagnostics.</p>
   </div>
-
-  <hr class="hr-soft">
-
-  <p><strong>Research themes:</strong> Spectroscopy, divertor detachment, boundary physics, Balmer spectroscopy, impurity/neutral dynamics, power exhaust, tokamak diagnostics.</p>
 
   <hr class="hr-soft">
 
