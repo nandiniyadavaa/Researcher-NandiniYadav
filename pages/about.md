@@ -86,7 +86,7 @@ redirect_from:
       DIII-D National Fusion Facility, San Diego, USA
     </p>
     <p style="text-indent:2em;">
-      Currently working on quantification of detached plasma to understand power and particle balance. This uses a <strong>Bayesian</strong> inference technique on Balmer emissions and extensive knowledge of atomic &amp; molecular processes, utilizing several existing visible diagnostics of DIII-D. The code is validated for DIII-D with 2024 experimental <strong>measurements</strong> using SAPP (simplest-as-possible plasmas).
+      Currently working on quantification of detached plasma to understand power and particle balance. This uses a Bayesian inference technique on Balmer emissions and extensive knowledge of atomic &amp; molecular processes, utilizing several existing visible diagnostics of DIII-D. The code is validated for DIII-D with 2024 experimental measurements using SAPP (simplest-as-possible plasmas).
     </p>
 
     <hr class="hr-soft">
